@@ -30,7 +30,7 @@ const parseCsv = (csvText) => {
             words.push({
                 word: columns[0],
                 wordType: `${columns[1]}, ${columns[2]}`, 
-                ipa: `${columns[3]} ${columns[4]}`
+                ipa: columns[3]
             });
         }
     }

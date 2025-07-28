@@ -17,26 +17,28 @@ export const redirectTo = (page) => {
 export const setGreeting = (name) => {
     const greetingElement = getElement("userGreeting");
     if (greetingElement) {
-        greetingElement.textContent = `Hello, ${name}!`;
+        greetingElement.textContent = `Hi, ${name}!`;
     }
 };
 
 export const updateWordDisplay = (wordObj) => {
     const wordDisplay = getElement("wordDisplay");
     const posDisplay = getElement("posDisplay");
-    const ipaText = getElement("ipaText"); // Lấy phần tử span mới
-    
-    if (wordObj && wordDisplay && posDisplay && ipaText) {
-        wordDisplay.classList.remove('show');
+    const ipaText = getElement("ipaText");
+    const pronounceBtn = getElement("pronounce");
 
+    if (wordObj && wordDisplay && posDisplay && ipaText && pronounceBtn) {
+        wordDisplay.classList.remove('show');
         setTimeout(() => {
             wordDisplay.textContent = wordObj.word;
-            posDisplay.textContent = wordObj.wordType;
-            ipaText.textContent = wordObj.ipa; // Chỉ cập nhật nội dung IPA
-            
+            const wordTypes = wordObj.wordType.split(',').map(type => type.trim()).filter(type => type !== '');
+            posDisplay.textContent = wordTypes.join(', ');
+
+            ipaText.textContent = wordObj.ipa;
+
             wordDisplay.classList.add('show');
         }, 100);
-        
+
     } else {
         wordDisplay.textContent = "No words found.";
         posDisplay.textContent = "";
