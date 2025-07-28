@@ -277,13 +277,44 @@ body {
 
 /* IPA and pronunciation button container */
 #ipaDisplay {
-  margin-bottom: 25px;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  color: #d0d0d0;
+    margin-bottom: 25px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: #d0d0d0;
+}
+
+.ipa-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+}
+
+.ipa-row span {
+    text-align: center;
+}
+
+.ipa-row button.pronounce-ipa {
+    background-color: #0a84ff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.ipa-row button.pronounce-ipa:hover {
+    background-color: #0060df;
+}
+
+.ipa-row button.pronounce-ipa:active {
+    transform: scale(0.95);
 }
 
 /* Pronounce button */
