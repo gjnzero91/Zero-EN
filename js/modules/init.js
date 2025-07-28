@@ -36,7 +36,7 @@ const initializeBookData = async (bookKey) => {
         words = await fetchWordsFromCsv(url);
     } else if (bookKey === 'star') {
         const starredWordsSet = await getStarredWords();
-        words = [...starredWordsSet]; // Chuyển Set thành Array
+        words = [...starredWordsSet];
     }
     setBookStateProperty(bookKey, 'words', words);
     return words;
@@ -189,7 +189,50 @@ const setupVocabPage = async (bookKey) => {
 };
 
 const setupLoginEventListeners = () => {
-    // ...
+  const emailInput = getElement("emailInput");
+  const passwordInput = getElement("passwordInput");
+  const loginBtn = getElement("loginBtn");
+  const registerBtn = getElement("registerBtn");
+  const googleLoginBtn = getElement("googleLoginBtn");
+
+  if (registerBtn) {
+    registerBtn.addEventListener("click", async () => {
+      const email = emailInput.value;
+      const password = passwordInput.value;
+      try {
+        await registerUser(email, password);
+        setAuthMessage("Registered successfully! Please log in.");
+      } catch (error) {
+        setAuthMessage(error.message);
+      }
+    });
+  }
+
+  if (loginBtn) {
+    loginBtn.addEventListener("click", async () => {
+      const email = emailInput.value;
+      const password = passwordInput.value;
+      try {
+        await loginUser(email, password);
+        setAuthMessage("Logged in successfully! Redirecting...");
+        redirectTo("home.html");
+      } catch (error) {
+        setAuthMessage(error.message);
+      }
+    });
+  }
+
+  if (googleLoginBtn) {
+    googleLoginBtn.addEventListener("click", async () => {
+      try {
+          await loginWithGoogle();
+          setAuthMessage("Logged in with Google! Redirecting...");
+          redirectTo("home.html");
+      } catch (error) {
+          setAuthMessage(error.message);
+      }
+    });
+  }
 };
 
 const setupHomeEventListeners = () => {
