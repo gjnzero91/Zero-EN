@@ -1,6 +1,7 @@
 // main.js
 
-const currentPage = window.location.pathname.split("/").pop();
+const pathSegments = window.location.pathname.split("/");
+const currentPage = pathSegments[pathSegments.length - 1] || "index.html";
   // Firebase config
   const firebaseConfig = {
     apiKey: "AIzaSyBUIWBQZqTb9hWdeTjrtQHhzDlDhN6cCVs",
