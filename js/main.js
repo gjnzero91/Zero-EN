@@ -28,56 +28,75 @@ const currentPage = pathSegments[pathSegments.length - 1] || "index.html";
 
   // --- LOGIN PAGE ---
   else if (currentPage === "login.html") {
-  const loginBtn = document.getElementById("loginBtn");
-  const registerBtn = document.getElementById("registerBtn");
-  const googleLoginBtn = document.getElementById("googleLoginBtn");
+    const loginBtn = document.getElementById("loginBtn");
+    const registerBtn = document.getElementById("registerBtn");
+    const googleLoginBtn = document.getElementById("googleLoginBtn");
+    const emailInput = document.getElementById("emailInput");
+    const passwordInput = document.getElementById("passwordInput");
 
-  // Login processing
-  if (loginBtn) {
-    loginBtn.addEventListener("click", () => {
-      const email = document.getElementById("emailInput").value;
-      const password = document.getElementById("passwordInput").value;
-      firebase.auth().signInWithEmailAndPassword(email, password)
-        .then(userCredential => {
-          document.getElementById("authMessage").textContent = "Logged in!";
-          window.location.href = "home.html";
-        })
-        .catch(error => {
-          document.getElementById("authMessage").textContent = error.message;
-        });
-    });
-  }
+    // Handle login
+    const handleLogin = () => {
+        const email = emailInput.value;
+        const password = passwordInput.value;
+        firebase.auth().signInWithEmailAndPassword(email, password)
+            .then(userCredential => {
+                document.getElementById("authMessage").textContent = "Logged in!";
+                window.location.href = "home.html";
+            })
+            .catch(error => {
+                document.getElementById("authMessage").textContent = error.message;
+            });
+    };
 
-  // Registration processing
-  if (registerBtn) {
-    registerBtn.addEventListener("click", () => {
-      const email = document.getElementById("emailInput").value;
-      const password = document.getElementById("passwordInput").value;
-      firebase.auth().createUserWithEmailAndPassword(email, password)
-        .then(userCredential => {
-          document.getElementById("authMessage").textContent = "Registered successfully!";
-          window.location.href = "home.html";
-        })
-        .catch(error => {
-          document.getElementById("authMessage").textContent = error.message;
-        });
-    });
-  }
+    // Handle register
+    const handleRegister = () => {
+        const email = emailInput.value;
+        const password = passwordInput.value;
+        firebase.auth().createUserWithEmailAndPassword(email, password)
+            .then(userCredential => {
+                document.getElementById("authMessage").textContent = "Registered successfully!";
+                window.location.href = "home.html";
+            })
+            .catch(error => {
+                document.getElementById("authMessage").textContent = error.message;
+            });
+    };
 
-  // Google login processing
-  if (googleLoginBtn) {
-    googleLoginBtn.addEventListener("click", () => {
-      const provider = new firebase.auth.GoogleAuthProvider();
-      firebase.auth().signInWithPopup(provider)
-        .then(result => {
-          document.getElementById("authMessage").textContent = `Logged in as ${result.user.email}`;
-          window.location.href = "home.html";
-        })
-        .catch(error => {
-          document.getElementById("authMessage").textContent = error.message;
+    // Handle Google login
+    const handleGoogleLogin = () => {
+        const provider = new firebase.auth.GoogleAuthProvider();
+        firebase.auth().signInWithPopup(provider)
+            .then(result => {
+                document.getElementById("authMessage").textContent = `Logged in as ${result.user.email}`;
+                window.location.href = "home.html";
+            })
+            .catch(error => {
+                document.getElementById("authMessage").textContent = error.message;
+            });
+    };
+
+    // Handling click events for buttons
+    if (loginBtn) {
+        loginBtn.addEventListener("click", handleLogin);
+    }
+
+    if (registerBtn) {
+        registerBtn.addEventListener("click", handleRegister);
+    }
+
+    if (googleLoginBtn) {
+        googleLoginBtn.addEventListener("click", handleGoogleLogin);
+    }
+
+    // Handling the Enter key press event on input fields
+    if (emailInput && passwordInput) {
+        passwordInput.addEventListener("keyup", (event) => {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                handleLogin();
+            }
         });
-    });
-  }
+    }
   }
 
   // --- HOME PAGE --- 
