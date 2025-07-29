@@ -1,4 +1,5 @@
 // js/modules/firebaseConfig.js
+// Cấu hình và khởi tạo ứng dụng Firebase.
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
 

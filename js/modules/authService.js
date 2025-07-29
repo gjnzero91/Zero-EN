@@ -1,4 +1,5 @@
 // js/modules/authService.js
+// Xác thực người dùng với Firebase.
 
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js";
 import { app } from "./firebaseConfig.js";
