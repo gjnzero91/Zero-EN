@@ -1,9 +1,9 @@
-// js/modules/dataService.js
-// Xử lý dữ liệu và trạng thái người dùng.
+// Zero-EN/js/modules/data/dataService.js
+// Dịch vụ quản lý dữ liệu từ Firebase Firestore và các nguồn khác.
 
 import { getFirestore, collection, getDocs, doc, setDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js";
-import { app } from "./firebaseConfig.js";
-import { getCurrentUser } from "./authService.js";
+import { app } from "../core/firebaseConfig.js";
+import { getCurrentUser } from "../auth/authService.js";
 
 const db = getFirestore(app);
 
