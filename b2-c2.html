@@ -5,12 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>B2-C2 - Zero EN</title>
   <link rel="stylesheet" href="css/global.css" />
-  <!-- Firebase App (core SDK) -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
-  <!-- Firebase Authentication -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
-  <!-- Firebase Firestore -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
 </head>
 <body>
   <div id="container" class="app-container">
@@ -32,8 +26,11 @@
       <button id="searchBtn">Find</button>
     </div>
 
-    <div id="timeWrapper" style="display: none;">
-      <div id="countdown">30</div>
+    <div id="timeWrapper">
+      <span class="emptybox"> </span> <!-- Dưới ⭐ -->
+      <span class="emptybox"> </span> <!-- Dưới 🎲 -->
+      <span id="countdown" class="countdown-timer">00</span> <!-- Dưới ⏱️ -->
+      <span class="emptybox"> </span> <!-- Dưới 🔍 -->
     </div>
 
     <div class="content">
@@ -58,7 +55,7 @@
 
     <div class="no-border-top">
       <button id="homeBtn" class="home-btn">Home</button>
-      <span id="userGreeting" class="user-greeting"></span>
+      <span id="userName" class="user-greeting"></span>
       <button id="logoutBtn" class="logout-btn">Logout</button>
     </div>
   </div>

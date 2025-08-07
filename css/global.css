@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Base Styles & Layout
+   Reset & Base Layout
    ========================================================================== */
 * {
   margin: 0;
@@ -21,8 +21,12 @@ body {
 }
 
 /* ==========================================================================
-   Page Containers
+   Container & Page Layout
    ========================================================================== */
+.app-container {
+  margin-top: 32px;
+}
+
 #container {
   background-color: #25253e;
   border-radius: 15px;
@@ -36,7 +40,7 @@ body {
 }
 
 /* ==========================================================================
-   Top Bars & Headers
+   Top Bar & Icons
    ========================================================================== */
 .top-bar {
   display: flex;
@@ -45,21 +49,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* ==========================================================================
-   Title For Pages
-   ========================================================================== */
-.page-title {
-  text-align: center;
-  color: #a0a0a075;
-  font-size: 32px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-
-/* ==========================================================================
-   Icons & Toggles (Vocabulary Learning Section)
-   ========================================================================== */
-/* Container for the top-right icons */
 #topIcons {
   position: absolute;
   top: 15px;
@@ -70,18 +59,16 @@ body {
   align-items: center;
 }
 
-/* Styles for all toggle icons */
 #starIcon,
 #clockToggle,
 #shuffleToggle,
-#searchIcon{
+#searchIcon {
   cursor: pointer;
   font-size: 20px;
   opacity: 0.7;
   transition: all 0.3s ease;
 }
 
-/* Active state for icons */
 #starIcon.active {
   opacity: 1;
   color: #ffd700;
@@ -107,29 +94,31 @@ body {
 }
 
 /* ==========================================================================
-   Countdown Timer
+   Clock Timer (Countdown below clockToggle)
    ========================================================================== */
-/* Countdown timer display */
-#countdown {
-  font-size: 11px;
-  color: #b0b0b0;
-  font-weight: 500;
-}
-
-/* Countdown timer wrapper */
 #timeWrapper {
-  text-align: center;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between; /* phân bố đều */
+  align-items: center;
+  margin-bottom: 10px;
+  height: 20px;
+  visibility: hidden; /* mặc định ẩn nhưng vẫn giữ chỗ */
+  gap: 8px; /* tùy chọn nếu muốn khoảng cách tự nhiên hơn */
 }
 
-/* Countdown container positioning */
-#clockTimerContainer {
-  position: absolute;
-  top: 40px;
-  width: 100%;
-  left: 0;
+#timeWrapper.visible {
+  visibility: visible;
+}
+
+.emptybox,
+#countdown {
+  width: 24px;
   text-align: center;
-  padding: 0 15px;
+}
+
+#countdown {
+  color: #a0a0a075;
+  font-size: 16px;
 }
 
 /* ==========================================================================
@@ -201,7 +190,7 @@ body {
 }
 
 /* ==========================================================================
-   Search Dialog & Icon
+   Search Dialog
    ========================================================================== */
 .search-dialog {
   position: absolute;
@@ -246,9 +235,8 @@ body {
 }
 
 /* ==========================================================================
-   Word Display & Controls (Vocabulary Learning Section)
+   Word Display & IPA
    ========================================================================== */
-/* Word display area */
 #wordDisplay {
   font-size: 48px;
   font-weight: 700;
@@ -256,18 +244,16 @@ body {
   margin-top: 60px;
   margin-bottom: 8px;
   cursor: pointer;
-  opacity: 0;
-  transform: translateY(15px);
+  opacity: 1;
+  transform: translateY(0);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-/* Animation for showing the word */
-#wordDisplay.show {
-  opacity: 1;
-  transform: translateY(0);
+#wordDisplay.fade {
+  opacity: 0;
+  transform: translateY(15px);
 }
 
-/* Part of speech display */
 #posDisplay {
   font-size: 15px;
   color: #a0a0a0;
@@ -275,54 +261,34 @@ body {
   font-style: italic;
 }
 
-/* IPA and pronunciation button container */
 #ipaDisplay {
-    margin-bottom: 25px;
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    color: #d0d0d0;
+  margin-bottom: 25px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #d0d0d0;
 }
 
 .ipa-row {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  justify-content: center;
 }
 
 .ipa-row span {
-    text-align: center;
+  text-align: center;
 }
 
-.ipa-row button.pronounce-ipa {
-    background-color: #0a84ff;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    color: #ffffff;
-    padding: 6px 10px;
-    border-radius: 8px;
-    transition: background-color 0.2s ease, transform 0.1s ease;
-}
-
-.ipa-row button.pronounce-ipa:hover {
-    background-color: #0060df;
-}
-
-.ipa-row button.pronounce-ipa:active {
-    transform: scale(0.95);
-}
-
-/* Pronounce button */
+.ipa-row button.pronounce-ipa,
 #pronounce {
   background-color: #0a84ff;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   color: #ffffff;
   padding: 6px 10px;
@@ -330,18 +296,19 @@ body {
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
+.ipa-row button.pronounce-ipa:hover,
 #pronounce:hover {
   background-color: #0060df;
 }
 
+.ipa-row button.pronounce-ipa:active,
 #pronounce:active {
   transform: scale(0.95);
 }
 
 /* ==========================================================================
-   Previous/Next Buttons
+   Previous / Next Buttons
    ========================================================================== */
-/* Container */
 .buttons {
   display: flex;
   justify-content: center;
@@ -349,7 +316,6 @@ body {
   margin-bottom: 25px;
 }
 
-/* General style */
 .buttons button {
   font-size: 15px;
   font-weight: 600;
@@ -375,8 +341,33 @@ body {
 }
 
 /* ==========================================================================
-   Bottom Line
+   Page Title, Progress, Home, User, Logout
    ========================================================================== */
+.page-title {
+  text-align: center;
+  color: #a0a0a075;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background-color: #00e6e6;
+  transition: width 0.5s ease;
+  border-radius: 4px;
+}
+
 .no-border-top {
   border-top: none;
   display: flex;
@@ -387,29 +378,6 @@ body {
   padding-top: 10px;
 }
 
-/* ==========================================================================
-   Progress Bar
-   ========================================================================== */
-.progress-bar-container {
-    width: 100%;
-    height: 5px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
-    margin-top: 15px;
-    overflow: hidden;
-}
-
-#progressBar {
-    height: 100%;
-    width: 0%;
-    background-color: #00e6e6;
-    transition: width 0.5s ease;
-    border-radius: 4px;
-}
-
-/* ==========================================================================
-   Title For The Home Page
-   ========================================================================== */
 #homeTitle {
   font-size: 32px;
   font-weight: 700;
@@ -418,9 +386,6 @@ body {
   text-align: center;
 }
 
-/* ==========================================================================
-   Home Buttons
-   ========================================================================== */
 .home-btn {
   background-color: #ff9f22;
   color: white;
@@ -442,9 +407,6 @@ body {
   transform: scale(0.98);
 }
 
-/* ==========================================================================
-   Name User
-   ========================================================================== */
 .user-greeting {
   margin: 0;
   flex-grow: 1;
@@ -454,9 +416,6 @@ body {
   font-style: italic;
 }
 
-/* ==========================================================================
-   Logout Buttons
-   ========================================================================== */
 .logout-btn {
   background-color: #dc3545;
   color: white;

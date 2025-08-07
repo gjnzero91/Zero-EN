@@ -1,4 +1,5 @@
-// js/modules/firebaseConfig.js
+// Zero-EN/js/modules/core/firebaseConfig.js
+// Cấu hình Firebase cho ứng dụng Zero-EN
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
 

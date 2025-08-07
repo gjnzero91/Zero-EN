@@ -5,12 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Login - Zero EN</title>
   <link rel="stylesheet" href="css/login.css" />
-  <!-- Firebase App (core SDK) -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
-  <!-- Firebase Authentication -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
-  <!-- Firebase Firestore -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
 </head>
 <body>
   <div id="authContainer" class="auth-container">
@@ -25,6 +19,12 @@
     </button>
     <p id="authMessage" class="auth-message"></p>
   </div>
+  <script type="module">
+    import { setupLoginEventListeners } from "./js/modules/auth/authEvents.js";
+    document.addEventListener("DOMContentLoaded", () => {
+      setupLoginEventListeners();
+    });
+  </script>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>
