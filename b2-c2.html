@@ -3,14 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>B2-C2 - Zero EN</title>
   <link rel="stylesheet" href="css/global.css" />
-  <!-- Firebase App (core SDK) -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
-  <!-- Firebase Authentication -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
-  <!-- Firebase Firestore -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
 </head>
 <body>
   <div id="container" class="app-container">
@@ -21,19 +14,24 @@
       <span id="searchIcon" class="icon">🔍</span>
     </div>
 
-    <div id="countdownDialog" class="countdown-dialog hidden">
-      <input type="number" id="countdownInput" placeholder="Enter countdown seconds" min="1" />
-      <button id="setCountdownBtn">Set</button>
-      <button id="cancelCountdownBtn">Cancel</button>
+    <div class="dialog-container">
+      <div id="countdownDialog" class="countdown-dialog hidden">
+        <input type="number" id="countdownInput" placeholder="Enter countdown seconds" min="1" />
+        <button id="setCountdownBtn">Set</button>
+        <button id="cancelCountdownBtn">Cancel</button>
+      </div>
+
+      <div id="searchDialog" class="search-dialog hidden">
+        <input type="text" id="searchInput" placeholder="Search for a word..." />
+        <button id="searchBtn">Find</button>
+      </div>
     </div>
 
-    <div id="searchDialog" class="search-dialog hidden">
-      <input type="text" id="searchInput" placeholder="Search for a word..." />
-      <button id="searchBtn">Find</button>
-    </div>
-
-    <div id="timeWrapper" style="display: none;">
-      <div id="countdown">30</div>
+    <div id="timeWrapper">
+      <span class="emptybox"> </span>
+      <span class="emptybox"> </span>
+      <span id="countdown" class="countdown-timer">00</span>
+      <span class="emptybox"> </span>
     </div>
 
     <div class="content">
@@ -58,7 +56,7 @@
 
     <div class="no-border-top">
       <button id="homeBtn" class="home-btn">Home</button>
-      <span id="userGreeting" class="user-greeting"></span>
+      <span id="userName" class="user-greeting"></span>
       <button id="logoutBtn" class="logout-btn">Logout</button>
     </div>
   </div>

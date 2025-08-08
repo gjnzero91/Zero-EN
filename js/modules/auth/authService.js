@@ -1,10 +1,17 @@
-// js/modules/authService.js
+// Zero-EN/js/modules/auth/authService.js
+// Dịch vụ xác thực người dùng trong ứng dụng Zero-EN
 
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js";
-import { app } from "./firebaseConfig.js";
+import { app } from "../core/firebaseConfig.js";
 
 const auth = getAuth(app);
 
+export function setAuthMessage(message) {
+    const authMessage = document.getElementById("authMessage");
+    if (authMessage) {
+        authMessage.textContent = message;
+    }
+}
 export const loginUser = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password);
 };

@@ -3,14 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zero EN</title>
   <link rel="stylesheet" href="css/index.css" />
-  <!-- Firebase App (core SDK) -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
-  <!-- Firebase Authentication -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
-  <!-- Firebase Firestore -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
 </head>
 <body>
   <div id="container" class="app-container">
@@ -21,6 +14,10 @@
       <button id="getStartedBtn" class="home-btn">Get Started</button>
     </div>
   </div>
+  <script type="module">
+    import { setupIndexEventListeners } from './js/modules/page/indexEvents.js';
+    setupIndexEventListeners();
+  </script>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>

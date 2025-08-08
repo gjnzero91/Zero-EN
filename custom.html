@@ -8,24 +8,17 @@
 <body>
   <div id="container" class="app-container">
     <div class="top-bar">
-      <span id="starIcon" class="icon">⭐</span>
+      <span id="moonIcon" class="icon">🌘</span>
       <span id="shuffleToggle" class="icon">🎲</span>
       <span id="clockToggle" class="icon">⏱️</span>
-      <span id="searchIcon" class="icon">🔍</span>
+      <span id="flashcardIcon" class="icon">🔖</span>
     </div>
 
-    <div class="dialog-container">
       <div id="countdownDialog" class="countdown-dialog hidden">
         <input type="number" id="countdownInput" placeholder="Enter countdown seconds" min="1" />
         <button id="setCountdownBtn">Set</button>
         <button id="cancelCountdownBtn">Cancel</button>
       </div>
-
-      <div id="searchDialog" class="search-dialog hidden">
-        <input type="text" id="searchInput" placeholder="Search for a word..." />
-        <button id="searchBtn">Find</button>
-      </div>
-    </div>
 
     <div id="timeWrapper">
       <span class="emptybox"> </span>
@@ -48,7 +41,12 @@
       <button id="next">Next</button>
     </div>
 
-    <div class="page-title">B2-C2</div>
+    <div class="buttons">
+      <button id="prevLesson">Prev Lesson</button>
+      <button id="nextLesson">Next Lesson</button>
+    </div>
+
+    <div class="page-title">CUSTOM</div>
 
     <div class="progress-bar-container">
       <div id="progressBar"></div>
