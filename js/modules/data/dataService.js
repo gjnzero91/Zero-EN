@@ -1,31 +1,26 @@
 // Zero-EN/js/modules/data/dataService.js
-// Dịch vụ quản lý dữ liệu từ Firebase Firestore và các nguồn khác.
+// Dịch vụ quản lý dữ liệu từ Firestore và GitHub JSON
 
 import { collection, getDocs, doc, setDoc, deleteDoc, getDoc } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js";
 import { db } from "../core/firebaseConfig.js";
 import { getCurrentUser } from "../auth/authService.js";
 
-const CUSTOM_PACKAGES_PATH = "custom/packages";
-
-// ==== Lấy danh sách từ vựng từ file CSV ====
-const parseCsv = (csvText) => {
-  const lines = csvText.split('\n').filter(line => line.trim() !== '');
-  const words = [];
-  for (let i = 1; i < lines.length; i++) {
-    const columns = lines[i].split(',').map(column => column.trim());
-    if (columns.length >= 5) {
-      words.push({
-        word: columns[0],
-        wordType: `${columns[1]}, ${columns[2]}`,
-        ipa: columns[3]
-      });
-    }
+// ==== Lấy dữ liệu JSON từ GitHub Raw ====
+export const fetchWordsFromJson = async (url) => {
+  try {
+    const res = await fetch(url);
+    console.log("[JSON] Fetching:", url, "Status:", res.status);
+    if (!res.ok) throw new Error("Lỗi HTTP: " + res.status);
+    const data = await res.json();
+    console.log("[JSON] Tổng từ tải được:", data.length);
+    return data;
+  } catch (error) {
+    console.error("[JSON] Lỗi khi tải:", error);
+    return [];
   }
-  return words;
 };
 
 // ==== Xử lý từ được đánh dấu Star ====
-
 export const starWord = async (wordObj) => {
   const user = getCurrentUser();
   if (!user) throw new Error("User not authenticated.");
@@ -73,15 +68,13 @@ export const getStarredWordsData = async () => {
 };
 
 // ==== Lưu trạng thái học của người dùng lên Firestore ====
-
 export const saveUserDataToFirestore = async (uid, appState) => {
   if (!uid) throw new Error("User not authenticated.");
   const docRef = doc(db, `users/${uid}/userData/appState`);
   await setDoc(docRef, appState);
 };
 
-// ==== Xử lý từ Custom Page ====
-
+// ==== Custom Packages vẫn có thể lưu Firestore (nếu muốn) ====
 export const saveCustomPackagesToFirestore = async (packages) => {
   const user = getCurrentUser();
   if (!user) {
@@ -92,9 +85,9 @@ export const saveCustomPackagesToFirestore = async (packages) => {
   try {
     const ref = doc(db, `users/${user.uid}/customPackages/main`);
     await setDoc(ref, { data: packages });
-    console.log("✅ Custom packages đã được lưu cho user:", user.uid);
+    console.log("Custom packages đã được lưu cho user:", user.uid);
   } catch (err) {
-    console.error("❌ Lỗi khi lưu custom packages:", err);
+    console.error("Lỗi khi lưu custom packages:", err);
   }
 };
 
@@ -109,28 +102,12 @@ export const loadCustomPackagesFromFirestore = async () => {
     const ref = doc(db, `users/${user.uid}/customPackages/main`);
     const snapshot = await getDoc(ref);
     if (snapshot.exists()) {
-      console.log("✅ Đã tải custom packages từ Firestore.");
+      console.log("Đã tải custom packages từ Firestore.");
       return snapshot.data().data || [];
     }
     return [];
   } catch (err) {
-    console.error("❌ Lỗi khi tải custom packages:", err);
-    return [];
-  }
-};
-
-export const fetchWordsFromCsv = async (url) => {
-  try {
-    const response = await fetch(url);
-    console.log("[CSV] Fetching:", url, "Status:", response.status);
-    if (!response.ok) throw new Error("Lỗi HTTP: " + response.status);
-
-    const csvText = await response.text();
-    const words = parseCsv(csvText);
-    console.log("[CSV] Tổng từ tải được:", words.length);
-    return words;
-  } catch (error) {
-    console.error("[CSV] Lỗi khi tải:", error);
+    console.error("Lỗi khi tải custom packages:", err);
     return [];
   }
 };

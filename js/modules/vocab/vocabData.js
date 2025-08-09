@@ -1,19 +1,23 @@
 // Zero-EN/js/modules/vocab/vocabData.js
-// Quản lý dữ liệu từ vựng trong ứng dụng Zero-EN
+// Quản lý dữ liệu từ vựng trong ứng dụng Zero-EN (lấy từ GitHub JSON cho a1-b1, b2-c2)
 
-import { fetchWordsFromCsv, getStarredWordsData } from "../data/dataService.js";
+import { fetchWordsFromJson, getStarredWordsData } from "../data/dataService.js";
 import { getCurrentUser } from "../auth/authService.js";
 import { getBookState, setBookStateProperty } from "../core/appState.js";
 
+// === Link JSON trên GitHub ===
+const GITHUB_DATA = {
+  "a1-b1": "https://raw.githubusercontent.com/USERNAME/REPO_NAME/branch/data/3000.json",
+  "b2-c2": "https://raw.githubusercontent.com/USERNAME/REPO_NAME/branch/data/5000.json"
+};
+
 export async function getWordsData(bookKey) {
   if (bookKey === "a1-b1") {
-    const url = "https://docs.google.com/spreadsheets/d/...gid=0...";
-    return await fetchWordsFromCsv(url);
+    return await fetchWordsFromJson(GITHUB_DATA["a1-b1"]);
   }
 
   if (bookKey === "b2-c2") {
-    const url = "https://docs.google.com/spreadsheets/d/...gid=2053...";
-    return await fetchWordsFromCsv(url);
+    return await fetchWordsFromJson(GITHUB_DATA["b2-c2"]);
   }
 
   if (bookKey === "star") {
