@@ -1,0 +1,5859 @@
+{
+  "words": [
+    {
+      "word": "abolish",
+      "wordType": "verb",
+      "ipa": "/əˈbɒlɪʃ/, /əˈbɑl.əʃ/"
+    },
+    {
+      "word": "abortion",
+      "wordType": "noun",
+      "ipa": "/əˈbɔɹ.ʃn̩/"
+    },
+    {
+      "word": "absence",
+      "wordType": "noun",
+      "ipa": "/ˈæb.s(ə)n̩s/, /æbˈsɒns/"
+    },
+    {
+      "word": "absent",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈæb.sn̩t/, /æbˈsɛnt/"
+    },
+    {
+      "word": "absurd",
+      "wordType": "noun, adjective",
+      "ipa": "/æbˈzɝd/, /əbˈsɜːd/"
+    },
+    {
+      "word": "abundance",
+      "wordType": "noun",
+      "ipa": "/əˈbʌn.dn̩s/, /əˈbn̩.dn̩s/"
+    },
+    {
+      "word": "abuse",
+      "wordType": "noun, verb",
+      "ipa": "/əˈbjuːs/, /əˈbjus/"
+    },
+    {
+      "word": "academy",
+      "wordType": "noun",
+      "ipa": "/əˈkæd.ə.mi/"
+    },
+    {
+      "word": "accelerate",
+      "wordType": "verb, adjective",
+      "ipa": "/æk.ˈsɛl.ə.ˌɹeɪt/"
+    },
+    {
+      "word": "acceptance",
+      "wordType": "noun",
+      "ipa": "/ək.ˈsɛp.təns/"
+    },
+    {
+      "word": "accessible",
+      "wordType": "adjective",
+      "ipa": "/əkˈsɛs.ə.bəl/"
+    },
+    {
+      "word": "accomplishment",
+      "wordType": "noun",
+      "ipa": "/ə.ˈkʌm.plɪʃ.mənt/, /ə.ˈkɑm.plɪʃ.mənt/"
+    },
+    {
+      "word": "accordance",
+      "wordType": "noun",
+      "ipa": "/ə.ˈkɔɹd.əns/"
+    },
+    {
+      "word": "accordingly",
+      "wordType": "adverb",
+      "ipa": "/əˈkɔː(ɹ).dɪŋ.li/, /ə.ˈkɔɹ.dɪŋ.li/"
+    },
+    {
+      "word": "accountability",
+      "wordType": "noun",
+      "ipa": "/ə.ˌkaʊn.tə.ˈbɪl.ət.i/"
+    },
+    {
+      "word": "accountable",
+      "wordType": "adjective",
+      "ipa": "/ə.ˈkaʊn.tə.bəl/"
+    },
+    {
+      "word": "accumulate",
+      "wordType": "verb, adjective",
+      "ipa": "/əˈkjuːmjʊˌleɪt/, /ə.ˈkjum.jə.ˌleɪt/"
+    },
+    {
+      "word": "accumulation",
+      "wordType": "noun",
+      "ipa": "/ə.ˌkjuːm.jə.ˈleɪ.ʃən/"
+    },
+    {
+      "word": "accusation",
+      "wordType": "noun",
+      "ipa": "Loading..."
+    },
+    {
+      "word": "accused",
+      "wordType": "verb, noun",
+      "ipa": "/ə.ˈkjuzd/"
+    },
+    {
+      "word": "acid",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈæs.ɪd/"
+    },
+    {
+      "word": "acquisition",
+      "wordType": "noun",
+      "ipa": "/æ.kwɪ.ˈzɪ.ʃən/"
+    },
+    {
+      "word": "acre",
+      "wordType": "noun",
+      "ipa": "/ˈeɪ.kə/, /ˈeɪ.kɚ/"
+    },
+    {
+      "word": "activation",
+      "wordType": "noun",
+      "ipa": "/æktɪˈveɪʃən/"
+    },
+    {
+      "word": "angel",
+      "wordType": "noun, verb",
+      "ipa": "/ˈeɪn.dʒəl/"
+    },
+    {
+      "word": "anonymous",
+      "wordType": "adjective",
+      "ipa": "/əˈnɒnəməs/"
+    },
+    {
+      "word": "apparatus",
+      "wordType": "noun",
+      "ipa": "/æpəˈɹɑːtəs/, /æ.pəˈɹæ.təs/"
+    },
+    {
+      "word": "appealing",
+      "wordType": "verb, noun",
+      "ipa": "/əˈpiː.lɪŋ/, /əˈpi.lɪŋ/"
+    },
+    {
+      "word": "appetite",
+      "wordType": "noun",
+      "ipa": "/ˈæp.ə.taɪt/"
+    },
+    {
+      "word": "applaud",
+      "wordType": "noun, verb",
+      "ipa": "/əˈplɔːd/, /əˈplɔd/"
+    },
+    {
+      "word": "applicable",
+      "wordType": "adjective",
+      "ipa": "/əˈplɪkəbəl/"
+    },
+    {
+      "word": "appoint",
+      "wordType": "verb",
+      "ipa": "/əˈpɔɪnt/"
+    },
+    {
+      "word": "appreciation",
+      "wordType": "noun",
+      "ipa": "/əˌpɹiː.ʃiˈeɪ.ʃən/"
+    },
+    {
+      "word": "arbitrary",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈɑɹ.bɪ.tɹɛ(ə).ɹi/, /ˈɑː.bɪ.tɹi/"
+    },
+    {
+      "word": "architectural",
+      "wordType": "adjective",
+      "ipa": "/ˌɑɹkɪˈtɛktjəɹəl/"
+    },
+    {
+      "word": "archive",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɑɹkaɪv/"
+    },
+    {
+      "word": "arena",
+      "wordType": "noun",
+      "ipa": "/əˈɹiːnə/"
+    },
+    {
+      "word": "arguably",
+      "wordType": "adverb",
+      "ipa": "/ˈɑːrɡ.ju.ə.bli/"
+    },
+    {
+      "word": "arm",
+      "wordType": "noun, verb",
+      "ipa": "/ɑːm/, /ɑɹm/"
+    },
+    {
+      "word": "array",
+      "wordType": "noun, verb",
+      "ipa": "/əˈɹeɪ/"
+    },
+    {
+      "word": "articulate",
+      "wordType": "noun, adjective",
+      "ipa": "/ɑː(ɹ)ˈtɪk.jʊ.lət/, /ɑːɹˈtɪk.jə.lət/"
+    },
+    {
+      "word": "ash",
+      "wordType": "noun, verb",
+      "ipa": "/æʃ/"
+    },
+    {
+      "word": "aspiration",
+      "wordType": "noun",
+      "ipa": "/ˌæspəˈɹeɪʃən/"
+    },
+    {
+      "word": "aspire",
+      "wordType": "verb",
+      "ipa": "/əˈspaɪə(ɹ)/, /əˈspaɪɚ/"
+    },
+    {
+      "word": "assassination",
+      "wordType": "noun",
+      "ipa": "/əˌsæs.ɪ.ˈneɪ.ʃən/"
+    },
+    {
+      "word": "assault",
+      "wordType": "noun, verb",
+      "ipa": "/əˈsɔːlt/"
+    },
+    {
+      "word": "assemble",
+      "wordType": "verb",
+      "ipa": "/əˈsɛmbl̩/"
+    },
+    {
+      "word": "assembly",
+      "wordType": "noun",
+      "ipa": "/əˈsɛmb.lɪ/, /əˈsɛmb.li/"
+    },
+    {
+      "word": "assert",
+      "wordType": "noun, verb",
+      "ipa": "/əˈsɜːt/, /əˈsɝt/"
+    },
+    {
+      "word": "assertion",
+      "wordType": "noun",
+      "ipa": "/əˈsɜːʃən/, /əˈsɜɹʃən/"
+    },
+    {
+      "word": "assurance",
+      "wordType": "noun",
+      "ipa": "/əˈʃɔːɹəns/, /əˈʃɝəns/"
+    },
+    {
+      "word": "asylum",
+      "wordType": "noun",
+      "ipa": "/əˈsaɪləm/"
+    },
+    {
+      "word": "atrocity",
+      "wordType": "noun",
+      "ipa": "/əˈtrɑː.sə.t̬i/"
+    },
+    {
+      "word": "attain",
+      "wordType": "verb",
+      "ipa": "/əˈteɪn/"
+    },
+    {
+      "word": "attendance",
+      "wordType": "noun",
+      "ipa": "/əˈtɛn.dəns/"
+    },
+    {
+      "word": "attorney",
+      "wordType": "noun, verb",
+      "ipa": "/əˈtɜː(ɹ)ni/"
+    },
+    {
+      "word": "attribute",
+      "wordType": "noun, verb",
+      "ipa": "/ˈæt.rɪ.bjuːt/"
+    },
+    {
+      "word": "audit",
+      "wordType": "noun, verb",
+      "ipa": "/ɔː.dɪt/"
+    },
+    {
+      "word": "authentic",
+      "wordType": "adjective",
+      "ipa": "/ɒ.ˈθɛn.tɪk/"
+    },
+    {
+      "word": "authorize",
+      "wordType": "verb",
+      "ipa": "/ˈɑθəɹaɪz/, /ˈɔːθəɹaɪz/"
+    },
+    {
+      "word": "auto",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɑtoʊ/, /ˈɔːtəʊ/"
+    },
+    {
+      "word": "autonomy",
+      "wordType": "noun",
+      "ipa": "/ɑˈtɑnəmi/, /ɔːˈtɒnəmi/"
+    },
+    {
+      "word": "availability",
+      "wordType": "noun",
+      "ipa": "/əˌveɪ.ləˈbɪl.ə.t̬i/"
+    },
+    {
+      "word": "await",
+      "wordType": "noun, verb",
+      "ipa": "/əˈwɛɪt/"
+    },
+    {
+      "word": "backdrop",
+      "wordType": "noun, verb",
+      "ipa": "/ˈbæk.dɹɒp/"
+    },
+    {
+      "word": "backing",
+      "wordType": "verb, noun",
+      "ipa": "/ˈbæk.ɪŋ(ɡ)/"
+    },
+    {
+      "word": "backup",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈbækˌʌp/"
+    },
+    {
+      "word": "bail",
+      "wordType": "noun, verb",
+      "ipa": "/beɪ̯l/"
+    },
+    {
+      "word": "ballot",
+      "wordType": "noun, verb",
+      "ipa": "/ˈbalət/, /ˈbælət/"
+    },
+    {
+      "word": "banner",
+      "wordType": "noun, verb",
+      "ipa": "/ˈbænə/, /ˈbænɚ/"
+    },
+    {
+      "word": "bare",
+      "wordType": "noun, adjective",
+      "ipa": "/bɛə(ɹ)/, /bɛəɹ/"
+    },
+    {
+      "word": "barrel",
+      "wordType": "noun, verb",
+      "ipa": "/ˈbæɹəl/"
+    },
+    {
+      "word": "bass",
+      "wordType": "noun, verb",
+      "ipa": "/beɪs/, /bæs/"
+    },
+    {
+      "word": "bat",
+      "wordType": "noun, verb",
+      "ipa": "/bæt/"
+    },
+    {
+      "word": "battlefield",
+      "wordType": "noun",
+      "ipa": "/ˈbæt̬.əl.fiːld/"
+    },
+    {
+      "word": "bay",
+      "wordType": "noun, verb",
+      "ipa": "/beɪ/"
+    },
+    {
+      "word": "beam",
+      "wordType": "noun, verb",
+      "ipa": "/biːm/"
+    },
+    {
+      "word": "beast",
+      "wordType": "noun, verb",
+      "ipa": "/biːst/"
+    },
+    {
+      "word": "behalf",
+      "wordType": "noun",
+      "ipa": "/bɪˈhæf/"
+    },
+    {
+      "word": "beloved",
+      "wordType": "verb, noun",
+      "ipa": "/bɪˈlʌv.ɪd/"
+    },
+    {
+      "word": "bench",
+      "wordType": "noun, verb",
+      "ipa": "/bɛntʃ/"
+    },
+    {
+      "word": "benchmark",
+      "wordType": "noun, verb",
+      "ipa": "/ˈbentʃ.mɑːrk/"
+    },
+    {
+      "word": "beneath",
+      "wordType": "adverb, preposition",
+      "ipa": "/bɪˈniːθ/"
+    },
+    {
+      "word": "beneficiary",
+      "wordType": "noun, adjective",
+      "ipa": "/ˌbɛn.əˈfɪʃ.əɹ.i/, /bɛn.əˈfɪʃ.iˌɚ.i/"
+    },
+    {
+      "word": "betray",
+      "wordType": "verb",
+      "ipa": "/bəˈtɹeɪ/"
+    },
+    {
+      "word": "bind",
+      "wordType": "noun, verb",
+      "ipa": "/baɪnd/"
+    },
+    {
+      "word": "biography",
+      "wordType": "noun, verb",
+      "ipa": "/baɪˈɒɡɹəfi/, /baɪˈɑːɡɹəfi/"
+    },
+    {
+      "word": "bishop",
+      "wordType": "noun, verb",
+      "ipa": "/ˈbɪʃəp/"
+    },
+    {
+      "word": "bizarre",
+      "wordType": "adjective",
+      "ipa": "/bəˈzɑː(ɹ)/, /bəˈzɑɹ/"
+    },
+    {
+      "word": "blade",
+      "wordType": "noun, verb",
+      "ipa": "/bleɪd/"
+    },
+    {
+      "word": "blast",
+      "wordType": "noun, verb",
+      "ipa": "/blɑːst/, /blæst/"
+    },
+    {
+      "word": "bleed",
+      "wordType": "noun, verb",
+      "ipa": "/ˈbliːd/"
+    },
+    {
+      "word": "blend",
+      "wordType": "noun, verb",
+      "ipa": "/blɛnd/"
+    },
+    {
+      "word": "bless",
+      "wordType": "verb, interjection",
+      "ipa": "/blɛs/"
+    },
+    {
+      "word": "blessing",
+      "wordType": "verb, noun",
+      "ipa": "/ˈblɛs.ɪŋ/"
+    },
+    {
+      "word": "boast",
+      "wordType": "noun, verb",
+      "ipa": "/bəʊst/, /boʊst/"
+    },
+    {
+      "word": "bonus",
+      "wordType": "noun, verb",
+      "ipa": "/ˈbəʊ.nəs/, /ˈboʊ.nəs/"
+    },
+    {
+      "word": "boom",
+      "wordType": "noun, verb",
+      "ipa": "/buːm/, /bum/"
+    },
+    {
+      "word": "bounce",
+      "wordType": "noun, verb",
+      "ipa": "/baʊns/"
+    },
+    {
+      "word": "boundary",
+      "wordType": "noun",
+      "ipa": "/ˈbaʊndɹi/, /ˈbaʊndəɹi/"
+    },
+    {
+      "word": "bow",
+      "wordType": "verb",
+      "ipa": "/baʊ/"
+    },
+    {
+      "word": "breach",
+      "wordType": "noun, verb",
+      "ipa": "/briːtʃ/"
+    },
+    {
+      "word": "breakdown",
+      "wordType": "noun",
+      "ipa": "/ˈbɹeɪkdaʊn/"
+    },
+    {
+      "word": "breakthrough",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈbɹeɪkθɹuː/"
+    },
+    {
+      "word": "breed",
+      "wordType": "noun, verb",
+      "ipa": "/bɹiːd/"
+    },
+    {
+      "word": "broadband",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈbrɑːd.bænd/"
+    },
+    {
+      "word": "browser",
+      "wordType": "noun",
+      "ipa": "/ˈbɹaʊzə(ɹ)/"
+    },
+    {
+      "word": "brutal",
+      "wordType": "adjective",
+      "ipa": "/ˈbɹuːtəl/"
+    },
+    {
+      "word": "buck",
+      "wordType": "noun, verb",
+      "ipa": "/bʌk/"
+    },
+    {
+      "word": "buddy",
+      "wordType": "noun, verb",
+      "ipa": "/bʌd.i/"
+    },
+    {
+      "word": "buffer",
+      "wordType": "adjective, noun",
+      "ipa": "/ˈbafə(ɹ)/, /ˈbʌfə(ɹ)/"
+    },
+    {
+      "word": "burden",
+      "wordType": "noun, verb",
+      "ipa": "/ˈbɜːdn/, /ˈbɝdn/"
+    },
+    {
+      "word": "bureaucracy",
+      "wordType": "noun",
+      "ipa": "/bjʊəˈɹɒkɹəsi/, /bjʊˈɹɑːkɹəsi/"
+    },
+    {
+      "word": "burst",
+      "wordType": "noun, verb",
+      "ipa": "/bɜːst/, /bɝst/"
+    },
+    {
+      "word": "cabinet",
+      "wordType": "noun",
+      "ipa": "/ˈkæ.bɪ.nɪt/"
+    },
+    {
+      "word": "calculation",
+      "wordType": "noun",
+      "ipa": "/kælkjuˈleɪʃən/, /kælkjəˈleɪʃən/"
+    },
+    {
+      "word": "canvas",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkæn.vəs/"
+    },
+    {
+      "word": "capability",
+      "wordType": "noun",
+      "ipa": "/keɪpəˈbɪləti/"
+    },
+    {
+      "word": "capitalism",
+      "wordType": "noun",
+      "ipa": "/ˈkapɪt(ə)lɪz(ə)m/, /ˈkæpɪ̈tl̩ˌɪzm̩/"
+    },
+    {
+      "word": "cargo",
+      "wordType": "noun",
+      "ipa": "/ˈkɑːɡəʊ/, /ˈkɑɹɡoʊ/"
+    },
+    {
+      "word": "carriage",
+      "wordType": "noun",
+      "ipa": "/ˈkæɹɪdʒ/"
+    },
+    {
+      "word": "carve",
+      "wordType": "noun, verb",
+      "ipa": "/kɑːv/, /kɑɹv/"
+    },
+    {
+      "word": "casino",
+      "wordType": "noun",
+      "ipa": "/kæˈsinoʊ/"
+    },
+    {
+      "word": "casualty",
+      "wordType": "noun",
+      "ipa": "/ˈkaʒ(ʊ)əlti/"
+    },
+    {
+      "word": "catalogue",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkætəlɑɡ/, /ˈkæt.ə.lɒɡ/"
+    },
+    {
+      "word": "cater",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkeɪtə/, /ˈkeɪdɚ/"
+    },
+    {
+      "word": "cattle",
+      "wordType": "noun",
+      "ipa": "/ˈkæt(ə)l/"
+    },
+    {
+      "word": "caution",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɔːʃ(ə)n/, /ˈkɑːʃ(ə)n/"
+    },
+    {
+      "word": "cautious",
+      "wordType": "adjective",
+      "ipa": "/ˈkɔːʃəs/"
+    },
+    {
+      "word": "cease",
+      "wordType": "noun, verb",
+      "ipa": "/siːs/"
+    },
+    {
+      "word": "cemetery",
+      "wordType": "noun",
+      "ipa": "/ˈsem.ɘˌtiɘɹ.i/, /ˈsɛm.əˌtɹi/"
+    },
+    {
+      "word": "chamber",
+      "wordType": "noun, verb",
+      "ipa": "/ˈtʃeɪmbə(ɹ)/, /ˈtʃeɪmbɚ/"
+    },
+    {
+      "word": "chaos",
+      "wordType": "noun",
+      "ipa": "/ˈkeɪ.ɒs/, /ˈkeɪ.ɑs/"
+    },
+    {
+      "word": "characterize",
+      "wordType": "verb",
+      "ipa": "/ˈkæɹəktəɹaɪz/"
+    },
+    {
+      "word": "charm",
+      "wordType": "noun, verb",
+      "ipa": "/tʃɑːm/, /tʃɑɹm/"
+    },
+    {
+      "word": "charter",
+      "wordType": "noun, verb",
+      "ipa": "/ˈt͡ʃɑːtə/, /ˈt͡ʃɑɹtɚ/"
+    },
+    {
+      "word": "chronic",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈkɹɒnɪk/"
+    },
+    {
+      "word": "chunk",
+      "wordType": "noun, verb",
+      "ipa": "/t͡ʃʌŋk/"
+    },
+    {
+      "word": "circulate",
+      "wordType": "verb",
+      "ipa": "/ˈsɚˌkju.leɪt/"
+    },
+    {
+      "word": "circulation",
+      "wordType": "noun",
+      "ipa": "/ˌsɜː(ɹ).kjʊˈleɪ.ʃən/, /ˌsɝkjʊˈleɪʃən/"
+    },
+    {
+      "word": "citizenship",
+      "wordType": "noun",
+      "ipa": "/ˈsɪt̬.ə.zən.ʃɪp/"
+    },
+    {
+      "word": "civic",
+      "wordType": "adjective",
+      "ipa": "/ˈsɪvɪk/"
+    },
+    {
+      "word": "civilian",
+      "wordType": "noun, adjective",
+      "ipa": "/sɪˈvɪljən/"
+    },
+    {
+      "word": "clarity",
+      "wordType": "noun",
+      "ipa": "/ˈklæɹ.ə.ti/, /ˈkleɹ.ə.ti/"
+    },
+    {
+      "word": "clash",
+      "wordType": "noun, verb",
+      "ipa": "/klaʃ/, /klæʃ/"
+    },
+    {
+      "word": "classification",
+      "wordType": "noun",
+      "ipa": "/ˌklæsɪfɪˈkeɪʃən/"
+    },
+    {
+      "word": "cling",
+      "wordType": "noun, verb",
+      "ipa": "/ˈklɪŋ/"
+    },
+    {
+      "word": "clinical",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈklɪnɪkəl/"
+    },
+    {
+      "word": "closure",
+      "wordType": "noun",
+      "ipa": "/ˈkləʊ.ʒə(ɹ)/, /ˈkloʊ.ʒɚ/"
+    },
+    {
+      "word": "cluster",
+      "wordType": "noun, verb",
+      "ipa": "/ˈklʌstə/, /ˈklʌstɚ/"
+    },
+    {
+      "word": "coalition",
+      "wordType": "noun",
+      "ipa": "/koʊəˈlɪʃən/"
+    },
+    {
+      "word": "coastal",
+      "wordType": "adjective",
+      "ipa": "/ˈkəʊstəl/, /ˈkoʊstəl/"
+    },
+    {
+      "word": "cocktail",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɒkteɪl/"
+    },
+    {
+      "word": "cognitive",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈkɒɡnɪtɪv/"
+    },
+    {
+      "word": "coincide",
+      "wordType": "verb",
+      "ipa": "/ˌkoʊɪnˈsaɪd/"
+    },
+    {
+      "word": "collaborate",
+      "wordType": "verb",
+      "ipa": "/kəˈlabəɹeɪt/"
+    },
+    {
+      "word": "collaboration",
+      "wordType": "noun",
+      "ipa": "/kəˌlæbəˈɹeɪʃən/"
+    },
+    {
+      "word": "collective",
+      "wordType": "noun, adjective",
+      "ipa": "/kəˈlɛktɪv/"
+    },
+    {
+      "word": "collision",
+      "wordType": "noun",
+      "ipa": "/kəˈlɪʒən/"
+    },
+    {
+      "word": "colonial",
+      "wordType": "noun, adjective",
+      "ipa": "/kəˈləʊ.ni.əl/"
+    },
+    {
+      "word": "columnist",
+      "wordType": "noun",
+      "ipa": "/ˈkɒ.lə.mɪst/, /ˈkɑ.lə.mɪst/"
+    },
+    {
+      "word": "combat",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɒmˌbæt/, /kəmˈbæt/"
+    },
+    {
+      "word": "commence",
+      "wordType": "verb",
+      "ipa": "/kəˈmɛns/"
+    },
+    {
+      "word": "commentary",
+      "wordType": "noun",
+      "ipa": "/ˈkɑː.mən.ter.i/"
+    },
+    {
+      "word": "commentator",
+      "wordType": "noun",
+      "ipa": "/ˈkɑmənˌteɪtəɹ/"
+    },
+    {
+      "word": "commerce",
+      "wordType": "noun, verb",
+      "ipa": "/kɒˈmɜːs/, /ˈkɑm.ɚs/"
+    },
+    {
+      "word": "commissioner",
+      "wordType": "noun",
+      "ipa": "/kəˈmɪʃənə/, /kəˈmɪʃənɚ/"
+    },
+    {
+      "word": "commodity",
+      "wordType": "noun",
+      "ipa": "/kəˈmɒdəti/, /kəˈmɑdəti/"
+    },
+    {
+      "word": "communist",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈkɒ.mjʊ.nɪst/, /ˈkɑː.m.jə.nɪst/"
+    },
+    {
+      "word": "companion",
+      "wordType": "noun, verb",
+      "ipa": "/kəmˈpænjən/"
+    },
+    {
+      "word": "complement",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɒmpləmənt/, /ˈkɑmpləmənt/"
+    },
+    {
+      "word": "complexity",
+      "wordType": "noun",
+      "ipa": "/kəmˈplɛk.sɪ.ti/"
+    },
+    {
+      "word": "compliance",
+      "wordType": "noun",
+      "ipa": "/kəmˈplaɪəns/"
+    },
+    {
+      "word": "complication",
+      "wordType": "noun",
+      "ipa": "/ˌkɑːm.pləˈkeɪ.ʃən/"
+    },
+    {
+      "word": "comply",
+      "wordType": "verb",
+      "ipa": "/kəmˈplaɪ/"
+    },
+    {
+      "word": "composition",
+      "wordType": "noun",
+      "ipa": "/ˌkɒmpəˈzɪʃən/"
+    },
+    {
+      "word": "compromise",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɒmpɹəˌmaɪz/, /ˈkɑmpɹəˌmaɪz/"
+    },
+    {
+      "word": "compute",
+      "wordType": "noun, verb",
+      "ipa": "/kəmˈpjuːt/"
+    },
+    {
+      "word": "conceal",
+      "wordType": "verb",
+      "ipa": "/kənˈsiːl/"
+    },
+    {
+      "word": "concede",
+      "wordType": "verb",
+      "ipa": "/kənˈsiːd/"
+    },
+    {
+      "word": "conceive",
+      "wordType": "verb",
+      "ipa": "/kənˈsiːv/"
+    },
+    {
+      "word": "conception",
+      "wordType": "noun",
+      "ipa": "/kənˈsɛpʃən/"
+    },
+    {
+      "word": "concession",
+      "wordType": "noun, verb",
+      "ipa": "/kənˈsɛʃən/"
+    },
+    {
+      "word": "condemn",
+      "wordType": "verb",
+      "ipa": "/kənˈdɛm/"
+    },
+    {
+      "word": "confer",
+      "wordType": "verb",
+      "ipa": "/kənˈfɜː/, /kənˈfʌɹ/"
+    },
+    {
+      "word": "confession",
+      "wordType": "noun",
+      "ipa": "/kənˈfɛʃən/"
+    },
+    {
+      "word": "configuration",
+      "wordType": "noun",
+      "ipa": "/kənˌfɪɡ.jəˈreɪ.ʃən/"
+    },
+    {
+      "word": "confine",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɒnfaɪn/, /ˈkɑnfaɪn/"
+    },
+    {
+      "word": "confirmation",
+      "wordType": "noun",
+      "ipa": "/ˌkɒn.fəˈmeɪ.ʃən/, /ˌkɑn.fəɹˈmeɪ.ʃən/"
+    },
+    {
+      "word": "confront",
+      "wordType": "verb",
+      "ipa": "/kɒnˈfɹɒnt/"
+    },
+    {
+      "word": "confrontation",
+      "wordType": "noun",
+      "ipa": "/ˌkɒnfɹənˈteɪʃən/"
+    },
+    {
+      "word": "congratulate",
+      "wordType": "verb",
+      "ipa": "/-t͡ʃə-/, /-d͡ʒə-/"
+    },
+    {
+      "word": "congregation",
+      "wordType": "noun",
+      "ipa": "/ˌkɒŋɡɹɪˈɡeɪʃən/, /ˌkɑŋɡɹəˈɡeɪʃən/"
+    },
+    {
+      "word": "congressional",
+      "wordType": "adjective",
+      "ipa": "/kəŋˈɡɹɛʃn̩əl/"
+    },
+    {
+      "word": "conquer",
+      "wordType": "verb",
+      "ipa": "/ˈkɒŋkə/, /ˈkɑŋkɚ/"
+    },
+    {
+      "word": "conscience",
+      "wordType": "noun",
+      "ipa": "/kɒnʃəns/"
+    },
+    {
+      "word": "consciousness",
+      "wordType": "noun",
+      "ipa": "/ˈkɒnʃəsnəs/, /ˈkɑnʃəsnəs/"
+    },
+    {
+      "word": "consecutive",
+      "wordType": "noun, adjective",
+      "ipa": "/kɒnsɛkjʊtɪv/"
+    },
+    {
+      "word": "consensus",
+      "wordType": "noun",
+      "ipa": "/kənˈsen.səs/"
+    },
+    {
+      "word": "consent",
+      "wordType": "noun, verb",
+      "ipa": "/kənˈsɛnt/"
+    },
+    {
+      "word": "conserve",
+      "wordType": "noun, verb",
+      "ipa": "/kənˈsɝːv/"
+    },
+    {
+      "word": "consistency",
+      "wordType": "noun",
+      "ipa": "/kənˈsɪst(ə)nsi/, /kənˈsɪstənsi/"
+    },
+    {
+      "word": "consolidate",
+      "wordType": "verb, adjective",
+      "ipa": "/kənˈsɒlɪdeɪt/"
+    },
+    {
+      "word": "constituency",
+      "wordType": "noun",
+      "ipa": "/kənˈstɪtʃ.u.ən.si/"
+    },
+    {
+      "word": "constitute",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɒnstɪtjuːt/, /ˈkɑnstɪt(j)uːt/"
+    },
+    {
+      "word": "constitution",
+      "wordType": "noun",
+      "ipa": "/ˌkɒnstɪˈtjuːʃən/, /ˌkɑnstɪˈtuʃən/"
+    },
+    {
+      "word": "constitutional",
+      "wordType": "noun, adjective",
+      "ipa": "/ˌkɒnstɪˈtjuːʃənəl/, /ˌkɑnstɪˈtuːʃənəl/"
+    },
+    {
+      "word": "constraint",
+      "wordType": "noun",
+      "ipa": "/kənˈstɹeɪnt/"
+    },
+    {
+      "word": "consultation",
+      "wordType": "noun",
+      "ipa": "/ˌkɒnsl̩ˈteɪʃən/, /ˌkɑnsl̩ˈteɪʃən/"
+    },
+    {
+      "word": "contemplate",
+      "wordType": "verb",
+      "ipa": "/ˈkɒn.təmˌpleɪt/, /ˈkɑn.təmˌpleɪt/"
+    },
+    {
+      "word": "contempt",
+      "wordType": "noun",
+      "ipa": "/kənˈtɛmpt/"
+    },
+    {
+      "word": "contend",
+      "wordType": "verb",
+      "ipa": "/kənˈtɛnd/"
+    },
+    {
+      "word": "contender",
+      "wordType": "noun",
+      "ipa": "/kənˈtɛn.dɚ/"
+    },
+    {
+      "word": "content",
+      "wordType": "noun, verb",
+      "ipa": "/kənˈtɛnt/, /ˈkɒn.tɛnt/"
+    },
+    {
+      "word": "contention",
+      "wordType": "noun",
+      "ipa": "/kənˈtɛnʃən/"
+    },
+    {
+      "word": "continually",
+      "wordType": "adverb",
+      "ipa": "/kənˈtɪnjuəli/"
+    },
+    {
+      "word": "contractor",
+      "wordType": "noun",
+      "ipa": "/ˈkɒnˌtɹæk.tə(ɹ)/"
+    },
+    {
+      "word": "contradiction",
+      "wordType": "noun",
+      "ipa": "/ˌkɒntɹəˈdɪkʃən/, /ˌkɑːntɹəˈdɪkʃən/"
+    },
+    {
+      "word": "contrary",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɒntɹəɹi/, /ˈkɑntɹɛɹi/"
+    },
+    {
+      "word": "contributor",
+      "wordType": "noun",
+      "ipa": "/kənˈtrɪb.jə.t̬ɚ/"
+    },
+    {
+      "word": "conversion",
+      "wordType": "noun",
+      "ipa": "/-ʒ(ə)n/, /kənˈvɝʒən/"
+    },
+    {
+      "word": "convict",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɒnvɪkt/, /ˈkɑnvɪkt/"
+    },
+    {
+      "word": "conviction",
+      "wordType": "noun",
+      "ipa": "/kənˈvɪkʃən/"
+    },
+    {
+      "word": "cooperate",
+      "wordType": "verb",
+      "ipa": "/koʊˈɒpəɹeɪt/"
+    },
+    {
+      "word": "cooperative",
+      "wordType": "noun, adjective",
+      "ipa": "/koʊˈɑː.pɚ.ə.t̬ɪv/"
+    },
+    {
+      "word": "coordinate",
+      "wordType": "noun, verb",
+      "ipa": "/koʊˈɔːr.dən.eɪt/"
+    },
+    {
+      "word": "coordination",
+      "wordType": "noun",
+      "ipa": "/koʊˌɔɹdɪˈneɪʃən/"
+    },
+    {
+      "word": "coordinator",
+      "wordType": "noun",
+      "ipa": "/koʊˈɔːr.dən.eɪ.t̬ɚ/"
+    },
+    {
+      "word": "cop",
+      "wordType": "noun, verb",
+      "ipa": "/kɒp/, /kɑp/"
+    },
+    {
+      "word": "copper",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɔp.ə/, /ˈkɒp.ə/"
+    },
+    {
+      "word": "copyright",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɒpiˌɹaɪt/, /ˈkɑpiˌɹaɪt/"
+    },
+    {
+      "word": "correction",
+      "wordType": "noun",
+      "ipa": "/kəˈɹɛkʃən/"
+    },
+    {
+      "word": "correlate",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɒɹələt/, /ˈkɒɹəleɪt/"
+    },
+    {
+      "word": "correspondence",
+      "wordType": "noun",
+      "ipa": "/ˌkɒɹɪˈspɒndəns/"
+    },
+    {
+      "word": "correspondent",
+      "wordType": "noun, adjective",
+      "ipa": "/ˌkɒɹɪˈspɒndənt/, /ˌkɔɹɪˈspɑndənt/"
+    },
+    {
+      "word": "corresponding",
+      "wordType": "verb, noun",
+      "ipa": "/ˌkɒɹəˈspɒndɪŋ/, /ˌkɑɹəˈspɑndɪŋ/"
+    },
+    {
+      "word": "corrupt",
+      "wordType": "verb, adjective",
+      "ipa": "/kəˈɹʌpt/"
+    },
+    {
+      "word": "corruption",
+      "wordType": "noun",
+      "ipa": "/kəˈɹʌpʃən/"
+    },
+    {
+      "word": "costly",
+      "wordType": "adjective",
+      "ipa": "/ˈkɒst.li/"
+    },
+    {
+      "word": "councillor",
+      "wordType": "noun",
+      "ipa": "/ˈkaʊn.səl.ɚ/"
+    },
+    {
+      "word": "counselling",
+      "wordType": "verb, noun",
+      "ipa": "/ˈkaʊn.səl.ɪŋ/"
+    },
+    {
+      "word": "counsellor",
+      "wordType": "noun",
+      "ipa": "/ˈkaʊn.səl.ɚ/"
+    },
+    {
+      "word": "counter",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkaʊntə/, /ˈkaʊntɚ/"
+    },
+    {
+      "word": "counterpart",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkaʊntəˌpɑːt/, /ˈkaʊntɚˌpɑɹt/"
+    },
+    {
+      "word": "countless",
+      "wordType": "adjective",
+      "ipa": "/ˈkaʊntləs/"
+    },
+    {
+      "word": "coup",
+      "wordType": "noun, verb",
+      "ipa": "/kuː/, /ku/"
+    },
+    {
+      "word": "courtesy",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈkɜːtəsi/, /ˈkɝtəsi/"
+    },
+    {
+      "word": "craft",
+      "wordType": "noun, verb",
+      "ipa": "/kɹɑːft/, /kɹæft/"
+    },
+    {
+      "word": "crawl",
+      "wordType": "noun, verb",
+      "ipa": "/kɹɔl/"
+    },
+    {
+      "word": "creator",
+      "wordType": "noun",
+      "ipa": "/kɹiːˈeɪtə/, /kɹiˈeɪtɚ/"
+    },
+    {
+      "word": "credibility",
+      "wordType": "noun",
+      "ipa": "/kɹɛd.ə.ˈbɪ.ɫɪ.ti/"
+    },
+    {
+      "word": "credible",
+      "wordType": "adjective",
+      "ipa": "/ˈkɹɛdəbl̩/"
+    },
+    {
+      "word": "creep",
+      "wordType": "verb, noun",
+      "ipa": "/kɹiːp/"
+    },
+    {
+      "word": "critique",
+      "wordType": "noun, verb",
+      "ipa": "/kɹɪˈtiːk/, /kɹɪ.ˈtik/"
+    },
+    {
+      "word": "crown",
+      "wordType": "noun, verb",
+      "ipa": "/kɹaʊn/, /kɹoʊn/"
+    },
+    {
+      "word": "crude",
+      "wordType": "noun, adjective",
+      "ipa": "/kɹʉd/, /kɹuːd/"
+    },
+    {
+      "word": "crush",
+      "wordType": "noun, verb",
+      "ipa": "/kɹʌʃ/"
+    },
+    {
+      "word": "crystal",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈkɹɪstəl/"
+    },
+    {
+      "word": "cult",
+      "wordType": "noun, adjective",
+      "ipa": "/kʌlt/"
+    },
+    {
+      "word": "cultivate",
+      "wordType": "verb",
+      "ipa": "/ˈkʌltɪveɪt/"
+    },
+    {
+      "word": "curiosity",
+      "wordType": "noun",
+      "ipa": "/ˌkjʊəɹɪˈɒsɪti/"
+    },
+    {
+      "word": "custody",
+      "wordType": "noun",
+      "ipa": "/ˈkʌstədiː/"
+    },
+    {
+      "word": "cutting",
+      "wordType": "verb, noun",
+      "ipa": "/ˈkʌtɪŋ/"
+    },
+    {
+      "word": "cynical",
+      "wordType": "adjective",
+      "ipa": "/ˈsɪnɪkəl/"
+    },
+    {
+      "word": "dam",
+      "wordType": "noun, verb",
+      "ipa": "/dæm/"
+    },
+    {
+      "word": "damaging",
+      "wordType": "verb, noun",
+      "ipa": "/ˈdæmɪdʒɪŋ/"
+    },
+    {
+      "word": "dawn",
+      "wordType": "noun, verb",
+      "ipa": "/doːn/, /dɔːn/"
+    },
+    {
+      "word": "debris",
+      "wordType": "noun",
+      "ipa": "/ˈdeɪbɹiː/, /dəˈbɹiː/"
+    },
+    {
+      "word": "debut",
+      "wordType": "noun, verb",
+      "ipa": "/dəˈbʉː/, /ˈdeɪbjuː/"
+    },
+    {
+      "word": "decision-making",
+      "wordType": "noun",
+      "ipa": "/dɪˈsɪʒ·ənˌmeɪ·kɪŋ/"
+    },
+    {
+      "word": "decisive",
+      "wordType": "adjective",
+      "ipa": "/dɪˈsaɪsɪv/"
+    },
+    {
+      "word": "declaration",
+      "wordType": "noun",
+      "ipa": "/ˌdɛkləˈɹeɪʃən/"
+    },
+    {
+      "word": "dedicated",
+      "wordType": "verb, adjective",
+      "ipa": "/ˈdɛdɪkeɪtəd/"
+    },
+    {
+      "word": "dedication",
+      "wordType": "noun",
+      "ipa": "/ˌdɛdɪˈkeɪʃən/"
+    },
+    {
+      "word": "deed",
+      "wordType": "noun, verb",
+      "ipa": "/diːd/"
+    },
+    {
+      "word": "deem",
+      "wordType": "noun, verb",
+      "ipa": "/diːm/, /dim/"
+    },
+    {
+      "word": "default",
+      "wordType": "noun, verb",
+      "ipa": "/dɪˈfɔːlt/, /dɪˈfɑlt/"
+    },
+    {
+      "word": "defect",
+      "wordType": "noun, verb",
+      "ipa": "/ˈdiː.fekt/"
+    },
+    {
+      "word": "defensive",
+      "wordType": "noun, adjective",
+      "ipa": "/dɪˈfɛnsɪv/"
+    },
+    {
+      "word": "deficiency",
+      "wordType": "noun",
+      "ipa": "/dɪˈfɪʃənsi/"
+    },
+    {
+      "word": "deficit",
+      "wordType": "noun",
+      "ipa": "/ˈdɛfɪsɪt/, /ˈdɛfəsɪt/"
+    },
+    {
+      "word": "defy",
+      "wordType": "noun, verb",
+      "ipa": "/dɪˈfaɪ/"
+    },
+    {
+      "word": "delegate",
+      "wordType": "noun, verb",
+      "ipa": "/ˈdel.ə.ɡət/"
+    },
+    {
+      "word": "delegation",
+      "wordType": "noun",
+      "ipa": "/dɛlɪˈɡeɪʃən/"
+    },
+    {
+      "word": "delicate",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈdɛlɪkət/"
+    },
+    {
+      "word": "demon",
+      "wordType": "noun",
+      "ipa": "/ˈdiː.mən/"
+    },
+    {
+      "word": "denial",
+      "wordType": "noun",
+      "ipa": "/dɪˈnaɪ.əl/"
+    },
+    {
+      "word": "denounce",
+      "wordType": "verb",
+      "ipa": "/diˈnaʊns/"
+    },
+    {
+      "word": "dense",
+      "wordType": "noun, adjective",
+      "ipa": "/dɛns/"
+    },
+    {
+      "word": "density",
+      "wordType": "noun",
+      "ipa": "/ˈdɛn.sə.ti/"
+    },
+    {
+      "word": "dependence",
+      "wordType": "noun",
+      "ipa": "/dɪˈpɛndəns/"
+    },
+    {
+      "word": "depict",
+      "wordType": "verb, adjective",
+      "ipa": "/dɪˈpɪkt/"
+    },
+    {
+      "word": "deploy",
+      "wordType": "noun, verb",
+      "ipa": "/dɪˈplɔɪ/"
+    },
+    {
+      "word": "deployment",
+      "wordType": "noun",
+      "ipa": "/dɪˈplɔɪmənt/"
+    },
+    {
+      "word": "deposit",
+      "wordType": "noun, verb",
+      "ipa": "/dɪˈpɒzɪt/, /dɨˈpɑzɪt/"
+    },
+    {
+      "word": "deprive",
+      "wordType": "verb",
+      "ipa": "/dɪˈpɹaɪv/"
+    },
+    {
+      "word": "deputy",
+      "wordType": "noun, verb",
+      "ipa": "/ˈdɛpjəti/"
+    },
+    {
+      "word": "descend",
+      "wordType": "verb",
+      "ipa": "/dɪˈsɛnd/"
+    },
+    {
+      "word": "descent",
+      "wordType": "noun",
+      "ipa": "/dɪˈsɛnt/"
+    },
+    {
+      "word": "designate",
+      "wordType": "verb, adjective",
+      "ipa": "/ˈdɛzɪɡ.neɪt/"
+    },
+    {
+      "word": "desirable",
+      "wordType": "noun, adjective",
+      "ipa": "/dɪˈzaɪəɹəbəl/"
+    },
+    {
+      "word": "desktop",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈdesk.tɑːp/"
+    },
+    {
+      "word": "destructive",
+      "wordType": "adjective",
+      "ipa": "/dɪˈstɹʊktɪv/"
+    },
+    {
+      "word": "detain",
+      "wordType": "verb",
+      "ipa": "/dɪˈteɪn/"
+    },
+    {
+      "word": "detection",
+      "wordType": "noun",
+      "ipa": "/dəˈtɛkʃən/"
+    },
+    {
+      "word": "detention",
+      "wordType": "noun",
+      "ipa": "/dɪˈtɛnʃən/"
+    },
+    {
+      "word": "deteriorate",
+      "wordType": "verb",
+      "ipa": "/dɪˈtɪəɹɪəɹeɪt/"
+    },
+    {
+      "word": "devastate",
+      "wordType": "verb",
+      "ipa": "/ˈdɛvəsteɪt/"
+    },
+    {
+      "word": "devil",
+      "wordType": "noun, verb",
+      "ipa": "/ˈdɛvəl/"
+    },
+    {
+      "word": "devise",
+      "wordType": "noun, verb",
+      "ipa": "/dɪˈvaɪz/"
+    },
+    {
+      "word": "diagnose",
+      "wordType": "verb",
+      "ipa": "/daɪəɡˈnəʊz/, /daɪəɡˈnoʊs/"
+    },
+    {
+      "word": "diagnosis",
+      "wordType": "verb, noun",
+      "ipa": "/daɪəɡˈnəʊsɪs/"
+    },
+    {
+      "word": "dictate",
+      "wordType": "noun, verb",
+      "ipa": "/ˈdɪkˌteɪt/"
+    },
+    {
+      "word": "dictator",
+      "wordType": "noun",
+      "ipa": "/dɪkˈteɪtə(ɹ)/, /ˈdɪkteɪtəɹ/"
+    },
+    {
+      "word": "differentiate",
+      "wordType": "noun, verb",
+      "ipa": "/dɪf.əˈɹɛn.ʃi.eɪt/, /ˌdɪ.fəˈɹɛnt.ʃi.eɪt/"
+    },
+    {
+      "word": "dignity",
+      "wordType": "noun",
+      "ipa": "/ˈdɪɡnɪti/"
+    },
+    {
+      "word": "dilemma",
+      "wordType": "noun",
+      "ipa": "/daɪˈlɛmə/"
+    },
+    {
+      "word": "dimension",
+      "wordType": "noun, verb",
+      "ipa": "/daɪˈmɛnʃən/"
+    },
+    {
+      "word": "diminish",
+      "wordType": "verb",
+      "ipa": "/dɪˈmɪnɪʃ/"
+    },
+    {
+      "word": "dip",
+      "wordType": "noun, verb",
+      "ipa": "/dɪp/"
+    },
+    {
+      "word": "diplomat",
+      "wordType": "noun",
+      "ipa": "/ˈdɪ.plə.mæt/"
+    },
+    {
+      "word": "diplomatic",
+      "wordType": "noun, adjective",
+      "ipa": "/ˌdɪpləˈmætɪk/"
+    },
+    {
+      "word": "directory",
+      "wordType": "noun, adjective",
+      "ipa": "/daɪˈɹɛktəɹi/"
+    },
+    {
+      "word": "disastrous",
+      "wordType": "adjective",
+      "ipa": "/dɪˈzɑːstɹəs/"
+    },
+    {
+      "word": "discard",
+      "wordType": "noun, verb",
+      "ipa": "/ˈdɪskɑːd/, /dɪsˈkɑːd/"
+    },
+    {
+      "word": "discharge",
+      "wordType": "noun, verb",
+      "ipa": "/ˈdɪstʃɑːdʒ/, /dɪsˈtʃɑːdʒ/"
+    },
+    {
+      "word": "disclose",
+      "wordType": "noun, verb",
+      "ipa": "/dɪsˈkləʊz/"
+    },
+    {
+      "word": "disclosure",
+      "wordType": "noun",
+      "ipa": "/dɪsˈkləʊʒə(ɹ)/, /dɪsˈkloʊʒɚ/"
+    },
+    {
+      "word": "discourse",
+      "wordType": "noun, verb",
+      "ipa": "/dɪsˈkɔː(ɹ)s/"
+    },
+    {
+      "word": "discretion",
+      "wordType": "noun",
+      "ipa": "/dɪˈskɹɛʃən/"
+    },
+    {
+      "word": "discrimination",
+      "wordType": "noun",
+      "ipa": "/dɪskɹɪmɪˈneɪʃən/"
+    },
+    {
+      "word": "dismissal",
+      "wordType": "noun",
+      "ipa": "/dɪˈsmɪs.əl/"
+    },
+    {
+      "word": "displace",
+      "wordType": "verb",
+      "ipa": "/dɪsˈpleɪs/"
+    },
+    {
+      "word": "disposal",
+      "wordType": "noun",
+      "ipa": "/dɪˈspoʊ.zəl/"
+    },
+    {
+      "word": "dispose",
+      "wordType": "noun, verb",
+      "ipa": "/dɪˈspəʊz/, /dɪsˈpoʊz/"
+    },
+    {
+      "word": "dispute",
+      "wordType": "noun, verb",
+      "ipa": "/ˈdɪs.pjuːt/, /dɪsˈpjuːt/"
+    },
+    {
+      "word": "disrupt",
+      "wordType": "verb, adjective",
+      "ipa": "/dɪsˈɹʌpt/"
+    },
+    {
+      "word": "disruption",
+      "wordType": "noun",
+      "ipa": "/dɪsˈɹʌpʃən/"
+    },
+    {
+      "word": "dissolve",
+      "wordType": "noun, verb",
+      "ipa": "/dɪˈzɒlv/, /dɪˈzɑlv/"
+    },
+    {
+      "word": "distinction",
+      "wordType": "noun",
+      "ipa": "/dɪˈstɪŋkʃən/"
+    },
+    {
+      "word": "distinctive",
+      "wordType": "noun, adjective",
+      "ipa": "/dɪˈstɪŋktɪv/"
+    },
+    {
+      "word": "distort",
+      "wordType": "verb, adjective",
+      "ipa": "/dɪsˈtɔːt/, /dɪsˈtɔɹt/"
+    },
+    {
+      "word": "distress",
+      "wordType": "noun, verb",
+      "ipa": "/dɪˈstɹɛs/"
+    },
+    {
+      "word": "disturbing",
+      "wordType": "verb, adjective",
+      "ipa": "/dɪsˈtɜːbɪŋ/"
+    },
+    {
+      "word": "divert",
+      "wordType": "verb",
+      "ipa": "/daɪˈvɜːt/, /daɪˈvɝt/"
+    },
+    {
+      "word": "divine",
+      "wordType": "noun, adjective",
+      "ipa": "/dɪˈvaɪn/"
+    },
+    {
+      "word": "doctrine",
+      "wordType": "noun",
+      "ipa": "/ˈdɒktɹɪn/, /ˈdɑktɹɪn/"
+    },
+    {
+      "word": "documentation",
+      "wordType": "noun",
+      "ipa": "/ˌdɒkjʊmənˈteɪʃən/, /ˌdɑkjəmənˈteɪʃən/"
+    },
+    {
+      "word": "domain",
+      "wordType": "noun",
+      "ipa": "/dəʊˈmeɪn/, /doʊˈmeɪn/"
+    },
+    {
+      "word": "dominance",
+      "wordType": "noun",
+      "ipa": "/ˈdɒmɪnəns/, /ˈdɑːmɪnəns/"
+    },
+    {
+      "word": "donor",
+      "wordType": "noun",
+      "ipa": "/ˈdəʊnə/, /ˈdoʊnɚ/"
+    },
+    {
+      "word": "dose",
+      "wordType": "noun",
+      "ipa": "/doʊs/"
+    },
+    {
+      "word": "drain",
+      "wordType": "noun, verb",
+      "ipa": "/dɹeɪn/"
+    },
+    {
+      "word": "drift",
+      "wordType": "noun, verb",
+      "ipa": "/dɹɪft/"
+    },
+    {
+      "word": "driving",
+      "wordType": "verb, adjective",
+      "ipa": "/ˈdɹaɪvɪŋ/"
+    },
+    {
+      "word": "drown",
+      "wordType": "verb",
+      "ipa": "/dɹaʊn/"
+    },
+    {
+      "word": "dual",
+      "wordType": "noun, verb",
+      "ipa": "/ˈdjuː.əl/, /ˈd(j)uː.əl/"
+    },
+    {
+      "word": "dub",
+      "wordType": "verb, noun",
+      "ipa": "/dʌb/"
+    },
+    {
+      "word": "dumb",
+      "wordType": "adjective, verb",
+      "ipa": "/dʌm/"
+    },
+    {
+      "word": "duo",
+      "wordType": "noun",
+      "ipa": "/ˈdjuː.əʊ/, /ˈdju.oʊ/"
+    },
+    {
+      "word": "dynamic",
+      "wordType": "noun, adjective",
+      "ipa": "/daɪˈnæ.mɪk/"
+    },
+    {
+      "word": "eager",
+      "wordType": "adjective, noun",
+      "ipa": "/ˈiːɡə/, /ˈiɡɚ/"
+    },
+    {
+      "word": "earnings",
+      "wordType": "noun",
+      "ipa": "/ˈɝː.nɪŋz/"
+    },
+    {
+      "word": "ease",
+      "wordType": "noun, verb",
+      "ipa": "/iːz/, /iz/"
+    },
+    {
+      "word": "echo",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɛkəʊ/, /ˈɛkoʊ/"
+    },
+    {
+      "word": "ecological",
+      "wordType": "adjective",
+      "ipa": "/ˌiːkəˈlɒd͡ʒɪkl̩/"
+    },
+    {
+      "word": "educator",
+      "wordType": "noun",
+      "ipa": "/ˈɛdjʊkeɪtə/, /ˈɛdʒəkeɪtɚ/"
+    },
+    {
+      "word": "effectiveness",
+      "wordType": "noun",
+      "ipa": "/əˈfek.tɪv.nəs/"
+    },
+    {
+      "word": "efficiency",
+      "wordType": "noun",
+      "ipa": "/ɪˈfɪʃn̩si/"
+    },
+    {
+      "word": "ego",
+      "wordType": "noun",
+      "ipa": "/ˈiːɡəʊ/, /ˈiɡoʊ/"
+    },
+    {
+      "word": "elaborate",
+      "wordType": "verb, adjective",
+      "ipa": "/ɪˈlæbəɹeɪt/"
+    },
+    {
+      "word": "electoral",
+      "wordType": "adjective",
+      "ipa": "/iˈlek.tɚ.əl/"
+    },
+    {
+      "word": "elevate",
+      "wordType": "verb, adjective",
+      "ipa": "/ˈɛləveɪt/"
+    },
+    {
+      "word": "eligible",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈɛlɪdʒəb(ə)l/"
+    },
+    {
+      "word": "elite",
+      "wordType": "noun, adjective",
+      "ipa": "/eɪˈliːt/"
+    },
+    {
+      "word": "embark",
+      "wordType": "verb",
+      "ipa": "/ɛmˈbɑːk/, /ɛmˈbɑɹk/"
+    },
+    {
+      "word": "embarrassment",
+      "wordType": "noun",
+      "ipa": "/ɪmˈbæɹəsmənt/"
+    },
+    {
+      "word": "embassy",
+      "wordType": "noun",
+      "ipa": "/ˈɛmbəsi/"
+    },
+    {
+      "word": "embed",
+      "wordType": "noun, verb",
+      "ipa": "/əmˈbɛd/"
+    },
+    {
+      "word": "embody",
+      "wordType": "verb",
+      "ipa": "/ɪmˈbɒdi/"
+    },
+    {
+      "word": "emergence",
+      "wordType": "noun",
+      "ipa": "/ɪˈmɝː.dʒəns/"
+    },
+    {
+      "word": "empirical",
+      "wordType": "adjective",
+      "ipa": "/ɪmˈpɪɹɪkəl/"
+    },
+    {
+      "word": "empower",
+      "wordType": "verb",
+      "ipa": "/ɪmˈpaʊ.ɚ/"
+    },
+    {
+      "word": "enact",
+      "wordType": "noun, verb",
+      "ipa": "/ɪˈnækt/"
+    },
+    {
+      "word": "encompass",
+      "wordType": "verb",
+      "ipa": "/ɛnˈkʌm.pəs/"
+    },
+    {
+      "word": "encouragement",
+      "wordType": "noun",
+      "ipa": "/ɪnˈkɝː.ɪdʒ.mənt/"
+    },
+    {
+      "word": "encouraging",
+      "wordType": "verb, noun",
+      "ipa": "/ɪnˈkʌɹɪd͡ʒɪŋ/, /ɪnˈkɝɹɪd͡ʒɪŋ/"
+    },
+    {
+      "word": "endeavour",
+      "wordType": "noun, verb",
+      "ipa": "/ɪnˈdɛv.ə/, /ɪnˈdɛv.ɚ/"
+    },
+    {
+      "word": "endless",
+      "wordType": "adjective",
+      "ipa": "/ˈɛndləs/"
+    },
+    {
+      "word": "endorse",
+      "wordType": "noun, verb",
+      "ipa": "/ɪnˈdɔːs/, /ɛnˈdɔɹs/"
+    },
+    {
+      "word": "endorsement",
+      "wordType": "noun",
+      "ipa": "/ɪnˈdɔːrs.mənt/"
+    },
+    {
+      "word": "endure",
+      "wordType": "verb",
+      "ipa": "/ɪnˈdjɔː(ɹ)/, /ɪnˈd(j)ʊɹ/"
+    },
+    {
+      "word": "enforce",
+      "wordType": "verb",
+      "ipa": "/ɪnˈfɔːs/, /ɪnˈfɔɹs/"
+    },
+    {
+      "word": "enforcement",
+      "wordType": "noun",
+      "ipa": "/ɪnˈfɔːrs.mənt/"
+    },
+    {
+      "word": "engagement",
+      "wordType": "noun",
+      "ipa": "/ɪnˈɡeɪd͡ʒ.mənt/"
+    },
+    {
+      "word": "engaging",
+      "wordType": "verb, adjective",
+      "ipa": "/ɪnˈɡeɪd͡ʒɪŋ/"
+    },
+    {
+      "word": "enquire",
+      "wordType": "verb",
+      "ipa": "/ɪŋˈkwaɪə/, /ɪŋˈkwaɪɹ/"
+    },
+    {
+      "word": "enrich",
+      "wordType": "verb",
+      "ipa": "/ɪnˈɹɪt͡ʃ/"
+    },
+    {
+      "word": "enrol",
+      "wordType": "verb",
+      "ipa": "/ɪnˈroʊl/"
+    },
+    {
+      "word": "ensue",
+      "wordType": "verb",
+      "ipa": "/ɛnˈsjʉː/, /ɛnˈsjuː/"
+    },
+    {
+      "word": "enterprise",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɛntɚˌpɹaɪz/"
+    },
+    {
+      "word": "enthusiast",
+      "wordType": "noun",
+      "ipa": "/ɪnˈθuː.zi.æst/"
+    },
+    {
+      "word": "entitle",
+      "wordType": "verb",
+      "ipa": "/ənˈtaɪtəl/, /ənˈtaɪ.təl/"
+    },
+    {
+      "word": "entity",
+      "wordType": "noun",
+      "ipa": "/ˈen.tɪ.ti/"
+    },
+    {
+      "word": "epidemic",
+      "wordType": "noun, adjective",
+      "ipa": "/ˌɛpɪˈdɛmɪk/"
+    },
+    {
+      "word": "equality",
+      "wordType": "noun",
+      "ipa": "/ɪˈkwɒl.ɪ.ti/, /ɪˈkwɑl.ɪ.ti/"
+    },
+    {
+      "word": "equation",
+      "wordType": "noun",
+      "ipa": "/ɪˈkweɪʃən/"
+    },
+    {
+      "word": "erect",
+      "wordType": "adjective, verb",
+      "ipa": "/ɪˈɹɛkt/"
+    },
+    {
+      "word": "escalate",
+      "wordType": "verb",
+      "ipa": "/ˈɛs.kə.leɪt/"
+    },
+    {
+      "word": "essence",
+      "wordType": "noun",
+      "ipa": "/ˈɛsəns/"
+    },
+    {
+      "word": "establishment",
+      "wordType": "noun",
+      "ipa": "/ɪˈstæblɪʃmənt/"
+    },
+    {
+      "word": "eternal",
+      "wordType": "noun, adjective",
+      "ipa": "/ɪˈtɜːnəl/, /ɪˈtɝnəl/"
+    },
+    {
+      "word": "evacuate",
+      "wordType": "verb",
+      "ipa": "/ɪˈvæk.ju.eɪt/"
+    },
+    {
+      "word": "evoke",
+      "wordType": "verb",
+      "ipa": "/ɪˈvəʊk/, /ɪˈvoʊk/"
+    },
+    {
+      "word": "evolutionary",
+      "wordType": "adjective",
+      "ipa": "/ˌevəˈl(j)uːʃənɹi/, /ˌevəˈluːʃəneɹi/"
+    },
+    {
+      "word": "exaggerate",
+      "wordType": "verb",
+      "ipa": "/ɛɡˈzæ.dʒə.ɹeɪt/"
+    },
+    {
+      "word": "excellence",
+      "wordType": "noun",
+      "ipa": "/ˈɛksələns/"
+    },
+    {
+      "word": "exceptional",
+      "wordType": "noun, adjective",
+      "ipa": "/ɪkˈsɛpʃənəl/"
+    },
+    {
+      "word": "excess",
+      "wordType": "noun, verb",
+      "ipa": "/əkˈsɛs/"
+    },
+    {
+      "word": "exclusion",
+      "wordType": "noun",
+      "ipa": "/ɪksˈkluːʒən/"
+    },
+    {
+      "word": "exclusive",
+      "wordType": "noun, adjective",
+      "ipa": "/ɪkˈsklu.sɪv/"
+    },
+    {
+      "word": "exclusively",
+      "wordType": "adverb",
+      "ipa": "/ɪkˈskluːsɪvli/"
+    },
+    {
+      "word": "execute",
+      "wordType": "verb",
+      "ipa": "/ˈɛksɪˌkjuːt/"
+    },
+    {
+      "word": "execution",
+      "wordType": "noun",
+      "ipa": "/ˌek.sɪˈkjuː.ʃən/"
+    },
+    {
+      "word": "exert",
+      "wordType": "verb",
+      "ipa": "/ɪɡˈzɜːt/, /ɪɡˈzɝt/"
+    },
+    {
+      "word": "exile",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɛkˌsaɪl/"
+    },
+    {
+      "word": "expenditure",
+      "wordType": "noun",
+      "ipa": "/ɛkˈspɛndɪt͡ʃə/, /ɛkˈspɛndɪt͡ʃɚ/"
+    },
+    {
+      "word": "experimental",
+      "wordType": "noun, adjective",
+      "ipa": "/ɨkspɛɹəˈmɛntəl/"
+    },
+    {
+      "word": "expire",
+      "wordType": "verb",
+      "ipa": "/ɛkˈspaɪ.ə(ɹ)/"
+    },
+    {
+      "word": "explicit",
+      "wordType": "adjective",
+      "ipa": "/ɪkˈsplɪsɪt/"
+    },
+    {
+      "word": "explicitly",
+      "wordType": "adverb",
+      "ipa": "/ɪkˈsplɪs.ɪt.li/"
+    },
+    {
+      "word": "exploitation",
+      "wordType": "noun",
+      "ipa": "/ˌɛksplɔɪˈteɪʃn̩/"
+    },
+    {
+      "word": "explosive",
+      "wordType": "noun, adjective",
+      "ipa": "/ɪkˈsploʊ.sɪv/"
+    },
+    {
+      "word": "extract",
+      "wordType": "noun, verb",
+      "ipa": "/ɪkˈstrækt/"
+    },
+    {
+      "word": "extremist",
+      "wordType": "noun, adjective",
+      "ipa": "/ɛkˈstɹiːmɪst/"
+    },
+    {
+      "word": "facilitate",
+      "wordType": "verb",
+      "ipa": "/fəˈsɪləteɪt/"
+    },
+    {
+      "word": "faction",
+      "wordType": "noun",
+      "ipa": "/ˈfæk.ʃn̩/"
+    },
+    {
+      "word": "faculty",
+      "wordType": "noun",
+      "ipa": "/ˈfæ.kəl.ti/"
+    },
+    {
+      "word": "fade",
+      "wordType": "noun, verb",
+      "ipa": "/feɪd/"
+    },
+    {
+      "word": "fairness",
+      "wordType": "noun",
+      "ipa": "/ˈfer.nəs/"
+    },
+    {
+      "word": "fatal",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈfeɪ.t̬əl/"
+    },
+    {
+      "word": "fate",
+      "wordType": "noun, verb",
+      "ipa": "/feɪt/"
+    },
+    {
+      "word": "favourable",
+      "wordType": "adjective",
+      "ipa": "/ˈfeɪv(ə)ɹəbəl/"
+    },
+    {
+      "word": "feat",
+      "wordType": "noun, verb",
+      "ipa": "/fiːt/"
+    },
+    {
+      "word": "feeding",
+      "wordType": "verb, noun",
+      "ipa": "/ˈfiːdɪŋ/"
+    },
+    {
+      "word": "feminist",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈfɛmənɪst/"
+    },
+    {
+      "word": "fibre",
+      "wordType": "noun",
+      "ipa": "/ˈfaɪ.bə(ɹ)/"
+    },
+    {
+      "word": "fierce",
+      "wordType": "adjective, adverb",
+      "ipa": "/fɪəs/, /fɪɹs/"
+    },
+    {
+      "word": "film",
+      "wordType": "noun, verb",
+      "ipa": "/fɪlm/"
+    },
+    {
+      "word": "filter",
+      "wordType": "noun, verb",
+      "ipa": "/ˈfɪltə/, /ˈfɪltɚ/"
+    },
+    {
+      "word": "fine",
+      "wordType": "noun, verb",
+      "ipa": "/fæːn/, /faɪn/"
+    },
+    {
+      "word": "firearm",
+      "wordType": "noun",
+      "ipa": "/ˈfaɪr.ɑːrm/"
+    },
+    {
+      "word": "fit",
+      "wordType": "noun, verb",
+      "ipa": "/fɪt/"
+    },
+    {
+      "word": "fixture",
+      "wordType": "noun, verb",
+      "ipa": "/ˈfɪkstʃə/, /ˈfɪkstʃɚ/"
+    },
+    {
+      "word": "flaw",
+      "wordType": "noun, verb",
+      "ipa": "/ˈflɔː/, /ˈflɔ/"
+    },
+    {
+      "word": "flawed",
+      "wordType": "adjective",
+      "ipa": "/flɑːd/"
+    },
+    {
+      "word": "flee",
+      "wordType": "verb",
+      "ipa": "/fliː/"
+    },
+    {
+      "word": "fleet",
+      "wordType": "noun, verb",
+      "ipa": "/fliːt/, /flit/"
+    },
+    {
+      "word": "flesh",
+      "wordType": "noun, verb",
+      "ipa": "/flɛʃ/"
+    },
+    {
+      "word": "flexibility",
+      "wordType": "noun",
+      "ipa": "/ˌflek.səˈbɪl.ə.t̬i/"
+    },
+    {
+      "word": "flourish",
+      "wordType": "noun, verb",
+      "ipa": "/ˈflʌ.ɹɪʃ/"
+    },
+    {
+      "word": "fluid",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈfluːɪd/"
+    },
+    {
+      "word": "footage",
+      "wordType": "noun",
+      "ipa": "/ˈfʊtɪd͡ʒ/"
+    },
+    {
+      "word": "foreigner",
+      "wordType": "noun",
+      "ipa": "/ˈfɒɹ.ɪ.nə(ɹ)/, /ˈfɑɹ.ɪ.nɚ/"
+    },
+    {
+      "word": "forge",
+      "wordType": "noun, verb",
+      "ipa": "/fɔːd͡ʒ/, /fɔɹd͡ʒ/"
+    },
+    {
+      "word": "formula",
+      "wordType": "noun",
+      "ipa": "/ˈfɔː.mjʊ.lə/, /ˈfɔɹ.mjə.lə/"
+    },
+    {
+      "word": "formulate",
+      "wordType": "verb",
+      "ipa": "/ˈfɔːr.mjə.leɪt/"
+    },
+    {
+      "word": "forth",
+      "wordType": "adverb, preposition",
+      "ipa": "/fɔːθ/, /fɔɹθ/"
+    },
+    {
+      "word": "forthcoming",
+      "wordType": "noun, adjective",
+      "ipa": "/fɔːθˈkʌmɪŋ/, /fɔɹθˈkʌmɪŋ/"
+    },
+    {
+      "word": "foster",
+      "wordType": "noun, verb",
+      "ipa": "/ˈfɒstə/, /ˈfɑstɚ/"
+    },
+    {
+      "word": "fragile",
+      "wordType": "adjective",
+      "ipa": "/ˈfɹædʒaɪl/, /ˈfɹædʒəl/"
+    },
+    {
+      "word": "franchise",
+      "wordType": "noun, verb",
+      "ipa": "/ˈfɹænt͡ʃaɪ̯z/"
+    },
+    {
+      "word": "frankly",
+      "wordType": "adverb",
+      "ipa": "/ˈfɹæŋkli/"
+    },
+    {
+      "word": "frustrated",
+      "wordType": "verb, adjective",
+      "ipa": "/fɹəsˈtɹeɪt.ɪd/, /ˈfɹʌs.tɹeɪt.ɪd/"
+    },
+    {
+      "word": "frustrating",
+      "wordType": "verb, adjective",
+      "ipa": "/fɹʌˈstɹeɪ̯tɪŋ/"
+    },
+    {
+      "word": "frustration",
+      "wordType": "noun",
+      "ipa": "/fɹʌsˈtɹeɪʃən/"
+    },
+    {
+      "word": "functional",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈfʌŋk(t)ʃnəl/"
+    },
+    {
+      "word": "fundraising",
+      "wordType": "noun",
+      "ipa": "/ˈfʌndˌɹeɪzɪŋ/"
+    },
+    {
+      "word": "funeral",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈfjuːnəɹəl/, /ˈfjunəɹəl/"
+    },
+    {
+      "word": "gallon",
+      "wordType": "noun",
+      "ipa": "/ˈɡælən/"
+    },
+    {
+      "word": "gambling",
+      "wordType": "verb, noun",
+      "ipa": "/ˈɡæm.blɪŋ/"
+    },
+    {
+      "word": "gathering",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɡæ.ðə.ɹɪŋ/"
+    },
+    {
+      "word": "gaze",
+      "wordType": "noun, verb",
+      "ipa": "/ɡeɪz/"
+    },
+    {
+      "word": "gear",
+      "wordType": "noun, verb",
+      "ipa": "/ɡɪə(ɹ)/, /ɡɪɚ/"
+    },
+    {
+      "word": "generic",
+      "wordType": "noun, adjective",
+      "ipa": "/dʒɪˈnɛɹɪk/"
+    },
+    {
+      "word": "genocide",
+      "wordType": "noun, verb",
+      "ipa": "/ˈd͡ʒɛnəsaɪd/"
+    },
+    {
+      "word": "glance",
+      "wordType": "noun, verb",
+      "ipa": "/ɡlɑːns/, /ɡlæns/"
+    },
+    {
+      "word": "glimpse",
+      "wordType": "noun, verb",
+      "ipa": "/ɡlɪmps/"
+    },
+    {
+      "word": "glorious",
+      "wordType": "adjective",
+      "ipa": "/ˈɡlɔː.ɹi.əs/, /ˈɡlɔɹ.i.əs/"
+    },
+    {
+      "word": "glory",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɡlo(ː)ɹi/"
+    },
+    {
+      "word": "governance",
+      "wordType": "noun",
+      "ipa": "/ˈɡʌvənəns/, /ˈɡʌvəɹnəns/"
+    },
+    {
+      "word": "grace",
+      "wordType": "noun, verb",
+      "ipa": "/ɡɹeɪs/"
+    },
+    {
+      "word": "grasp",
+      "wordType": "noun, verb",
+      "ipa": "/ɡɹɑːsp/, /ɡɹæsp/"
+    },
+    {
+      "word": "grave",
+      "wordType": "noun, verb",
+      "ipa": "/ɡɹeɪv/"
+    },
+    {
+      "word": "gravity",
+      "wordType": "noun",
+      "ipa": "/ˈɡɹævɪti/"
+    },
+    {
+      "word": "grid",
+      "wordType": "noun, verb",
+      "ipa": "/ɡɹɪd/"
+    },
+    {
+      "word": "grief",
+      "wordType": "noun, verb",
+      "ipa": "/ɡɹiːf/"
+    },
+    {
+      "word": "grin",
+      "wordType": "noun, verb",
+      "ipa": "/ɡɹɪn/"
+    },
+    {
+      "word": "grind",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɡɹaɪnd/, /ˈɡɹɪnd/"
+    },
+    {
+      "word": "grip",
+      "wordType": "verb, noun",
+      "ipa": "/ɡɹɪp/"
+    },
+    {
+      "word": "guerrilla",
+      "wordType": "noun, adjective",
+      "ipa": "/ɡəˈɹɪlə/"
+    },
+    {
+      "word": "guidance",
+      "wordType": "noun",
+      "ipa": "/ˈɡaɪdəns/"
+    },
+    {
+      "word": "guilt",
+      "wordType": "noun, verb",
+      "ipa": "/ɡɪlt/"
+    },
+    {
+      "word": "gut",
+      "wordType": "noun, verb",
+      "ipa": "/ɡʌt/"
+    },
+    {
+      "word": "hail",
+      "wordType": "noun, verb",
+      "ipa": "/heɪl/"
+    },
+    {
+      "word": "halfway",
+      "wordType": "adverb",
+      "ipa": "/hɑːfˈweɪ/, /hæfweɪ/"
+    },
+    {
+      "word": "halt",
+      "wordType": "verb, noun",
+      "ipa": "/hɔːlt/"
+    },
+    {
+      "word": "handful",
+      "wordType": "noun",
+      "ipa": "/ˈhæn(d)fəl/"
+    },
+    {
+      "word": "handling",
+      "wordType": "noun, verb",
+      "ipa": "/ˈhændlɪŋ/"
+    },
+    {
+      "word": "handy",
+      "wordType": "adjective, noun",
+      "ipa": "/ˈhæn.di/"
+    },
+    {
+      "word": "harassment",
+      "wordType": "noun",
+      "ipa": "/həˈɹæsmənt/"
+    },
+    {
+      "word": "hardware",
+      "wordType": "noun",
+      "ipa": "/ˈhɑːdˌwɛə/, /ˈhɑɹdˌwɛɹ/"
+    },
+    {
+      "word": "harmony",
+      "wordType": "noun",
+      "ipa": "/ˈhɑːməni/, /ˈhɑɹməni/"
+    },
+    {
+      "word": "harsh",
+      "wordType": "verb, adjective",
+      "ipa": "/hɑːʃ/, /hɑɹʃ/"
+    },
+    {
+      "word": "harvest",
+      "wordType": "noun, verb",
+      "ipa": "/ˈhaːvəst/, /ˈhɑː(ɹ)vəst/"
+    },
+    {
+      "word": "hatred",
+      "wordType": "noun",
+      "ipa": "/ˈheɪtɹɪd/"
+    },
+    {
+      "word": "haunt",
+      "wordType": "noun, verb",
+      "ipa": "/hænt/"
+    },
+    {
+      "word": "hazard",
+      "wordType": "noun, verb",
+      "ipa": "/ˈhazəd/, /ˈhæzɚd/"
+    },
+    {
+      "word": "heighten",
+      "wordType": "verb",
+      "ipa": "/ˈhaɪtən/"
+    },
+    {
+      "word": "heritage",
+      "wordType": "noun",
+      "ipa": "/ˈhɛɹɪtɪd͡ʒ/"
+    },
+    {
+      "word": "hierarchy",
+      "wordType": "noun",
+      "ipa": "/ˈhaɪ.ə.ɹɑː(ɹ).ki/"
+    },
+    {
+      "word": "high-profile",
+      "wordType": "adjective",
+      "ipa": "/ˌhaɪˈproʊ.faɪl/"
+    },
+    {
+      "word": "hint",
+      "wordType": "noun, verb",
+      "ipa": "/hɪnt/"
+    },
+    {
+      "word": "homeland",
+      "wordType": "noun",
+      "ipa": "/ˈhoʊm.lænd/"
+    },
+    {
+      "word": "hook",
+      "wordType": "noun, verb",
+      "ipa": "/huːk/"
+    },
+    {
+      "word": "hopeful",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈhəʊpfəl/, /ˈhoʊpfəl/"
+    },
+    {
+      "word": "horizon",
+      "wordType": "noun",
+      "ipa": "/həˈɹaɪzən/"
+    },
+    {
+      "word": "horn",
+      "wordType": "noun, verb",
+      "ipa": "/hɔːn/, /hɔɹn/"
+    },
+    {
+      "word": "hostage",
+      "wordType": "noun, verb",
+      "ipa": "/ˈhɒstɪdʒ/, /ˈhɑstɪdʒ/"
+    },
+    {
+      "word": "hostile",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈhɒstaɪl/, /ˈhɑstaɪl/"
+    },
+    {
+      "word": "hostility",
+      "wordType": "noun",
+      "ipa": "/hɒˈstɪlɪti/, /hɑˈstɪlɪti/"
+    },
+    {
+      "word": "humanitarian",
+      "wordType": "noun, adjective",
+      "ipa": "/hjʊˌmæ.nɪˈtɛː.ɹɪ.ən/, /hjuˌmæ.nəˈtɛ.ɹi.ən/"
+    },
+    {
+      "word": "humanity",
+      "wordType": "noun",
+      "ipa": "/hjuˈmænɪti/"
+    },
+    {
+      "word": "humble",
+      "wordType": "noun, verb",
+      "ipa": "/ˈhʌmbəl/, /ˈʌmbəl/"
+    },
+    {
+      "word": "hydrogen",
+      "wordType": "noun",
+      "ipa": "/ˈhaɪdɹədʒ(ə)n/, /ˈhaɪdɹədʒən/"
+    },
+    {
+      "word": "identification",
+      "wordType": "noun",
+      "ipa": "/aɪˌdɛntɪfɪˈkeɪʃən/"
+    },
+    {
+      "word": "ideological",
+      "wordType": "adjective",
+      "ipa": "/ˌaɪ.di.əˈlɑː.dʒɪ.kəl/"
+    },
+    {
+      "word": "ideology",
+      "wordType": "noun",
+      "ipa": "/ˌaɪ.diːˈɒl.ə.d͡ʒiː/, /aɪ.di.ˈɑl.ə.d͡ʒi/"
+    },
+    {
+      "word": "idiot",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈɪd.i.(j)ɪt/"
+    },
+    {
+      "word": "ignorance",
+      "wordType": "noun",
+      "ipa": "/ˈɪɡnəɹəns/"
+    },
+    {
+      "word": "imagery",
+      "wordType": "noun",
+      "ipa": "/-ədʒɹi/"
+    },
+    {
+      "word": "immense",
+      "wordType": "noun, adjective",
+      "ipa": "/ɪˈmɛns/"
+    },
+    {
+      "word": "imminent",
+      "wordType": "adjective",
+      "ipa": "/ˈɪmɪnənt/"
+    },
+    {
+      "word": "implementation",
+      "wordType": "noun",
+      "ipa": "/ˌɪm.plə.menˈteɪ.ʃən/"
+    },
+    {
+      "word": "imprison",
+      "wordType": "verb",
+      "ipa": "/ɪmˈpɹɪzən/"
+    },
+    {
+      "word": "imprisonment",
+      "wordType": "noun",
+      "ipa": "/ɪmˈpɹɪzn̩.mənt/"
+    },
+    {
+      "word": "inability",
+      "wordType": "noun",
+      "ipa": "/ˌɪnəˈbɪlɪti/"
+    },
+    {
+      "word": "inadequate",
+      "wordType": "noun, adjective",
+      "ipa": "/ɪnˈædəkwɪt/"
+    },
+    {
+      "word": "inappropriate",
+      "wordType": "adjective",
+      "ipa": "/ˌɪnəˈpɹəʊpɹi.ət/, /ˌɪnəˈpɹoʊpɹi.ət/"
+    },
+    {
+      "word": "incidence",
+      "wordType": "noun",
+      "ipa": "/ˈɪn.sɪ.dəns/"
+    },
+    {
+      "word": "inclined",
+      "wordType": "verb, adjective",
+      "ipa": "/ɪnˈklaɪnd/"
+    },
+    {
+      "word": "inclusion",
+      "wordType": "noun",
+      "ipa": "/ɪnˈkluːʒən/"
+    },
+    {
+      "word": "incur",
+      "wordType": "verb",
+      "ipa": "/ɪnˈkəː/, /ɪnˈkɝ/"
+    },
+    {
+      "word": "indicator",
+      "wordType": "noun",
+      "ipa": "/ˈɪn.dɪ.ˌkeɪ.tə(ɹ)/"
+    },
+    {
+      "word": "indictment",
+      "wordType": "noun",
+      "ipa": "/ɪnˈdaɪt.mənt/"
+    },
+    {
+      "word": "indigenous",
+      "wordType": "adjective",
+      "ipa": "/ɪnˈdɪdʒɪnəs/, /ɪnˈdɪdʒənəs/"
+    },
+    {
+      "word": "induce",
+      "wordType": "verb",
+      "ipa": "/ɪnˈdjuːs/, /ɪnˈduːs/"
+    },
+    {
+      "word": "indulge",
+      "wordType": "verb",
+      "ipa": "/ɪnˈdʌldʒ/"
+    },
+    {
+      "word": "inequality",
+      "wordType": "noun",
+      "ipa": "/ˌɪnɪˈkwɒlɪti/"
+    },
+    {
+      "word": "infamous",
+      "wordType": "adjective",
+      "ipa": "/ˈɪnfəməs/"
+    },
+    {
+      "word": "infant",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɪn.fənt/"
+    },
+    {
+      "word": "infect",
+      "wordType": "verb, adjective",
+      "ipa": "/ɪnˈfɛkt/"
+    },
+    {
+      "word": "inflict",
+      "wordType": "verb",
+      "ipa": "/ɪnˈflɪkt/"
+    },
+    {
+      "word": "influential",
+      "wordType": "noun, adjective",
+      "ipa": "/ɪnfluˈɛnʃəl/"
+    },
+    {
+      "word": "inherent",
+      "wordType": "adjective",
+      "ipa": "/ɪnˈhɛɹənt/"
+    },
+    {
+      "word": "inhibit",
+      "wordType": "verb",
+      "ipa": "/ɪnˈhɪbɪt/"
+    },
+    {
+      "word": "initiate",
+      "wordType": "noun, verb",
+      "ipa": "/ɪˈnɪʃ.i.eɪt/"
+    },
+    {
+      "word": "inject",
+      "wordType": "verb",
+      "ipa": "/ɪnˈdʒɛkt/"
+    },
+    {
+      "word": "injection",
+      "wordType": "noun",
+      "ipa": "/ɪn.ˈdʒɛk.ʃən/"
+    },
+    {
+      "word": "injustice",
+      "wordType": "noun",
+      "ipa": "/ɪnˈdʒʌs.tɪs/"
+    },
+    {
+      "word": "inmate",
+      "wordType": "noun",
+      "ipa": "/ˈɪn.meɪt/"
+    },
+    {
+      "word": "insertion",
+      "wordType": "noun",
+      "ipa": "/ɪnˈsɝʃən/"
+    },
+    {
+      "word": "insider",
+      "wordType": "noun",
+      "ipa": "/ɪnˈsaɪdɚ/"
+    },
+    {
+      "word": "inspect",
+      "wordType": "verb",
+      "ipa": "/ɪnˈspɛkt/"
+    },
+    {
+      "word": "inspection",
+      "wordType": "noun",
+      "ipa": "/ɪnˈspɛkʃən/"
+    },
+    {
+      "word": "inspiration",
+      "wordType": "noun",
+      "ipa": "/ɪnspɨˈɹeɪʃən/"
+    },
+    {
+      "word": "instinct",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈɪn.stɪŋkt/"
+    },
+    {
+      "word": "institutional",
+      "wordType": "adjective",
+      "ipa": "/-ʃnəl/"
+    },
+    {
+      "word": "instruct",
+      "wordType": "noun, verb",
+      "ipa": "/ˌɪnˈstɹʌkt/"
+    },
+    {
+      "word": "instrumental",
+      "wordType": "noun, adjective",
+      "ipa": "/ɪnstɹəˈmɛntəl/"
+    },
+    {
+      "word": "insufficient",
+      "wordType": "adjective",
+      "ipa": "/ɪnsəˈfɪʃənt/"
+    },
+    {
+      "word": "insult",
+      "wordType": "noun, verb",
+      "ipa": "/ɪnˈsʌlt/"
+    },
+    {
+      "word": "intact",
+      "wordType": "adjective",
+      "ipa": "/ɪnˈtækt/"
+    },
+    {
+      "word": "intake",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɪnteɪk/"
+    },
+    {
+      "word": "integral",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈɪntɪɡɹəl/, /ˈɪntəɡɹəl/"
+    },
+    {
+      "word": "integrated",
+      "wordType": "verb, adjective",
+      "ipa": "/ˈɪn.t̬ə.ɡreɪ.t̬ɪd/"
+    },
+    {
+      "word": "integration",
+      "wordType": "noun",
+      "ipa": "/ɪntəˈɡɹeɪʃən/"
+    },
+    {
+      "word": "integrity",
+      "wordType": "noun",
+      "ipa": "/ɪnˈtɛɡɹəti/"
+    },
+    {
+      "word": "intellectual",
+      "wordType": "noun, adjective",
+      "ipa": "/ˌɪntəˈlɛk(t)ʃʊəl/"
+    },
+    {
+      "word": "intensify",
+      "wordType": "verb",
+      "ipa": "/ɪnˈten.sə.faɪ/"
+    },
+    {
+      "word": "intensity",
+      "wordType": "noun",
+      "ipa": "/ɪnˈtɛnsɪti/"
+    },
+    {
+      "word": "intensive",
+      "wordType": "noun, adjective",
+      "ipa": "/ɪnˈtɛnsɪv/"
+    },
+    {
+      "word": "intent",
+      "wordType": "noun, adjective",
+      "ipa": "/ɪnˈtɛnt/"
+    },
+    {
+      "word": "interactive",
+      "wordType": "noun, adjective",
+      "ipa": "/ɪntɚˈæktɪv/"
+    },
+    {
+      "word": "interface",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɪntəfeɪs/, /ˈɪntɚˌfeɪs/"
+    },
+    {
+      "word": "interfere",
+      "wordType": "verb",
+      "ipa": "/ˌɪntəˈfɪə/, /ˌɪntɚˈfɪɹ/"
+    },
+    {
+      "word": "interference",
+      "wordType": "noun",
+      "ipa": "/ˌɪntəɹˈfiɹɨns/"
+    },
+    {
+      "word": "interim",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈɪntəɹɪm/"
+    },
+    {
+      "word": "interior",
+      "wordType": "noun, adjective",
+      "ipa": "/ɪnˈtɪəɹɪə/, /ɪnˈtɪɹiɚ/"
+    },
+    {
+      "word": "intermediate",
+      "wordType": "noun, verb",
+      "ipa": "/ɪntə(ɹ)ˈmidi.ət/, /ˌɪntɚˈmidi.ət/"
+    },
+    {
+      "word": "intervene",
+      "wordType": "verb",
+      "ipa": "/ˌɪn.t̬ɚˈviːn/"
+    },
+    {
+      "word": "intervention",
+      "wordType": "noun",
+      "ipa": "/ɪntəˈvɛnʃən/, /ɪntɚˈvɛnʃən/"
+    },
+    {
+      "word": "intimate",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɪn.tɪ.mət/"
+    },
+    {
+      "word": "intriguing",
+      "wordType": "verb, noun",
+      "ipa": "/ɪnˈtɹiːɡɪŋ/"
+    },
+    {
+      "word": "investigator",
+      "wordType": "noun",
+      "ipa": "/ɪnˈves.tə.ɡeɪ.t̬ɚ/"
+    },
+    {
+      "word": "invisible",
+      "wordType": "noun, verb",
+      "ipa": "/ɪnˈvɪzəb(ə)l/"
+    },
+    {
+      "word": "invoke",
+      "wordType": "verb",
+      "ipa": "/ɪnˈvoʊk/"
+    },
+    {
+      "word": "involvement",
+      "wordType": "noun",
+      "ipa": "/ɪnˈvɑːlv.mənt/"
+    },
+    {
+      "word": "ironic",
+      "wordType": "adjective",
+      "ipa": "/aɪˈɹɒn.ɪk/"
+    },
+    {
+      "word": "ironically",
+      "wordType": "adverb",
+      "ipa": "/aɪˈrɑː.nɪ.kəl.i/"
+    },
+    {
+      "word": "irony",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈaɪə.ɹən.i/, /ˈaɪ.ɚ.ni/"
+    },
+    {
+      "word": "irrelevant",
+      "wordType": "adjective",
+      "ipa": "irrelevant"
+    },
+    {
+      "word": "isolation",
+      "wordType": "noun",
+      "ipa": "/ˌaɪsəˈleɪʃən/"
+    },
+    {
+      "word": "judicial",
+      "wordType": "noun, adjective",
+      "ipa": "/dʒuˈdɪʃəl/"
+    },
+    {
+      "word": "junction",
+      "wordType": "noun, verb",
+      "ipa": "/ˈdʒʌŋkʃən/"
+    },
+    {
+      "word": "jurisdiction",
+      "wordType": "noun",
+      "ipa": "/d͡ʒɔːɹɪsˈdɪkʃən/, /d͡ʒɝɪsˈdɪkʃən/"
+    },
+    {
+      "word": "just",
+      "wordType": "adjective, adverb",
+      "ipa": "/d͡ʒʌst/"
+    },
+    {
+      "word": "justification",
+      "wordType": "noun",
+      "ipa": "/ˌdʒʌstɪfɪˈkeɪʃən/"
+    },
+    {
+      "word": "kidnap",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkɪd.næp/"
+    },
+    {
+      "word": "kidney",
+      "wordType": "noun",
+      "ipa": "/ˈkɪdni/"
+    },
+    {
+      "word": "kingdom",
+      "wordType": "noun",
+      "ipa": "/ˈkɪŋdəm/"
+    },
+    {
+      "word": "lad",
+      "wordType": "noun",
+      "ipa": "/læd/"
+    },
+    {
+      "word": "landlord",
+      "wordType": "noun",
+      "ipa": "/ˈlænd.lɔːd/, /ˈlænd.lɔɹd/"
+    },
+    {
+      "word": "landmark",
+      "wordType": "noun, verb",
+      "ipa": "/ˈlændmɑɹk/"
+    },
+    {
+      "word": "lap",
+      "wordType": "noun, verb",
+      "ipa": "/læp/"
+    },
+    {
+      "word": "large-scale",
+      "wordType": "adjective",
+      "ipa": "/ˌlɑːrdʒˈskeɪl/"
+    },
+    {
+      "word": "laser",
+      "wordType": "noun, verb",
+      "ipa": "/ˈleɪz.ə(ɹ)/, /ˈleɪzɚ/"
+    },
+    {
+      "word": "latest",
+      "wordType": "adjective, adverb",
+      "ipa": "/ˈleɪt.ɪst/"
+    },
+    {
+      "word": "lawn",
+      "wordType": "noun",
+      "ipa": "/lɔːn/, /lɔn/"
+    },
+    {
+      "word": "lawsuit",
+      "wordType": "noun",
+      "ipa": "/ˈlɔˌs(j)ut/"
+    },
+    {
+      "word": "layout",
+      "wordType": "noun",
+      "ipa": "/ˈleɪ.aʊt/"
+    },
+    {
+      "word": "leak",
+      "wordType": "noun, verb",
+      "ipa": "/liːk/"
+    },
+    {
+      "word": "leap",
+      "wordType": "noun, verb",
+      "ipa": "/liːp/"
+    },
+    {
+      "word": "legacy",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈleɪɡəsi/"
+    },
+    {
+      "word": "legendary",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈledʒ.ən.der.i/"
+    },
+    {
+      "word": "legislation",
+      "wordType": "noun",
+      "ipa": "/ˌlɛd͡ʒɪsˈleɪʃən/"
+    },
+    {
+      "word": "legislative",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈlɛ.dʒɪ.slə.tɪv/, /ˈlɛ.dʒɪˌsleɪ.tɪv/"
+    },
+    {
+      "word": "legislature",
+      "wordType": "noun",
+      "ipa": "/ˈlɛdʒɪsləˌtʃʊə/, /ˈlɛdʒɪsˌleɪtʃɚ/"
+    },
+    {
+      "word": "legitimate",
+      "wordType": "noun, verb",
+      "ipa": "/ləˈdʒɪt̬.ə.mət/"
+    },
+    {
+      "word": "lengthy",
+      "wordType": "adjective",
+      "ipa": "/ˈleŋ.θi/"
+    },
+    {
+      "word": "lesbian",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈlɛzbi.ən/"
+    },
+    {
+      "word": "lesser",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈlɛsə/, /ˈlɛsɚ/"
+    },
+    {
+      "word": "lethal",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈliː.θəl/"
+    },
+    {
+      "word": "liable",
+      "wordType": "adjective",
+      "ipa": "/ˈlaɪ̯əbəl/"
+    },
+    {
+      "word": "liberal",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈlɪbɹəl/, /ˈlɪbəɹəl/"
+    },
+    {
+      "word": "liberation",
+      "wordType": "noun",
+      "ipa": "/ˌlɪb.əˈreɪ.ʃən/"
+    },
+    {
+      "word": "liberty",
+      "wordType": "noun",
+      "ipa": "/ˈlɪbɚti/"
+    },
+    {
+      "word": "license",
+      "wordType": "noun, verb",
+      "ipa": "/ˈlaɪsəns/"
+    },
+    {
+      "word": "lifelong",
+      "wordType": "adjective",
+      "ipa": "/ˈlaɪf.lɑːŋ/"
+    },
+    {
+      "word": "likelihood",
+      "wordType": "noun",
+      "ipa": "/ˈlaɪklihʊd/"
+    },
+    {
+      "word": "limb",
+      "wordType": "noun, verb",
+      "ipa": "/lɪm/"
+    },
+    {
+      "word": "linear",
+      "wordType": "adjective",
+      "ipa": "/ˈlɪn.i.ə/, /ˈlɪn.i.ɚ/"
+    },
+    {
+      "word": "line-up",
+      "wordType": "noun",
+      "ipa": "/ˈlaɪn.ʌp/"
+    },
+    {
+      "word": "linger",
+      "wordType": "verb",
+      "ipa": "/ˈlɪŋɡə/, /ˈlɪŋɡɚ/"
+    },
+    {
+      "word": "listing",
+      "wordType": "verb, noun",
+      "ipa": "/ˈlɪstɪŋ/"
+    },
+    {
+      "word": "literacy",
+      "wordType": "noun",
+      "ipa": "/ˈlɪt.ɹə.si/, /ˈlɪt.əɹ.ə.si/"
+    },
+    {
+      "word": "liver",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈlɪvə/, /ˈlɪvɚ/"
+    },
+    {
+      "word": "lobby",
+      "wordType": "noun, verb",
+      "ipa": "/lɒbi/, /lɑbi/"
+    },
+    {
+      "word": "log",
+      "wordType": "noun, verb",
+      "ipa": "/lɑɡ/, /lɒɡ/"
+    },
+    {
+      "word": "logic",
+      "wordType": "noun",
+      "ipa": "/ˈlɑː.dʒɪk/"
+    },
+    {
+      "word": "long-standing",
+      "wordType": "adjective",
+      "ipa": "/ˌlɑːŋˈstæn.dɪŋ/"
+    },
+    {
+      "word": "long-time",
+      "wordType": "adjective",
+      "ipa": "/ˈlɑːŋ.taɪm/"
+    },
+    {
+      "word": "loom",
+      "wordType": "noun, verb",
+      "ipa": "/luːm/, /lum/"
+    },
+    {
+      "word": "loop",
+      "wordType": "noun, verb",
+      "ipa": "/luːp/"
+    },
+    {
+      "word": "loyalty",
+      "wordType": "noun",
+      "ipa": "/ˈlɔɪəlti/"
+    },
+    {
+      "word": "machinery",
+      "wordType": "noun",
+      "ipa": "/məˈʃiːnəɹi/"
+    },
+    {
+      "word": "magical",
+      "wordType": "adjective",
+      "ipa": "/ˈmædʒɪkəl/"
+    },
+    {
+      "word": "magistrate",
+      "wordType": "noun",
+      "ipa": "/ˈmædʒɪstɹeɪt/"
+    },
+    {
+      "word": "magnetic",
+      "wordType": "adjective",
+      "ipa": "/mæɡˈnɛtɪk/"
+    },
+    {
+      "word": "magnitude",
+      "wordType": "noun",
+      "ipa": "/ˈmæɡnɪtjuːd/"
+    },
+    {
+      "word": "mainland",
+      "wordType": "noun",
+      "ipa": "/ˈmeɪ̪nlənd/"
+    },
+    {
+      "word": "mainstream",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmeɪn.striːm/"
+    },
+    {
+      "word": "maintenance",
+      "wordType": "noun",
+      "ipa": "/ˈmeɪnt(ə)nəns/"
+    },
+    {
+      "word": "major",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmeɪ.dʒə(ɹ)/, /ˈmeɪ.dʒɚ/"
+    },
+    {
+      "word": "mandate",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmæn.deɪt/"
+    },
+    {
+      "word": "mandatory",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈmæn.də.t(ə)ɹi/, /ˈmæn.dəˌtɔ.ɹi/"
+    },
+    {
+      "word": "manifest",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmæn.ə.fɛst/"
+    },
+    {
+      "word": "manipulate",
+      "wordType": "verb",
+      "ipa": "/məˈnɪpjʊleɪt/"
+    },
+    {
+      "word": "manipulation",
+      "wordType": "noun",
+      "ipa": "/məˌnɪp.juˈleɪ.ʃən/"
+    },
+    {
+      "word": "manuscript",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈmænjəˌskɹɪpt/"
+    },
+    {
+      "word": "march",
+      "wordType": "noun, verb",
+      "ipa": "/mɑːtʃ/, /mɑɹtʃ/"
+    },
+    {
+      "word": "marginal",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈmɑːˌdʒɪn.əl/"
+    },
+    {
+      "word": "marine",
+      "wordType": "noun, adjective",
+      "ipa": "/məˈɹiːn/"
+    },
+    {
+      "word": "marketplace",
+      "wordType": "noun",
+      "ipa": "/ˈmɑːr.kɪt.pleɪs/"
+    },
+    {
+      "word": "mask",
+      "wordType": "noun, verb",
+      "ipa": "/mæsk/"
+    },
+    {
+      "word": "massacre",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmæs.ə.kə(ɹ)/, /ˈmæs.ə.kɚ/"
+    },
+    {
+      "word": "mathematical",
+      "wordType": "adjective",
+      "ipa": "/ˌmæθəˈmætɪkəl/"
+    },
+    {
+      "word": "mature",
+      "wordType": "adjective, verb",
+      "ipa": "/məˈtjʊə/, /məˈt(j)ʊəɹ/"
+    },
+    {
+      "word": "maximize",
+      "wordType": "verb",
+      "ipa": "/ˈmæk.sə.maɪz/"
+    },
+    {
+      "word": "meaningful",
+      "wordType": "adjective",
+      "ipa": "/ˈminɪŋfʊl/"
+    },
+    {
+      "word": "meantime",
+      "wordType": "noun, adverb",
+      "ipa": "/ˈmiːntaɪm/"
+    },
+    {
+      "word": "medieval",
+      "wordType": "noun, adjective",
+      "ipa": "/mɪd.ˈiː.vəl/, /mɪd.ˈi.vəl/"
+    },
+    {
+      "word": "meditation",
+      "wordType": "noun",
+      "ipa": "/mɛdɪˈteɪʃən/"
+    },
+    {
+      "word": "melody",
+      "wordType": "noun",
+      "ipa": "/ˈmel.ə.di/, /ˈmɛl.ə.di/"
+    },
+    {
+      "word": "memo",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmɛməʊ̯/, /ˈmɛmoʊ̯/"
+    },
+    {
+      "word": "memoir",
+      "wordType": "noun",
+      "ipa": "/ˈmɛmˌwɑː/, /ˈmɛmˌwɑɹ/"
+    },
+    {
+      "word": "memorial",
+      "wordType": "noun, adjective",
+      "ipa": "/məˈmoʊɹi.əl/"
+    },
+    {
+      "word": "mentor",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmɛn.tɔː/, /ˈmɛn.tɔɹ/"
+    },
+    {
+      "word": "merchant",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmɜːtʃənt/, /ˈmɝtʃənt/"
+    },
+    {
+      "word": "mercy",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmɜːsi/, /ˈmɝsi/"
+    },
+    {
+      "word": "mere",
+      "wordType": "noun, verb",
+      "ipa": "/mɪr/"
+    },
+    {
+      "word": "merely",
+      "wordType": "adverb",
+      "ipa": "/ˈmɪəli/, /ˈmɪɹli/"
+    },
+    {
+      "word": "merge",
+      "wordType": "noun, verb",
+      "ipa": "/mɜːdʒ/, /mɝdʒ/"
+    },
+    {
+      "word": "merger",
+      "wordType": "noun",
+      "ipa": "/ˈmɜːdʒə/, /ˈmɝdʒɚ/"
+    },
+    {
+      "word": "merit",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmɛɹət/"
+    },
+    {
+      "word": "methodology",
+      "wordType": "noun",
+      "ipa": "/meθəˈdɒlədʒi/, /ˌmɜθəˈdɑlədʒi/"
+    },
+    {
+      "word": "midst",
+      "wordType": "noun, preposition",
+      "ipa": "/mɪdst/"
+    },
+    {
+      "word": "migration",
+      "wordType": "noun",
+      "ipa": "/maɪˈɡɹeɪʃ(ə)n/"
+    },
+    {
+      "word": "militant",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈmɪlɪtənt/"
+    },
+    {
+      "word": "militia",
+      "wordType": "noun",
+      "ipa": "/məˈlɪʃə/"
+    },
+    {
+      "word": "mill",
+      "wordType": "noun, verb",
+      "ipa": "/mɪl/"
+    },
+    {
+      "word": "minimal",
+      "wordType": "adjective",
+      "ipa": "/mɪnəməl/"
+    },
+    {
+      "word": "minimize",
+      "wordType": "verb",
+      "ipa": "/ˈmɪn.ə.maɪz/, /ˈmɪn.əˌmaɪz/"
+    },
+    {
+      "word": "mining",
+      "wordType": "verb, noun",
+      "ipa": "/ˈmaɪnɪŋ/"
+    },
+    {
+      "word": "ministry",
+      "wordType": "noun",
+      "ipa": "/ˈmɪnɪstɹi/"
+    },
+    {
+      "word": "minute",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmɪnɪt/, /maɪˈnjuːt/"
+    },
+    {
+      "word": "miracle",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmiɹəkəl/"
+    },
+    {
+      "word": "misery",
+      "wordType": "noun",
+      "ipa": "/ˈmɪz(ə)ɹɪ/, /ˈmɪz(ə)ɹi/"
+    },
+    {
+      "word": "misleading",
+      "wordType": "verb, noun",
+      "ipa": "/ˌmɪsˈliː.dɪŋ/"
+    },
+    {
+      "word": "missile",
+      "wordType": "noun",
+      "ipa": "/ˈmɪsaɪl/"
+    },
+    {
+      "word": "mob",
+      "wordType": "noun",
+      "ipa": "/mɑːb/"
+    },
+    {
+      "word": "mobility",
+      "wordType": "noun",
+      "ipa": "/mə(ʊ)ˈbɪlɪti/, /moʊˈbɪlɪti/"
+    },
+    {
+      "word": "mobilize",
+      "wordType": "verb",
+      "ipa": "/ˈmoʊ.bə.laɪz/"
+    },
+    {
+      "word": "moderate",
+      "wordType": "noun, verb",
+      "ipa": "/ˈmɑdəɹeɪt/"
+    },
+    {
+      "word": "modification",
+      "wordType": "noun",
+      "ipa": "/ˌmɒdɪfɪˈkeɪʃən/, /ˌmɑdɪfɪˈkeɪʃən/"
+    },
+    {
+      "word": "momentum",
+      "wordType": "noun",
+      "ipa": "/məˈmen.t̬əm/"
+    },
+    {
+      "word": "monk",
+      "wordType": "noun, verb",
+      "ipa": "/mʌŋk/"
+    },
+    {
+      "word": "monopoly",
+      "wordType": "noun",
+      "ipa": "/məˈnɒpəˌli/, /məˈnɑpəˌli/"
+    },
+    {
+      "word": "morality",
+      "wordType": "noun",
+      "ipa": "/məˈɹælɪti/"
+    },
+    {
+      "word": "motive",
+      "wordType": "noun, verb",
+      "ipa": "/ˈməʊtɪv/, /ˈmoʊtɪv/"
+    },
+    {
+      "word": "motorist",
+      "wordType": "noun",
+      "ipa": "/ˈmoʊ.t̬ɚ.ɪst/"
+    },
+    {
+      "word": "municipal",
+      "wordType": "noun, adjective",
+      "ipa": "/mjuˈnɪsɪpəl/"
+    },
+    {
+      "word": "mutual",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈmjuːt͡ʃuəl/"
+    },
+    {
+      "word": "namely",
+      "wordType": "adverb",
+      "ipa": "/ˈneɪmli/"
+    },
+    {
+      "word": "nationwide",
+      "wordType": "adjective, adverb",
+      "ipa": "/ˌneɪ.ʃənˈwaɪd/"
+    },
+    {
+      "word": "naval",
+      "wordType": "adjective",
+      "ipa": "/ˈneɪvəl/"
+    },
+    {
+      "word": "neglect",
+      "wordType": "noun, verb",
+      "ipa": "/nɪˈɡlɛkt/"
+    },
+    {
+      "word": "neighbouring",
+      "wordType": "adjective",
+      "ipa": "/ˈneɪ.bər.ɪŋ/"
+    },
+    {
+      "word": "nest",
+      "wordType": "noun, verb",
+      "ipa": "/nɛst/"
+    },
+    {
+      "word": "net",
+      "wordType": "noun",
+      "ipa": "/net/"
+    },
+    {
+      "word": "newsletter",
+      "wordType": "noun",
+      "ipa": "/ˈnjuːzˌlɛtə/, /ˈn(j)uzˌlɛtɚ/"
+    },
+    {
+      "word": "niche",
+      "wordType": "noun, verb",
+      "ipa": "/niːʃ/, /niʃ/"
+    },
+    {
+      "word": "noble",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈnəʊbəl/, /ˈnoʊbəl/"
+    },
+    {
+      "word": "nod",
+      "wordType": "noun, verb",
+      "ipa": "/nɔd/, /nɒd/"
+    },
+    {
+      "word": "nominate",
+      "wordType": "verb, adjective",
+      "ipa": "/ˈnɒm.ə.neɪt/, /ˈnɑm.ə.neɪt/"
+    },
+    {
+      "word": "nomination",
+      "wordType": "noun",
+      "ipa": "/ˌnɑː.məˈneɪ.ʃən/"
+    },
+    {
+      "word": "nominee",
+      "wordType": "noun",
+      "ipa": "/ˌnɒmɪˈniː/"
+    },
+    {
+      "word": "nonetheless",
+      "wordType": "adverb",
+      "ipa": "/ˌnʌnðəˈlɛs/"
+    },
+    {
+      "word": "non-profit",
+      "wordType": "noun, adjective",
+      "ipa": "/ˌnɑːnˈprɑː.fɪt/"
+    },
+    {
+      "word": "nonsense",
+      "wordType": "noun, verb",
+      "ipa": "/ˈnɒnsəns/, /ˈnɑnsɛns/"
+    },
+    {
+      "word": "noon",
+      "wordType": "noun, verb",
+      "ipa": "/nuːn/"
+    },
+    {
+      "word": "notable",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈnəʊtəbl̩/, /ˈnoʊdəbəl/"
+    },
+    {
+      "word": "notably",
+      "wordType": "adverb",
+      "ipa": "/ˈnoʊ.t̬ə.bli/"
+    },
+    {
+      "word": "notify",
+      "wordType": "verb",
+      "ipa": "/ˈnoʊtɪfaɪ/"
+    },
+    {
+      "word": "notorious",
+      "wordType": "adjective",
+      "ipa": "/nəʊˈtɔːɹɪəs/, /noʊˈtɔɹiəs/"
+    },
+    {
+      "word": "novel",
+      "wordType": "adjective, noun",
+      "ipa": "/ˈnɒvl̩/, /ˈnɑvəl/"
+    },
+    {
+      "word": "nursery",
+      "wordType": "noun",
+      "ipa": "/ˈnɜːsəɹi/, /ˈnɝsəɹi/"
+    },
+    {
+      "word": "objection",
+      "wordType": "noun",
+      "ipa": "/əbˈdʒɛkʃən/"
+    },
+    {
+      "word": "oblige",
+      "wordType": "verb",
+      "ipa": "/əˈblaɪdʒ/"
+    },
+    {
+      "word": "obsess",
+      "wordType": "verb",
+      "ipa": "/əbˈsɛs/"
+    },
+    {
+      "word": "obsession",
+      "wordType": "noun",
+      "ipa": "/əbˈsɛʃən/"
+    },
+    {
+      "word": "occasional",
+      "wordType": "noun, adjective",
+      "ipa": "/əˈkeɪʒ(ə)nəl/"
+    },
+    {
+      "word": "occurrence",
+      "wordType": "noun",
+      "ipa": "/əˈkɐɹən(t)s/, /əˈkəːɹən(t)s/"
+    },
+    {
+      "word": "odds",
+      "wordType": "noun",
+      "ipa": "/ɑːdz/"
+    },
+    {
+      "word": "offering",
+      "wordType": "verb, noun",
+      "ipa": "/ˈɑfəɹɪŋ/, /ˈɒfəɹɪŋ/"
+    },
+    {
+      "word": "offspring",
+      "wordType": "noun",
+      "ipa": "/ˈɒfspɹɪŋ/, /ˈɑfspɹɪŋ/"
+    },
+    {
+      "word": "operational",
+      "wordType": "adjective",
+      "ipa": "/ˌɑː.pəˈreɪ.ʃən.əl/"
+    },
+    {
+      "word": "opt",
+      "wordType": "verb",
+      "ipa": "/ɒpt/"
+    },
+    {
+      "word": "optical",
+      "wordType": "adjective",
+      "ipa": "/ˈɒptɪkəl/, /ˈɑptɪkəl/"
+    },
+    {
+      "word": "optimism",
+      "wordType": "noun",
+      "ipa": "/ˈɒptɪmɪzəm/, /ˈɑptɪmɪzəm/"
+    },
+    {
+      "word": "oral",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈɒɹəl/, /ˈɑɹəl/"
+    },
+    {
+      "word": "organizational",
+      "wordType": "adjective",
+      "ipa": "/ˌɔːr.ɡən.əˈzeɪ.ʃən.əl/"
+    },
+    {
+      "word": "orientation",
+      "wordType": "noun",
+      "ipa": "/ˌɔɹiɛnˈteɪʃən/"
+    },
+    {
+      "word": "originate",
+      "wordType": "verb",
+      "ipa": "/əˈɹɪdʒɪneɪt/"
+    },
+    {
+      "word": "outbreak",
+      "wordType": "noun, verb",
+      "ipa": "/ˈaʊtbɹeɪk/"
+    },
+    {
+      "word": "outing",
+      "wordType": "verb, noun",
+      "ipa": "/ˈaʊtɪŋ/"
+    },
+    {
+      "word": "outlet",
+      "wordType": "noun",
+      "ipa": "/ˈaʊtlɛt/"
+    },
+    {
+      "word": "outlook",
+      "wordType": "noun, verb",
+      "ipa": "/ˈaʊtˌlʊk/"
+    },
+    {
+      "word": "outrage",
+      "wordType": "noun, verb",
+      "ipa": "/ˈæot.ɹæed͡ʒ/, /ˈaʊt.ɹeɪd͡ʒ/"
+    },
+    {
+      "word": "outsider",
+      "wordType": "noun",
+      "ipa": "/ˌaʊtˈsaɪdəɹ/"
+    },
+    {
+      "word": "overlook",
+      "wordType": "noun, verb",
+      "ipa": "/əʊvəˈlʊk/, /oʊvəɹˈlʊk/"
+    },
+    {
+      "word": "overly",
+      "wordType": "adjective, adverb",
+      "ipa": "/ˈoʊ.vɚ.li/"
+    },
+    {
+      "word": "oversee",
+      "wordType": "verb",
+      "ipa": "/əʊvə(ɹ)siː/"
+    },
+    {
+      "word": "overturn",
+      "wordType": "noun, verb",
+      "ipa": "/ˌoʊ.vɚˈtɝːn/"
+    },
+    {
+      "word": "overwhelm",
+      "wordType": "noun, verb",
+      "ipa": "/ˌovɚˈʍɛlm/, /ˌəʊvəˈwɛlm/"
+    },
+    {
+      "word": "overwhelming",
+      "wordType": "verb, noun",
+      "ipa": "/ˌəʊvəˈwɛlmɪŋ/, /ˌoʊvɚˈ(h)wɛlmɪŋ/"
+    },
+    {
+      "word": "pad",
+      "wordType": "noun, verb",
+      "ipa": "/pæd/"
+    },
+    {
+      "word": "parameter",
+      "wordType": "noun",
+      "ipa": "/pəˈɹæm.ɪ.tə/"
+    },
+    {
+      "word": "parental",
+      "wordType": "noun, adjective",
+      "ipa": "/pəˈren.təl/"
+    },
+    {
+      "word": "parish",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpæɹɪʃ/"
+    },
+    {
+      "word": "parliamentary",
+      "wordType": "noun, adjective",
+      "ipa": "/ˌpɑːləˈmentəɹi/, /ˌpɑːɹləˈmentəɹi/"
+    },
+    {
+      "word": "partial",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpɑːʃəl/, /ˈpɑɹʃəl/"
+    },
+    {
+      "word": "partially",
+      "wordType": "adverb",
+      "ipa": "/ˈpɑːʃəli/, /ˈpɑɹʃəli/"
+    },
+    {
+      "word": "passing",
+      "wordType": "verb, noun",
+      "ipa": "/ˈpɑːsɪŋ/"
+    },
+    {
+      "word": "passive",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈpæs.ɪv/"
+    },
+    {
+      "word": "pastor",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpɑːstə/, /ˈpæstɚ/"
+    },
+    {
+      "word": "patch",
+      "wordType": "noun, verb",
+      "ipa": "/pætʃ/"
+    },
+    {
+      "word": "patent",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpeɪtənt/"
+    },
+    {
+      "word": "pathway",
+      "wordType": "noun",
+      "ipa": "/ˈpæθˌweɪ/, /ˈpɑːθˌweɪ/"
+    },
+    {
+      "word": "patrol",
+      "wordType": "noun, verb",
+      "ipa": "/pəˈtɹəʊl/, /pəˈtɹoʊl/"
+    },
+    {
+      "word": "patron",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpeɪ.tɹən/"
+    },
+    {
+      "word": "peak",
+      "wordType": "noun, verb",
+      "ipa": "/piːk/"
+    },
+    {
+      "word": "peasant",
+      "wordType": "noun",
+      "ipa": "/ˈpɛzənt/"
+    },
+    {
+      "word": "peculiar",
+      "wordType": "noun, adjective",
+      "ipa": "/pɪˈkjuːl.jɚ/"
+    },
+    {
+      "word": "persist",
+      "wordType": "verb",
+      "ipa": "/pəˈsɪst/, /pɚˈsɪst/"
+    },
+    {
+      "word": "persistent",
+      "wordType": "adjective",
+      "ipa": "/pəˈsɪstənt/, /pɚˈsɪstənt/"
+    },
+    {
+      "word": "personnel",
+      "wordType": "noun",
+      "ipa": "/-el/, /pɜː.səˈnɛl/"
+    },
+    {
+      "word": "petition",
+      "wordType": "noun, verb",
+      "ipa": "/pəˈtɪ.ʃən/"
+    },
+    {
+      "word": "philosopher",
+      "wordType": "noun",
+      "ipa": "/fɪˈlɒs.ə.fə(ɹ)/, /fəˈlɑsəfəɹ/"
+    },
+    {
+      "word": "philosophical",
+      "wordType": "adjective",
+      "ipa": "/ˌfɪləˈsɒfɪkl̩/, /ˌfɪləˈsɑfɪkl̩/"
+    },
+    {
+      "word": "physician",
+      "wordType": "noun",
+      "ipa": "/fɪˈzɪʃən/"
+    },
+    {
+      "word": "pioneer",
+      "wordType": "noun, verb",
+      "ipa": "/ˌpaɪəˈnɪəɹ/"
+    },
+    {
+      "word": "pipeline",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpaɪpˌlaɪn/"
+    },
+    {
+      "word": "pirate",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpaɪ̯(ə)ɹət/"
+    },
+    {
+      "word": "pit",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpɪt/"
+    },
+    {
+      "word": "plea",
+      "wordType": "noun, verb",
+      "ipa": "/pliː/"
+    },
+    {
+      "word": "plead",
+      "wordType": "verb",
+      "ipa": "/pliːd/"
+    },
+    {
+      "word": "pledge",
+      "wordType": "noun, verb",
+      "ipa": "/plɛdʒ/"
+    },
+    {
+      "word": "plug",
+      "wordType": "noun, verb",
+      "ipa": "/plʌɡ/"
+    },
+    {
+      "word": "plunge",
+      "wordType": "noun, verb",
+      "ipa": "/plʌndʒ/"
+    },
+    {
+      "word": "pole",
+      "wordType": "noun, verb",
+      "ipa": "/pɔːl/, /poʊl/"
+    },
+    {
+      "word": "poll",
+      "wordType": "noun, verb",
+      "ipa": "/pɔl/, /pɔʊl/"
+    },
+    {
+      "word": "pond",
+      "wordType": "noun, verb",
+      "ipa": "/pɒnd/, /pɑnd/"
+    },
+    {
+      "word": "pop",
+      "wordType": "noun, verb",
+      "ipa": "/pɒp/, /pɑp/"
+    },
+    {
+      "word": "portfolio",
+      "wordType": "noun",
+      "ipa": "/-əʊl.jəʊ/, /-oʊl.joʊ/"
+    },
+    {
+      "word": "portray",
+      "wordType": "verb",
+      "ipa": "/pɔɹˈtɹeɪ/"
+    },
+    {
+      "word": "postpone",
+      "wordType": "verb",
+      "ipa": "/poʊstˈpoʊn/"
+    },
+    {
+      "word": "post-war",
+      "wordType": "adjective",
+      "ipa": "/ˈpoʊst.wɔːr/"
+    },
+    {
+      "word": "practitioner",
+      "wordType": "noun",
+      "ipa": "/pɹækˈtɪʃənə/, /pɹækˈtɪʃənəɹ/"
+    },
+    {
+      "word": "preach",
+      "wordType": "noun, verb",
+      "ipa": "/pɹiːt͡ʃ/"
+    },
+    {
+      "word": "precedent",
+      "wordType": "noun, verb",
+      "ipa": "/pɹɪˈsiː.dənt/"
+    },
+    {
+      "word": "precision",
+      "wordType": "noun, adjective",
+      "ipa": "/pɹɪˈsɪ.ʒ(ə)n/"
+    },
+    {
+      "word": "predator",
+      "wordType": "noun",
+      "ipa": "/ˈpɹɛd.ə.təɹ/"
+    },
+    {
+      "word": "predecessor",
+      "wordType": "noun",
+      "ipa": "/ˈpɹiːdɪsɛsɚ/, /ˈpɹiːdɪsɛsə(ɹ)/"
+    },
+    {
+      "word": "predominantly",
+      "wordType": "adverb",
+      "ipa": "/prɪˈdɑː.mə.nənt.li/"
+    },
+    {
+      "word": "pregnancy",
+      "wordType": "noun",
+      "ipa": "/ˈpreɡ.nən.si/"
+    },
+    {
+      "word": "prejudice",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpɹɛd͡ʒədɪs/"
+    },
+    {
+      "word": "preliminary",
+      "wordType": "noun, adjective",
+      "ipa": "/pɹɪˈlɪmɪnəɹi/, /pɹɪˈlɪmɪnɛɹi/"
+    },
+    {
+      "word": "premier",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpɹemjə/, /ˈpɹimjɚ/"
+    },
+    {
+      "word": "premise",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpɹɛ.mɪs/"
+    },
+    {
+      "word": "premium",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈpɹimiəm/"
+    },
+    {
+      "word": "prescribe",
+      "wordType": "verb",
+      "ipa": "/pɹɪˈskɹaɪb/"
+    },
+    {
+      "word": "prescription",
+      "wordType": "noun, adjective",
+      "ipa": "/pɝˈskɹɪpʃən/"
+    },
+    {
+      "word": "presently",
+      "wordType": "adverb",
+      "ipa": "/ˈpɹɛzəntli/"
+    },
+    {
+      "word": "preservation",
+      "wordType": "noun",
+      "ipa": "/pɹɛ.zɝˈveɪ.ʃən/"
+    },
+    {
+      "word": "preside",
+      "wordType": "verb",
+      "ipa": "/prɪˈzaɪd/"
+    },
+    {
+      "word": "presidency",
+      "wordType": "noun",
+      "ipa": "/ˈpɹezɪdənsi/"
+    },
+    {
+      "word": "presidential",
+      "wordType": "adjective",
+      "ipa": "/pɹɛzɪˈdɛnʃ(ə)l/"
+    },
+    {
+      "word": "prestigious",
+      "wordType": "adjective",
+      "ipa": "/pɹə-/"
+    },
+    {
+      "word": "presumably",
+      "wordType": "adverb",
+      "ipa": "/pɹɪˈzjuːməbli/, /pɹɪˈzuːməbli/"
+    },
+    {
+      "word": "presume",
+      "wordType": "verb",
+      "ipa": "/pɹɪˈzjuːm/, /pɹɘˈzjʉːm/"
+    },
+    {
+      "word": "prevail",
+      "wordType": "verb",
+      "ipa": "/pɹɪˈveɪl/"
+    },
+    {
+      "word": "prevalence",
+      "wordType": "noun",
+      "ipa": "/ˈprev.əl.əns/"
+    },
+    {
+      "word": "prevention",
+      "wordType": "noun",
+      "ipa": "/pɹɪˈvɛnʃən/"
+    },
+    {
+      "word": "prey",
+      "wordType": "noun, verb",
+      "ipa": "/pɹeɪ/"
+    },
+    {
+      "word": "principal",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈpɹɪnsəpəl/, /ˈpɹɪnsəp̬əl/"
+    },
+    {
+      "word": "privatization",
+      "wordType": "noun",
+      "ipa": "/ˌpraɪ.və.t̬əˈzeɪ.ʃən/"
+    },
+    {
+      "word": "privilege",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpɹɪv(ɪ)lɪdʒ/"
+    },
+    {
+      "word": "probe",
+      "wordType": "noun, verb",
+      "ipa": "/pɹəʊb/, /pɹoʊb/"
+    },
+    {
+      "word": "problematic",
+      "wordType": "noun, adjective",
+      "ipa": "/ˌpɹɒbləˈmætɪk/, /ˌpɹɑbləˈmætɪk/"
+    },
+    {
+      "word": "proceedings",
+      "wordType": "noun",
+      "ipa": "/pɹəˈsiːd.ɪŋz/"
+    },
+    {
+      "word": "proceeds",
+      "wordType": "verb, noun",
+      "ipa": "/ˈpɹəʊsiːdz/, /ˈpɹoʊsidz/"
+    },
+    {
+      "word": "processing",
+      "wordType": "verb, noun",
+      "ipa": "/ˈpɹəʊsɛsɪŋ/, /ˈpɹɑsəsɪŋ/"
+    },
+    {
+      "word": "processor",
+      "wordType": "noun",
+      "ipa": "/ˈpɹəʊˌsɛsə(ɹ)/, /ˈpɹɑˌsɛsə˞/"
+    },
+    {
+      "word": "proclaim",
+      "wordType": "verb",
+      "ipa": "/pɹoʊˈkleɪm/"
+    },
+    {
+      "word": "productive",
+      "wordType": "adjective",
+      "ipa": "/pɹəˈdʌktɪv/"
+    },
+    {
+      "word": "productivity",
+      "wordType": "noun",
+      "ipa": "/ˌpɹɒdʌkˈtɪvəti/, /ˌpɹoʊdʌkˈtɪvəti/"
+    },
+    {
+      "word": "profitable",
+      "wordType": "adjective",
+      "ipa": "/ˈpɹɒfɪtəbl̩/, /ˈpɹɑfɪtəbl̩/"
+    },
+    {
+      "word": "profound",
+      "wordType": "noun, verb",
+      "ipa": "/pɹəˈfaʊnd/"
+    },
+    {
+      "word": "projection",
+      "wordType": "noun",
+      "ipa": "/pɹəˈdʒɛkʃən/"
+    },
+    {
+      "word": "prominent",
+      "wordType": "adjective",
+      "ipa": "/ˈpɹɒmɪnənt/, /ˈpɹɑmɪnənt/"
+    },
+    {
+      "word": "pronounced",
+      "wordType": "verb, adjective",
+      "ipa": "/pɹəˈnaʊnst/"
+    },
+    {
+      "word": "propaganda",
+      "wordType": "noun",
+      "ipa": "/ˌprɑː.pəˈɡæn.də/"
+    },
+    {
+      "word": "proposition",
+      "wordType": "noun, verb",
+      "ipa": "/ˌpɹɑpəˈzɪʃən/"
+    },
+    {
+      "word": "prosecute",
+      "wordType": "verb",
+      "ipa": "/ˈpɹɒsɪkjuːt/"
+    },
+    {
+      "word": "prosecution",
+      "wordType": "noun",
+      "ipa": "/ˌpɹɑ.səˈkju.ʃən/"
+    },
+    {
+      "word": "prosecutor",
+      "wordType": "noun",
+      "ipa": "/ˈpɹɑsəˌkjuːtəɹ/"
+    },
+    {
+      "word": "prospective",
+      "wordType": "noun, adjective",
+      "ipa": "/pɹəˈspɛktɪv/"
+    },
+    {
+      "word": "prosperity",
+      "wordType": "noun",
+      "ipa": "/pɹɒˈspɛɹ.ɪ.ti/, /pɹɑˈspɛɹ.ɪ.ti/"
+    },
+    {
+      "word": "protective",
+      "wordType": "noun, adjective",
+      "ipa": "/pɹoʊtɛktɪv/"
+    },
+    {
+      "word": "protocol",
+      "wordType": "noun, verb",
+      "ipa": "/ˈpɹəʊtəˌkɒl/, /ˈpɹoʊtəˌkoʊl/"
+    },
+    {
+      "word": "province",
+      "wordType": "noun",
+      "ipa": "/ˈpɹɒvɪns/, /ˈpɹɑvɪns/"
+    },
+    {
+      "word": "provincial",
+      "wordType": "noun, adjective",
+      "ipa": "/pɹɒvinʃəl̩/"
+    },
+    {
+      "word": "provision",
+      "wordType": "noun, verb",
+      "ipa": "/pɹəˈvɪʒ.ən/"
+    },
+    {
+      "word": "provoke",
+      "wordType": "verb",
+      "ipa": "/pɹəˈvəʊk/, /pɹəˈvoʊk/"
+    },
+    {
+      "word": "psychiatric",
+      "wordType": "adjective",
+      "ipa": "/ˌsaɪ.ki.ˈæt.ɹɪk/"
+    },
+    {
+      "word": "pulse",
+      "wordType": "noun, verb",
+      "ipa": "/pʊls/, /pʌls/"
+    },
+    {
+      "word": "pump",
+      "wordType": "noun, verb",
+      "ipa": "/pʌmp/"
+    },
+    {
+      "word": "punch",
+      "wordType": "noun, verb",
+      "ipa": "/pʌntʃ/"
+    },
+    {
+      "word": "query",
+      "wordType": "noun, verb",
+      "ipa": "/ˈkwɪə.ɹi/, /ˈkwɛ.ɹi/"
+    },
+    {
+      "word": "quest",
+      "wordType": "noun, verb",
+      "ipa": "/kwɛst/"
+    },
+    {
+      "word": "quota",
+      "wordType": "noun",
+      "ipa": "/ˈkwoʊtə/"
+    },
+    {
+      "word": "radar",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɹeɪdɑː(ɹ)/, /ˈɹeɪdɚ/"
+    },
+    {
+      "word": "radical",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈɹædɪkəl/"
+    },
+    {
+      "word": "rage",
+      "wordType": "noun, verb",
+      "ipa": "/ɹeɪdʒ/"
+    },
+    {
+      "word": "raid",
+      "wordType": "noun, verb",
+      "ipa": "/ɹeɪd/"
+    },
+    {
+      "word": "rally",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɹæ.li/"
+    },
+    {
+      "word": "ranking",
+      "wordType": "verb, noun",
+      "ipa": "/ˈɹænk.ɪŋ/"
+    },
+    {
+      "word": "rape",
+      "wordType": "verb",
+      "ipa": "/reɪp/"
+    },
+    {
+      "word": "ratio",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɹeɪ.ʃi.əʊ/, /ˈɹeɪ.ʃiˌoʊ/"
+    },
+    {
+      "word": "rational",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈɹæʃ(ə)nəl/"
+    },
+    {
+      "word": "ray",
+      "wordType": "noun, verb",
+      "ipa": "/ɹeɪ/"
+    },
+    {
+      "word": "readily",
+      "wordType": "adverb",
+      "ipa": "/ˈɹɛdɪli/"
+    },
+    {
+      "word": "realization",
+      "wordType": "noun",
+      "ipa": "/ˌɹiə-/, /-laɪˈzeɪʃən/"
+    },
+    {
+      "word": "realm",
+      "wordType": "noun",
+      "ipa": "/ɹɛlm/"
+    },
+    {
+      "word": "rear",
+      "wordType": "verb, adjective",
+      "ipa": "/ɹɪə/, /ɹiɹ/"
+    },
+    {
+      "word": "reasoning",
+      "wordType": "verb, noun",
+      "ipa": "/ˈɹiːzənɪŋ/"
+    },
+    {
+      "word": "reassure",
+      "wordType": "verb",
+      "ipa": "/ɹiəˈʃʊə(ɹ)/, /ɹiəˈʃʊɹ/"
+    },
+    {
+      "word": "rebel",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɹɛbəl/, /ɹɪˈbɛl/"
+    },
+    {
+      "word": "rebellion",
+      "wordType": "noun",
+      "ipa": "/ɹɪˈbɛl.i.ən/"
+    },
+    {
+      "word": "recipient",
+      "wordType": "noun, adjective",
+      "ipa": "/ɹəˈsɪp.i.ənt/"
+    },
+    {
+      "word": "reconstruction",
+      "wordType": "noun",
+      "ipa": "/ˌriː.kənˈstrʌk.ʃən/"
+    },
+    {
+      "word": "recount",
+      "wordType": "verb",
+      "ipa": "/rɪˈkaʊnt/"
+    },
+    {
+      "word": "referendum",
+      "wordType": "noun",
+      "ipa": "/ˌɹɛfəˈɹɛndəm/"
+    },
+    {
+      "word": "reflection",
+      "wordType": "noun",
+      "ipa": "/ɹɪˈflɛkʃən/"
+    },
+    {
+      "word": "reform",
+      "wordType": "noun, verb",
+      "ipa": "/ɹɪˈfɔːm/, /ɹəˈfɔɹm/"
+    },
+    {
+      "word": "refuge",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɹɛfjuːdʒ/"
+    },
+    {
+      "word": "refusal",
+      "wordType": "noun",
+      "ipa": "/ɹɪˈfjuːzl̩/"
+    },
+    {
+      "word": "regain",
+      "wordType": "verb",
+      "ipa": "/ɹiːˈɡeɪn/"
+    },
+    {
+      "word": "regardless",
+      "wordType": "adjective, adverb",
+      "ipa": "/ɹɪˈɡɑːd.lɪs/, /ɹɪˈɡɑɹd.lɪs/"
+    },
+    {
+      "word": "regime",
+      "wordType": "noun",
+      "ipa": "/ɹeɪˈʒiːm/"
+    },
+    {
+      "word": "regulator",
+      "wordType": "noun",
+      "ipa": "/ɹɛɡ.juː.leɪt.ə/"
+    },
+    {
+      "word": "regulatory",
+      "wordType": "adjective",
+      "ipa": "/ˈɹɛɡjələtɹi/"
+    },
+    {
+      "word": "rehabilitation",
+      "wordType": "noun",
+      "ipa": "/ˌriː.həˌbɪl.əˈteɪ.ʃən/"
+    },
+    {
+      "word": "reign",
+      "wordType": "noun, verb",
+      "ipa": "/reɪn/"
+    },
+    {
+      "word": "rejection",
+      "wordType": "noun",
+      "ipa": "/ɹəˈdʒɛkʃən/"
+    },
+    {
+      "word": "relevance",
+      "wordType": "noun",
+      "ipa": "/ˈrel.ə.vəns/"
+    },
+    {
+      "word": "reliability",
+      "wordType": "noun",
+      "ipa": "/rɪˌlaɪ.əˈbɪl.ə.t̬i/"
+    },
+    {
+      "word": "reluctant",
+      "wordType": "adjective",
+      "ipa": "/ɹɪˈlʌktənt/"
+    },
+    {
+      "word": "remainder",
+      "wordType": "noun, verb",
+      "ipa": "/ɹəˈmeɪndə/, /ɹəˈmeɪndɚ/"
+    },
+    {
+      "word": "remains",
+      "wordType": "noun, verb",
+      "ipa": "/ɹɪˈmeɪnz/"
+    },
+    {
+      "word": "remedy",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɹɛmədi/"
+    },
+    {
+      "word": "reminder",
+      "wordType": "noun",
+      "ipa": "/rɪˈmaɪn.dɚ/"
+    },
+    {
+      "word": "removal",
+      "wordType": "noun",
+      "ipa": "/ɹəˈmuːvəl/"
+    },
+    {
+      "word": "render",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɹɛn.də/, /ˈɹɛn.dɚ/"
+    },
+    {
+      "word": "renew",
+      "wordType": "verb",
+      "ipa": "/rɪˈnuː/"
+    },
+    {
+      "word": "renowned",
+      "wordType": "adjective",
+      "ipa": "/ɹɪˈnaʊnd/"
+    },
+    {
+      "word": "rental",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈɹɛntəl/"
+    },
+    {
+      "word": "replacement",
+      "wordType": "noun",
+      "ipa": "/ɹɪˈpleɪsmənt/"
+    },
+    {
+      "word": "residential",
+      "wordType": "noun, adjective",
+      "ipa": "/ˌrez.əˈden.ʃəl/"
+    },
+    {
+      "word": "residue",
+      "wordType": "noun",
+      "ipa": "/ˈɹɛzɪdjuː/, /ˈɹɛzɪduː/"
+    },
+    {
+      "word": "resignation",
+      "wordType": "noun",
+      "ipa": "/ɹɛzɪɡˈneɪʃən/"
+    },
+    {
+      "word": "resistance",
+      "wordType": "noun",
+      "ipa": "/ɹɪˈzɪstəns/"
+    },
+    {
+      "word": "respective",
+      "wordType": "adjective",
+      "ipa": "/ɹɪˈspɛktɪv/"
+    },
+    {
+      "word": "respectively",
+      "wordType": "adverb",
+      "ipa": "/ɹɪˈspɛktɪvli/"
+    },
+    {
+      "word": "restoration",
+      "wordType": "noun",
+      "ipa": "/ɹɛstəˈɹeɪʃən/"
+    },
+    {
+      "word": "restraint",
+      "wordType": "noun",
+      "ipa": "/ɹɪˈstɹeɪnt/"
+    },
+    {
+      "word": "resume",
+      "wordType": "verb, noun",
+      "ipa": "/ɹəˈzjuːm/, /ɹɪˈzjuːm/"
+    },
+    {
+      "word": "retreat",
+      "wordType": "noun, verb",
+      "ipa": "/ɹəˈtɹiːt/, /ɹiːˈtɹiːt/"
+    },
+    {
+      "word": "retrieve",
+      "wordType": "noun, verb",
+      "ipa": "/ɹiˈtɹiv/"
+    },
+    {
+      "word": "revelation",
+      "wordType": "noun",
+      "ipa": "/ɹɛvəˈleɪʃən/"
+    },
+    {
+      "word": "revenge",
+      "wordType": "noun, verb",
+      "ipa": "/ɹɪˈvɛndʒ/"
+    },
+    {
+      "word": "reverse",
+      "wordType": "noun, verb",
+      "ipa": "/ɹɪˈvɜːs/"
+    },
+    {
+      "word": "revival",
+      "wordType": "noun",
+      "ipa": "/ɹɪˈvaɪvəl/"
+    },
+    {
+      "word": "revive",
+      "wordType": "verb",
+      "ipa": "/ɹɪˈvaɪv/"
+    },
+    {
+      "word": "revolutionary",
+      "wordType": "noun, adjective",
+      "ipa": "/-ˈljuː-/, /ˌɹɛvəˈluʃənɛɹi/"
+    },
+    {
+      "word": "rhetoric",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈret̬.ɚ.ɪk/"
+    },
+    {
+      "word": "rifle",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɹaɪfəl/"
+    },
+    {
+      "word": "riot",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɹaɪ.ət/"
+    },
+    {
+      "word": "rip",
+      "wordType": "noun, verb",
+      "ipa": "/ɹɪp/"
+    },
+    {
+      "word": "ritual",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈɹɪ.tʃu.əl/"
+    },
+    {
+      "word": "robust",
+      "wordType": "adjective",
+      "ipa": "/ɹəʊˈbʌst/, /ɹoʊˈbʌst/"
+    },
+    {
+      "word": "rock",
+      "wordType": "noun, verb",
+      "ipa": "/ɹɒk/, /ɹɑk/"
+    },
+    {
+      "word": "rod",
+      "wordType": "noun, verb",
+      "ipa": "/ɹɒd/, /ɹɑd/"
+    },
+    {
+      "word": "rotate",
+      "wordType": "verb, adjective",
+      "ipa": "/ɹəʊˈteɪt/, /ˈɹoʊteɪt/"
+    },
+    {
+      "word": "rotation",
+      "wordType": "noun",
+      "ipa": "/ɹoʊˈteɪʃən/"
+    },
+    {
+      "word": "ruling",
+      "wordType": "verb, noun",
+      "ipa": "/ˈɹuːlɪŋ/"
+    },
+    {
+      "word": "rumour",
+      "wordType": "noun, verb",
+      "ipa": "/ˈɹuːmə(ɹ)/, /ˈɹuːmɚ/"
+    },
+    {
+      "word": "sack",
+      "wordType": "noun, verb",
+      "ipa": "/sæk/"
+    },
+    {
+      "word": "sacred",
+      "wordType": "adjective, verb",
+      "ipa": "/ˈseɪkɹɪd/, /ˈseɪkəd/"
+    },
+    {
+      "word": "sacrifice",
+      "wordType": "noun, verb",
+      "ipa": "/ˈsækɹɪfaɪs/"
+    },
+    {
+      "word": "saint",
+      "wordType": "noun, verb",
+      "ipa": "/sən(t)/, /seɪnt/"
+    },
+    {
+      "word": "sake",
+      "wordType": "noun",
+      "ipa": "/seɪk/, /sɑːkeɪ/"
+    },
+    {
+      "word": "sanction",
+      "wordType": "noun, verb",
+      "ipa": "/ˈsæŋkʃən/"
+    },
+    {
+      "word": "say",
+      "wordType": "noun, verb",
+      "ipa": "/seɪ/"
+    },
+    {
+      "word": "scattered",
+      "wordType": "verb, adjective",
+      "ipa": "/ˈskætəd/, /ˈskætɚd/"
+    },
+    {
+      "word": "sceptical",
+      "wordType": "adjective",
+      "ipa": "/ˈskep.tɪ.kəl/"
+    },
+    {
+      "word": "scope",
+      "wordType": "noun, verb",
+      "ipa": "/ˈskoʊp/"
+    },
+    {
+      "word": "screw",
+      "wordType": "noun, verb",
+      "ipa": "/skɹuː/"
+    },
+    {
+      "word": "scrutiny",
+      "wordType": "noun, verb",
+      "ipa": "/ˈskɹuː.tɪ.ni/"
+    },
+    {
+      "word": "seal",
+      "wordType": "noun, verb",
+      "ipa": "/siːl/"
+    },
+    {
+      "word": "secular",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈsɛkjʊlə/, /ˈsɛkjələɹ/"
+    },
+    {
+      "word": "seemingly",
+      "wordType": "adverb",
+      "ipa": "/ˈsiːmɪŋli/"
+    },
+    {
+      "word": "segment",
+      "wordType": "noun, verb",
+      "ipa": "/ˈseɡ.mənt/"
+    },
+    {
+      "word": "seize",
+      "wordType": "verb",
+      "ipa": "/siːz/"
+    },
+    {
+      "word": "seldom",
+      "wordType": "adjective, adverb",
+      "ipa": "/ˈsɛldəm/"
+    },
+    {
+      "word": "selective",
+      "wordType": "adjective",
+      "ipa": "/səˈlɛktɪv/"
+    },
+    {
+      "word": "senator",
+      "wordType": "noun",
+      "ipa": "/ˈsɛn.ə.tə/, /ˈsɛn.ə.tɚ/"
+    },
+    {
+      "word": "sensation",
+      "wordType": "noun",
+      "ipa": "/sɛnˈseɪʃən/"
+    },
+    {
+      "word": "sensitivity",
+      "wordType": "noun",
+      "ipa": "/ˌsɛnsɪˈtɪvɪti/"
+    },
+    {
+      "word": "sentiment",
+      "wordType": "noun",
+      "ipa": "/ˈsɛn.tɪ.mənt/"
+    },
+    {
+      "word": "separation",
+      "wordType": "noun",
+      "ipa": "/sɛpəˈɹeɪʃən/"
+    },
+    {
+      "word": "serial",
+      "wordType": "noun, verb",
+      "ipa": "/ˈsɪəɹiːəɫ/"
+    },
+    {
+      "word": "set-up",
+      "wordType": "noun",
+      "ipa": "/setʌp/"
+    },
+    {
+      "word": "sexuality",
+      "wordType": "noun",
+      "ipa": "/sɛksjuˈælɪti/, /sɛkʃuˈæləti/"
+    },
+    {
+      "word": "sexy",
+      "wordType": "adjective",
+      "ipa": "/ˈsɛk.sɪ/, /ˈsɛk.si/"
+    },
+    {
+      "word": "shaped",
+      "wordType": "verb, adjective",
+      "ipa": "/ʃeɪpt/"
+    },
+    {
+      "word": "shareholder",
+      "wordType": "noun",
+      "ipa": "/ˈʃerˌhoʊl.dɚ/"
+    },
+    {
+      "word": "shatter",
+      "wordType": "noun, verb",
+      "ipa": "/ˈʃæt.ə(ɹ)/, /ˈʃæt.ɚ/"
+    },
+    {
+      "word": "shed",
+      "wordType": "verb, noun",
+      "ipa": "/ʃɛd/"
+    },
+    {
+      "word": "shipping",
+      "wordType": "noun, verb",
+      "ipa": "/ˈʃɪpɪŋ/"
+    },
+    {
+      "word": "shocking",
+      "wordType": "verb, noun",
+      "ipa": "/ˈʃɒkɪŋ/, /ˈʃɑkɪŋ/"
+    },
+    {
+      "word": "shoot",
+      "wordType": "noun, verb",
+      "ipa": "/ʃuːt/"
+    },
+    {
+      "word": "shore",
+      "wordType": "noun, verb",
+      "ipa": "/ʃɔː/, /ʃɔɹ/"
+    },
+    {
+      "word": "shortage",
+      "wordType": "noun",
+      "ipa": "/ˈʃɔːr.t̬ɪdʒ/"
+    },
+    {
+      "word": "shortly",
+      "wordType": "adverb",
+      "ipa": "/ʃɔːɹtli/"
+    },
+    {
+      "word": "short-term",
+      "wordType": "adjective",
+      "ipa": "/ˈʃɔːrt.tɝːm/"
+    },
+    {
+      "word": "shrink",
+      "wordType": "noun, verb",
+      "ipa": "/ˈʃɹɪŋk/"
+    },
+    {
+      "word": "sibling",
+      "wordType": "noun",
+      "ipa": "/ˈsɪblɪŋ/"
+    },
+    {
+      "word": "signature",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈsɪɡnətʃə/, /ˈsɪɡnətʃɚ/"
+    },
+    {
+      "word": "significance",
+      "wordType": "noun",
+      "ipa": "/sɪɡˈnɪfɪkəns/"
+    },
+    {
+      "word": "situated",
+      "wordType": "verb, adjective",
+      "ipa": "/ˈsɪt͡ʃueɪtɪd/"
+    },
+    {
+      "word": "sketch",
+      "wordType": "noun, verb",
+      "ipa": "/skɛtʃ/"
+    },
+    {
+      "word": "skilled",
+      "wordType": "adjective, verb",
+      "ipa": "/skɪld/"
+    },
+    {
+      "word": "skip",
+      "wordType": "noun, verb",
+      "ipa": "/skɪp/"
+    },
+    {
+      "word": "skull",
+      "wordType": "noun, verb",
+      "ipa": "/skʌl/"
+    },
+    {
+      "word": "slam",
+      "wordType": "noun, verb",
+      "ipa": "/slæm/"
+    },
+    {
+      "word": "slap",
+      "wordType": "noun, verb",
+      "ipa": "/slæp/"
+    },
+    {
+      "word": "slash",
+      "wordType": "noun, verb",
+      "ipa": "/slaʃ/, /slæʃ/"
+    },
+    {
+      "word": "slavery",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈsleɪvəɹi/, /ˈslævəɹi/"
+    },
+    {
+      "word": "slogan",
+      "wordType": "noun",
+      "ipa": "/ˈsləʊ.ɡ(ə)n/, /ˈsloʊ.ɡən/"
+    },
+    {
+      "word": "slot",
+      "wordType": "noun, verb",
+      "ipa": "/slɒt/"
+    },
+    {
+      "word": "smash",
+      "wordType": "noun, verb",
+      "ipa": "/smæʃ/"
+    },
+    {
+      "word": "snap",
+      "wordType": "noun, verb",
+      "ipa": "/snæp/"
+    },
+    {
+      "word": "soak",
+      "wordType": "noun, verb",
+      "ipa": "/səʊk/, /soʊk/"
+    },
+    {
+      "word": "soar",
+      "wordType": "noun, verb",
+      "ipa": "/sɔː/, /sɔɹ/"
+    },
+    {
+      "word": "so-called",
+      "wordType": "adjective",
+      "ipa": "/ˈsəʊˌkɔːld/, /ˈsoʊˌkɔld/"
+    },
+    {
+      "word": "socialist",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈsəʊʃəlɪst/, /ˈsoʊ.ʃə.lɪst/"
+    },
+    {
+      "word": "sole",
+      "wordType": "noun, verb",
+      "ipa": "/səʊl/, /soʊl/"
+    },
+    {
+      "word": "solely",
+      "wordType": "adverb",
+      "ipa": "/ˈsəʊl.li/, /ˈsoʊl.li/"
+    },
+    {
+      "word": "solicitor",
+      "wordType": "noun",
+      "ipa": "/səˈlɪsɪtə/, /səˈlɪsɪtɚ/"
+    },
+    {
+      "word": "solidarity",
+      "wordType": "noun",
+      "ipa": "/ˌsɑː.lɪˈder.ə.t̬i/"
+    },
+    {
+      "word": "solo",
+      "wordType": "noun, verb",
+      "ipa": "/ˈsoʊ.loʊ/, /ˈsəʊ.ləʊ/"
+    },
+    {
+      "word": "somehow",
+      "wordType": "adverb",
+      "ipa": "/ˈsʌmhaʊ/"
+    },
+    {
+      "word": "sometime",
+      "wordType": "adjective, adverb",
+      "ipa": "/ˈsʌmˌtaɪm/"
+    },
+    {
+      "word": "sophisticated",
+      "wordType": "verb, adjective",
+      "ipa": "/səˈfɪs.tə.keɪ.t̬ɪd/"
+    },
+    {
+      "word": "sound",
+      "wordType": "adjective, adverb",
+      "ipa": "/saʊnd/"
+    },
+    {
+      "word": "sovereignty",
+      "wordType": "noun",
+      "ipa": "/ˈsɒv.ɹən.ti/"
+    },
+    {
+      "word": "spam",
+      "wordType": "noun, verb",
+      "ipa": "/ˈspæm/"
+    },
+    {
+      "word": "span",
+      "wordType": "noun, verb",
+      "ipa": "/spæn/"
+    },
+    {
+      "word": "spare",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈspɛə(ɹ)/, /ˈspɛəɹ/"
+    },
+    {
+      "word": "spark",
+      "wordType": "noun, verb",
+      "ipa": "/spɑːk/, /spɑɹk/"
+    },
+    {
+      "word": "specialize",
+      "wordType": "verb",
+      "ipa": "/ˈspɛʃəˌlaɪz/"
+    },
+    {
+      "word": "specialized",
+      "wordType": "verb, adjective",
+      "ipa": "/ˈspeʃ.ə.laɪzd/"
+    },
+    {
+      "word": "specification",
+      "wordType": "noun",
+      "ipa": "/ˌspes.ə.fəˈkeɪ.ʃən/"
+    },
+    {
+      "word": "specify",
+      "wordType": "verb",
+      "ipa": "/ˈspɛsɪfaɪ/"
+    },
+    {
+      "word": "specimen",
+      "wordType": "noun",
+      "ipa": "/ˈspɛsɪmɪn/"
+    },
+    {
+      "word": "spectacle",
+      "wordType": "noun",
+      "ipa": "/ˈspɛktəkl̩/"
+    },
+    {
+      "word": "spectacular",
+      "wordType": "noun, adjective",
+      "ipa": "/spɛkˈtæk.jʊ.lə/, /spɛkˈtæk.jə.lɚ/"
+    },
+    {
+      "word": "spectator",
+      "wordType": "noun",
+      "ipa": "/spɛkˈteɪtə/, /ˈspɛkteɪtɚ/"
+    },
+    {
+      "word": "spectrum",
+      "wordType": "noun",
+      "ipa": "/ˈspektɹəm/, /ˈspɛkt(ʃ)ɹəm/"
+    },
+    {
+      "word": "speculate",
+      "wordType": "verb",
+      "ipa": "/ˈspek.jə.leɪt/"
+    },
+    {
+      "word": "speculation",
+      "wordType": "noun",
+      "ipa": "/ˌspɛkjəˈleɪʃən/"
+    },
+    {
+      "word": "spell",
+      "wordType": "noun, verb",
+      "ipa": "/spɛl/"
+    },
+    {
+      "word": "sphere",
+      "wordType": "noun, verb",
+      "ipa": "/sfɪə/, /sfɪɹ/"
+    },
+    {
+      "word": "spill",
+      "wordType": "noun, verb",
+      "ipa": "/spɪl/"
+    },
+    {
+      "word": "spin",
+      "wordType": "noun, verb",
+      "ipa": "/spɪn/"
+    },
+    {
+      "word": "spine",
+      "wordType": "noun",
+      "ipa": "/spaɪn/"
+    },
+    {
+      "word": "spotlight",
+      "wordType": "noun, verb",
+      "ipa": "/ˈspɑːt.laɪt/"
+    },
+    {
+      "word": "spy",
+      "wordType": "noun, verb",
+      "ipa": "/spaɪ/"
+    },
+    {
+      "word": "squad",
+      "wordType": "noun, verb",
+      "ipa": "/ˈskwɒd/, /ˈskwɑd/"
+    },
+    {
+      "word": "squeeze",
+      "wordType": "noun, verb",
+      "ipa": "/skwiːz/"
+    },
+    {
+      "word": "stab",
+      "wordType": "verb",
+      "ipa": "/stæb/"
+    },
+    {
+      "word": "stability",
+      "wordType": "noun",
+      "ipa": "/stəˈbɪlɪti/"
+    },
+    {
+      "word": "stabilize",
+      "wordType": "verb",
+      "ipa": "/ˈsteɪ.bə.laɪz/"
+    },
+    {
+      "word": "stake",
+      "wordType": "noun, verb",
+      "ipa": "/steɪk/"
+    },
+    {
+      "word": "standing",
+      "wordType": "verb, adjective",
+      "ipa": "/ˈstændɪŋ/"
+    },
+    {
+      "word": "start",
+      "wordType": "noun, verb",
+      "ipa": "/stɑːt/, /stɑɹt/"
+    },
+    {
+      "word": "steer",
+      "wordType": "noun, verb",
+      "ipa": "/stɪə(ɹ)/"
+    },
+    {
+      "word": "stem",
+      "wordType": "noun, verb",
+      "ipa": "/stɛm/"
+    },
+    {
+      "word": "stereotype",
+      "wordType": "noun, verb",
+      "ipa": "/ˈstɛ.ɹi.əˌtaɪp/"
+    },
+    {
+      "word": "stimulus",
+      "wordType": "noun",
+      "ipa": "/ˈstɪm.jə.ləs/"
+    },
+    {
+      "word": "stir",
+      "wordType": "noun, verb",
+      "ipa": "/stɜː/, /stɝ/"
+    },
+    {
+      "word": "storage",
+      "wordType": "noun, verb",
+      "ipa": "/ˈstɔ.ɹɪd͡ʒ/"
+    },
+    {
+      "word": "straightforward",
+      "wordType": "adjective, adverb",
+      "ipa": "/ˌstreɪtˈfɔːr.wɚd/"
+    },
+    {
+      "word": "strain",
+      "wordType": "noun, verb",
+      "ipa": "/stɹeɪ̯n/"
+    },
+    {
+      "word": "strand",
+      "wordType": "noun, verb",
+      "ipa": "/stɹænd/"
+    },
+    {
+      "word": "strategic",
+      "wordType": "adjective",
+      "ipa": "/stɹəˈtiː.dʒɪk/"
+    },
+    {
+      "word": "striking",
+      "wordType": "verb, noun",
+      "ipa": "/ˈstɹaɪkɪŋ/"
+    },
+    {
+      "word": "strip",
+      "wordType": "noun, verb",
+      "ipa": "/stɹɪp/"
+    },
+    {
+      "word": "strive",
+      "wordType": "noun",
+      "ipa": "/straɪv/"
+    },
+    {
+      "word": "structural",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈstrʌk.tʃɚ.əl/"
+    },
+    {
+      "word": "stumble",
+      "wordType": "noun, verb",
+      "ipa": "/ˈstʌmbəl/"
+    },
+    {
+      "word": "stun",
+      "wordType": "noun, verb",
+      "ipa": "/stʌn/"
+    },
+    {
+      "word": "submission",
+      "wordType": "noun",
+      "ipa": "/səbˈmɪʃən/, /ˈsʌbˌmɪʃən/"
+    },
+    {
+      "word": "subtle",
+      "wordType": "adjective",
+      "ipa": "/ˈsʌt(ə)l/"
+    },
+    {
+      "word": "suburban",
+      "wordType": "noun, adjective",
+      "ipa": "/səˈbɜː(ɹ)bən/"
+    },
+    {
+      "word": "succession",
+      "wordType": "noun",
+      "ipa": "/səkˈsɛʃ.ən/"
+    },
+    {
+      "word": "successive",
+      "wordType": "adjective",
+      "ipa": "/səkˈsɛsɪv/"
+    },
+    {
+      "word": "successor",
+      "wordType": "noun",
+      "ipa": "/səkˈsɛsə(ɹ)/"
+    },
+    {
+      "word": "suck",
+      "wordType": "noun, verb",
+      "ipa": "/sʌk/"
+    },
+    {
+      "word": "sue",
+      "wordType": "verb",
+      "ipa": "/suː/"
+    },
+    {
+      "word": "suicide",
+      "wordType": "noun",
+      "ipa": "/ˈsuː.ə.saɪd/"
+    },
+    {
+      "word": "suite",
+      "wordType": "noun",
+      "ipa": "/swiːt/"
+    },
+    {
+      "word": "summit",
+      "wordType": "noun, verb",
+      "ipa": "/ˈsʌmɪt/, /ˈsʊmit/"
+    },
+    {
+      "word": "superb",
+      "wordType": "adjective",
+      "ipa": "/sjuːˈpɜːb/, /suˈpɝb/"
+    },
+    {
+      "word": "superior",
+      "wordType": "noun, adjective",
+      "ipa": "/suːˈpɪəɹi.ə(ɹ)/, /suːˈpɪɹiɚ/"
+    },
+    {
+      "word": "supervise",
+      "wordType": "verb",
+      "ipa": "/ˈsuː.pɚ.vaɪz/"
+    },
+    {
+      "word": "supervision",
+      "wordType": "noun",
+      "ipa": "/ˌs(j)uːpəˈvɪʒən/, /ˌsupɚˈvɪʒən/"
+    },
+    {
+      "word": "supervisor",
+      "wordType": "noun",
+      "ipa": "/ˈsuːpɚˌvaɪzɚ/"
+    },
+    {
+      "word": "supplement",
+      "wordType": "noun, verb",
+      "ipa": "/ˈsʌpləmənt/"
+    },
+    {
+      "word": "supportive",
+      "wordType": "adjective",
+      "ipa": "/səˈpɔːtɪv/, /səˈpɔɹtɪv/"
+    },
+    {
+      "word": "supposedly",
+      "wordType": "adverb",
+      "ipa": "/səˈpoʊ.zɪd.li/"
+    },
+    {
+      "word": "suppress",
+      "wordType": "verb",
+      "ipa": "/səˈpɹɛs/"
+    },
+    {
+      "word": "supreme",
+      "wordType": "noun, verb",
+      "ipa": "/ˌs(j)uːˈpɹiːm/"
+    },
+    {
+      "word": "surge",
+      "wordType": "noun, verb",
+      "ipa": "/sɜːdʒ/, /sɝdʒ/"
+    },
+    {
+      "word": "surgical",
+      "wordType": "adjective",
+      "ipa": "/ˈsɜːdʒɪkəl/, /ˈsɝdʒɪkəl/"
+    },
+    {
+      "word": "surplus",
+      "wordType": "noun, verb",
+      "ipa": "/ˈsɜːpləs/, /ˈsɝpləs/"
+    },
+    {
+      "word": "surrender",
+      "wordType": "noun, verb",
+      "ipa": "/səˈɹɛndəɹ/"
+    },
+    {
+      "word": "surveillance",
+      "wordType": "noun",
+      "ipa": "/səɹˈveɪ.ləns/"
+    },
+    {
+      "word": "suspension",
+      "wordType": "noun",
+      "ipa": "/səˈspɛnʃən/"
+    },
+    {
+      "word": "suspicion",
+      "wordType": "noun, verb",
+      "ipa": "/sə.ˈspɪ.ʃən/"
+    },
+    {
+      "word": "suspicious",
+      "wordType": "adjective",
+      "ipa": "/səˈspɪ.ʃəs/"
+    },
+    {
+      "word": "sustain",
+      "wordType": "noun, verb",
+      "ipa": "/səˈsteɪn/"
+    },
+    {
+      "word": "swing",
+      "wordType": "noun, verb",
+      "ipa": "/ˈswɪŋ/"
+    },
+    {
+      "word": "sword",
+      "wordType": "noun",
+      "ipa": "/sɔːd/, /sɔɹd/"
+    },
+    {
+      "word": "symbolic",
+      "wordType": "adjective",
+      "ipa": "/sɪmˈbɑː.lɪk/"
+    },
+    {
+      "word": "syndrome",
+      "wordType": "noun",
+      "ipa": "/ˈsɪndɹəʊm/, /ˈsɪndɹoʊm/"
+    },
+    {
+      "word": "synthesis",
+      "wordType": "noun",
+      "ipa": "/ˈsɪnθəsɪs/"
+    },
+    {
+      "word": "systematic",
+      "wordType": "adjective, adverb",
+      "ipa": "/ˌsɪs.təˈmæt.ɪk/"
+    },
+    {
+      "word": "tackle",
+      "wordType": "noun, verb",
+      "ipa": "/ˈtækəl/"
+    },
+    {
+      "word": "tactic",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈtæktɪk/"
+    },
+    {
+      "word": "tactical",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈtæk.tɪ.kəl/"
+    },
+    {
+      "word": "taxpayer",
+      "wordType": "noun",
+      "ipa": "/ˈtæksˌpeɪ.ɚ/"
+    },
+    {
+      "word": "tempt",
+      "wordType": "verb",
+      "ipa": "/tɛmpt/"
+    },
+    {
+      "word": "tenant",
+      "wordType": "noun, verb",
+      "ipa": "/ˈtɛ.nənt/"
+    },
+    {
+      "word": "tender",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈtɛn.də(ɹ)/, /ˈtɛn.də/"
+    },
+    {
+      "word": "tenure",
+      "wordType": "noun, verb",
+      "ipa": "/ˈtɛn.jə/, /ˈtɛn.jɚ/"
+    },
+    {
+      "word": "terminal",
+      "wordType": "noun, verb",
+      "ipa": "/ˈtɚmɪnəl/"
+    },
+    {
+      "word": "terminate",
+      "wordType": "verb, adjective",
+      "ipa": "/ˈtɜːmɪneɪt/, /ˈtɝmɪneɪt/"
+    },
+    {
+      "word": "terrain",
+      "wordType": "noun",
+      "ipa": "/tə.ˈreɪn/"
+    },
+    {
+      "word": "terrific",
+      "wordType": "adjective",
+      "ipa": "/təˈɹɪfɪk/"
+    },
+    {
+      "word": "terror",
+      "wordType": "noun",
+      "ipa": "/ˈtɛɹə/, /ˈtɛɚ/"
+    },
+    {
+      "word": "terrorism",
+      "wordType": "noun",
+      "ipa": "/ˈtɛɹəɹɪzəm/"
+    },
+    {
+      "word": "terrorist",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈtɛɹəɹɪst/"
+    },
+    {
+      "word": "testify",
+      "wordType": "verb",
+      "ipa": "/ˈtɛstɪfaɪ/"
+    },
+    {
+      "word": "testimony",
+      "wordType": "noun",
+      "ipa": "/ˈtɛstɪməni/, /ˈtɛstɪmoʊni/"
+    },
+    {
+      "word": "testing",
+      "wordType": "verb, noun",
+      "ipa": "/ˈtɛstɪŋ/"
+    },
+    {
+      "word": "textbook",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈtɛkst.bʊk/"
+    },
+    {
+      "word": "texture",
+      "wordType": "noun, verb",
+      "ipa": "/ˈtɛkstʃə(ɹ)/"
+    },
+    {
+      "word": "thankfully",
+      "wordType": "adverb",
+      "ipa": "/ˈθæŋk.fəl.i/"
+    },
+    {
+      "word": "theatrical",
+      "wordType": "noun, adjective",
+      "ipa": "/θiˈæt.ɹɪ.kəl/"
+    },
+    {
+      "word": "theft",
+      "wordType": "noun",
+      "ipa": "/θɛft/"
+    },
+    {
+      "word": "theology",
+      "wordType": "noun",
+      "ipa": "/θi.ˈɒ.lə.dʒi/"
+    },
+    {
+      "word": "theoretical",
+      "wordType": "adjective",
+      "ipa": "/ˌθi.əˈɹɛtɪkəl/"
+    },
+    {
+      "word": "therapist",
+      "wordType": "noun",
+      "ipa": "/ˈθer.ə.pɪst/"
+    },
+    {
+      "word": "thereafter",
+      "wordType": "adverb",
+      "ipa": "/ˌðeəɹˈæf.tə(ɹ)/, /ˌðɛəɹˈæf.tɚ/"
+    },
+    {
+      "word": "thereby",
+      "wordType": "adverb",
+      "ipa": "/ðɛəˈbaɪ/, /ðɛɹˈbaɪ/"
+    },
+    {
+      "word": "thesis",
+      "wordType": "noun",
+      "ipa": "/ˈθisɪs/, /ˈθisiz/"
+    },
+    {
+      "word": "thorough",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈθʌɹə/, /ˈθɜɹoʊ/"
+    },
+    {
+      "word": "thoroughly",
+      "wordType": "adverb",
+      "ipa": "/θʌ.ɹə.liː/, /θɜːɹ.ə.lɪ/"
+    },
+    {
+      "word": "thoughtful",
+      "wordType": "adjective",
+      "ipa": "/ˈθɔːtfəl/, /ˈθɔtfəl/"
+    },
+    {
+      "word": "thought-provoking",
+      "wordType": "adjective",
+      "ipa": "/ˈθɑːt.prəˌvoʊk.ɪŋ/"
+    },
+    {
+      "word": "thread",
+      "wordType": "noun, verb",
+      "ipa": "/θred/"
+    },
+    {
+      "word": "threshold",
+      "wordType": "noun",
+      "ipa": "/ˈθɹeʃ(h)əʊld/, /ˈθɹɛʃ(h)oʊld/"
+    },
+    {
+      "word": "thrilled",
+      "wordType": "verb, adjective",
+      "ipa": "/θɹɪld/"
+    },
+    {
+      "word": "thumb",
+      "wordType": "noun, verb",
+      "ipa": "/θʌm/"
+    },
+    {
+      "word": "timing",
+      "wordType": "verb, noun",
+      "ipa": "/ˈtaɪmɪŋ/"
+    },
+    {
+      "word": "tissue",
+      "wordType": "noun, verb",
+      "ipa": "/ˈtɪsjuː/, /ˈtɪʃu/"
+    },
+    {
+      "word": "ton",
+      "wordType": "noun",
+      "ipa": "/tʌn/, /tɒn/"
+    },
+    {
+      "word": "tonne",
+      "wordType": "noun",
+      "ipa": "/tɒn/, /tʊn/"
+    },
+    {
+      "word": "tournament",
+      "wordType": "noun",
+      "ipa": "/ˈtɔːnəmənt/, /ˈtɔɹnəmənt/"
+    },
+    {
+      "word": "trace",
+      "wordType": "noun, verb",
+      "ipa": "/tɹeɪs/"
+    },
+    {
+      "word": "trading",
+      "wordType": "verb, noun",
+      "ipa": "/tɹeɪdɪŋ/"
+    },
+    {
+      "word": "tragedy",
+      "wordType": "noun",
+      "ipa": "/ˈtɹæd͡ʒɪdi/"
+    },
+    {
+      "word": "tragic",
+      "wordType": "noun, adjective",
+      "ipa": "/ˈtɹædʒɪk/"
+    },
+    {
+      "word": "trait",
+      "wordType": "noun",
+      "ipa": "/tɹeɪ/"
+    },
+    {
+      "word": "transmit",
+      "wordType": "verb",
+      "ipa": "/tɹænsˈmɪt/"
+    },
+    {
+      "word": "transportation",
+      "wordType": "noun",
+      "ipa": "/tɹænspɔːˈteɪʃən/, /tɹænspɚˈteɪʃən/"
+    },
+    {
+      "word": "trap",
+      "wordType": "noun, verb",
+      "ipa": "/tɹæp/"
+    },
+    {
+      "word": "treasure",
+      "wordType": "noun, verb",
+      "ipa": "/ˈtɹɛʒə/, /ˈtɹɛʒɚ/"
+    }
+  ]
+}
