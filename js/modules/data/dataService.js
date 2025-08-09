@@ -8,10 +8,11 @@ import { getCurrentUser } from "../auth/authService.js";
 // ==== Lấy dữ liệu JSON từ GitHub Raw ====
 export const fetchWordsFromJson = async (url) => {
   try {
-    const res = await fetch(url);
-    console.log("[JSON] Fetching:", url, "Status:", res.status);
-    if (!res.ok) throw new Error("Lỗi HTTP: " + res.status);
-    const data = await res.json();
+    const response = await fetch(url);
+    console.log("[JSON] Fetching:", url, "Status:", response.status);
+    if (!response.ok) throw new Error("Lỗi HTTP: " + response.status);
+
+    const data = await response.json();
     console.log("[JSON] Tổng từ tải được:", data.length);
     return data;
   } catch (error) {
@@ -19,6 +20,7 @@ export const fetchWordsFromJson = async (url) => {
     return [];
   }
 };
+
 
 // ==== Xử lý từ được đánh dấu Star ====
 export const starWord = async (wordObj) => {

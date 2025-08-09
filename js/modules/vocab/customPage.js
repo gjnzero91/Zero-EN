@@ -1,64 +1,29 @@
-// Zero-EN/js/modules/vocab/customPage.js
-// Trang custom để hiển thị gói từ ngẫu nhiên từ cả A1-B2 và B2-C2 (từ GitHub JSON)
-
 import { getElement } from "../core/domHelpers.js";
+import { fetchWordsFromJson, saveCustomPackagesToFirestore, loadCustomPackagesFromFirestore } from "../data/dataService.js";
 import { speak } from "../ui/wordUI.js";
-import { fetchWordsFromJson } from "../data/dataService.js"; // Hàm mới trong dataService.js
 
+const PACKAGE_SIZE = 10;
 let currentLessonIndex = 0;
 let customPackages = [];
 
-const PACKAGE_SIZE = 10;
-
-// Hiển thị 1 gói từ vựng
-const displayWords = (words) => {
-  const wordDisplay = getElement("wordDisplay");
-  const posDisplay = getElement("posDisplay");
-  const ipaText = getElement("ipaText");
-  const pronounceBtn = getElement("pronounce");
-
-  if (!words || words.length === 0) {
-    wordDisplay.textContent = "No words available";
-    posDisplay.textContent = "";
-    ipaText.textContent = "";
-    return;
-  }
-
-  const currentWord = words[0]; // Hiển thị từ đầu tiên trong gói
-  wordDisplay.textContent = currentWord.word;
-  posDisplay.textContent = currentWord.wordType;
-  ipaText.textContent = currentWord.ipa;
-
-  pronounceBtn.onclick = () => speak(currentWord.word);
-};
-
-// Hiển thị bài học tại index
-const showLesson = (index) => {
-  if (index < 0 || index >= customPackages.length) return;
-  console.log("[Custom] Tổng số gói:", customPackages.length);
-  console.log("[Custom] Gói 1:", customPackages[0]);
-  currentLessonIndex = index;
-  displayWords(customPackages[index]);
-};
-
-// Hàm khởi tạo trang custom
 export const setupCustomPage = async () => {
-  // === URL file JSON trên GitHub (Raw) ===
-  const a1Url = "https://raw.githubusercontent.com/gjnzero91/Zero-EN/refs/heads/main/data/3000.json";
-  const b2Url = "https://raw.githubusercontent.com/gjnzero91/Zero-EN/refs/heads/main/data/5000.json";
+  // Thử tải các gói từ Firestore
+  customPackages = await loadCustomPackagesFromFirestore();
 
-  console.log("[Custom] Đang tải dữ liệu từ GitHub...");
-  const a1Words = await fetchWordsFromJson(a1Url);
-  const b2Words = await fetchWordsFromJson(b2Url);
+  // Nếu chưa có thì tạo mới từ JSON và lưu lại
+  if (!customPackages || customPackages.length === 0) {
+    console.log("[Custom] Creating new packages...");
+    const a1Words = await fetchWordsFromJson("https://raw.githubusercontent.com/USERNAME/REPO_NAME/branch/data/3000.json");
+    const b2Words = await fetchWordsFromJson("https://raw.githubusercontent.com/USERNAME/REPO_NAME/branch/data/5000.json");
 
-  // Gộp và xáo trộn
-  const allWords = [...a1Words, ...b2Words];
-  const shuffled = allWords.sort(() => 0.5 - Math.random());
+    const allWords = [...a1Words, ...b2Words];
+    const shuffled = allWords.sort(() => 0.5 - Math.random());
 
-  // Chia thành từng gói PACKAGE_SIZE
-  customPackages = [];
-  for (let i = 0; i < shuffled.length; i += PACKAGE_SIZE) {
-    customPackages.push(shuffled.slice(i, i + PACKAGE_SIZE));
+    for (let i = 0; i < shuffled.length; i += PACKAGE_SIZE) {
+      customPackages.push(shuffled.slice(i, i + PACKAGE_SIZE));
+    }
+
+    await saveCustomPackagesToFirestore(customPackages);
   }
 
   if (!customPackages || customPackages.length === 0) {
@@ -66,7 +31,6 @@ export const setupCustomPage = async () => {
     return;
   }
 
-  // Sự kiện chuyển bài học
   getElement("nextLesson")?.addEventListener("click", () => {
     if (currentLessonIndex < customPackages.length - 1) {
       showLesson(currentLessonIndex + 1);
@@ -79,6 +43,5 @@ export const setupCustomPage = async () => {
     }
   });
 
-  // Hiển thị gói đầu tiên
   showLesson(0);
 };

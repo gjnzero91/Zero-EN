@@ -5,27 +5,25 @@ import { fetchWordsFromJson, getStarredWordsData } from "../data/dataService.js"
 import { getCurrentUser } from "../auth/authService.js";
 import { getBookState, setBookStateProperty } from "../core/appState.js";
 
-// === Link JSON trên GitHub ===
+// Link GitHub JSON
 const GITHUB_DATA = {
-  "a1-b1": "https://raw.githubusercontent.com/USERNAME/REPO_NAME/branch/data/3000.json",
-  "b2-c2": "https://raw.githubusercontent.com/USERNAME/REPO_NAME/branch/data/5000.json"
+  "a1-b1": "https://raw.githubusercontent.com/gjnzero91/Zero-EN/refs/heads/main/data/3000.json",
+  "b2-c2": "https://raw.githubusercontent.com/gjnzero91/Zero-EN/refs/heads/main/data/5000.json"
 };
+
 
 export async function getWordsData(bookKey) {
   if (bookKey === "a1-b1") {
     return await fetchWordsFromJson(GITHUB_DATA["a1-b1"]);
   }
-
   if (bookKey === "b2-c2") {
     return await fetchWordsFromJson(GITHUB_DATA["b2-c2"]);
   }
-
   if (bookKey === "star") {
     const user = getCurrentUser();
     if (!user) return [];
     return await getStarredWordsData();
   }
-
   return [];
 }
 

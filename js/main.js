@@ -2,7 +2,7 @@
 // Điểm vào cho ứng dụng Zero-EN
 
 import { setBookStateProperty } from "./modules/core/appState.js";
-import { fetchWordsFromCsv } from "./modules/data/dataService.js";
+import { fetchWordsFromJson } from "./modules/data/dataService.js";
 import { initPage } from "./modules/page/pageInit.js";
 import { attachSearchEvent } from "./modules/event/searchEvents.js";
 import { observeAuthState } from "./modules/auth/authService.js";
@@ -11,11 +11,11 @@ import { redirectTo } from "./modules/core/domHelpers.js";
 
 // Nguồn dữ liệu
 const bookSources = {
-  "a1-b1": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_ZxHDx2YJ9jtrkTyhEzSWdw7Z7V9wdtGugkXiKQqsD6qB8RERy5lJpxoobN4EXTFbCVwyrnhbuMnO/pub?gid=0&single=true&output=csv",
-  "b2-c2": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_ZxHDx2YJ9jtrkTyhEzSWdw7Z7V9wdtGugkXiKQqsD6qB8RERy5lJpxoobN4EXTFbCVwyrnhbuMnO/pub?gid=2053150601&single=true&output=csv"
+  "a1-b1": "https://raw.githubusercontent.com/gjnzero91/Zero-EN/refs/heads/main/data/3000.json",
+  "b2-c2": "https://raw.githubusercontent.com/gjnzero91/Zero-EN/refs/heads/main/data/5000.json"
 };
 
-// Tải dữ liệu từ CSV
+// Tải dữ liệu từ JSON
 async function ensureAllBookDataLoaded() {
   for (const key of Object.keys(bookSources)) {
     let words = [];
@@ -32,7 +32,7 @@ async function ensureAllBookDataLoaded() {
 
     if (!words || words.length === 0) {
       console.log(`📥 Đang tải từ vựng cho ${key}...`);
-      words = await fetchWordsFromCsv(bookSources[key]);
+      words = await fetchWordsFromJson(bookSources[key]);
       if (words.length > 0) {
         localStorage.setItem(localKey, JSON.stringify(words));
         console.log(`✅ Đã lưu ${words.length} từ cho ${key}`);
