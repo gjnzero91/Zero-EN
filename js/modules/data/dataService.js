@@ -6,7 +6,7 @@ import { collection, getDocs, doc, setDoc, deleteDoc, getDoc } from "https://www
 import { db } from "../core/firebaseConfig.js";
 import { getCurrentUser } from "../auth/authService.js";
 
-/* ==== Lấy dữ liệu JSON từ GitHub Raw ==== */
+// ==== Lấy dữ liệu JSON từ GitHub Raw ====
 export const fetchWordsFromJson = async (url) => {
   try {
     const response = await fetch(url);
@@ -14,24 +14,31 @@ export const fetchWordsFromJson = async (url) => {
     if (!response.ok) throw new Error("Lỗi HTTP: " + response.status);
 
     const data = await response.json();
+    let result = [];
 
-    // Xử lý cả mảng và object chứa mảng
-    let wordsArray = [];
     if (Array.isArray(data)) {
-      wordsArray = data;
-    } else if (data && Array.isArray(data.words)) {
-      wordsArray = data.words;
-    } else {
-      console.warn("[JSON] Dữ liệu không phải mảng và không có field 'words'.");
+      // Trường hợp file là mảng thuần
+      result = data;
+    } else if (Array.isArray(data.packages)) {
+      // Trường hợp file có { packages: [...] }
+      result = data.packages;
+    } else if (Array.isArray(data.words)) {
+      // Trường hợp { words: [...] }
+      result = data.words;
+    } else if (data && typeof data === "object") {
+      // Lấy mảng đầu tiên tìm thấy trong object
+      const firstArray = Object.values(data).find(v => Array.isArray(v));
+      if (firstArray) result = firstArray;
     }
 
-    console.log("[JSON] Tổng từ tải được:", wordsArray.length);
-    return wordsArray;
+    console.log("[JSON] Tổng từ tải được:", result.length);
+    return result;
   } catch (error) {
     console.error("[JSON] Lỗi khi tải:", error);
     return [];
   }
 };
+
 
 /* ==== Xử lý từ được đánh dấu Star ==== */
 export const starWord = async (wordObj) => {

@@ -10,15 +10,17 @@ import { stopCountdown, startCountdown } from "../event/countdownTimer.js";
 
 export async function loadWord(bookKey) {
   const bookState = getBookState(bookKey);
+
   const wordDisplay = getElement("wordDisplay");
   const posDisplay = getElement("posDisplay");
   const ipaText = getElement("ipaText");
-  const starIcon = getElement("starIcon");
+  const starIcon = getElement("starIcon"); // có thể null nếu trang không có icon
   const pronounceBtn = getElement("pronounce");
-  const noWordsMessage = getElement("noWordsMessage");
+  const noWordsMessage = getElement("noWordsMessage"); // có thể null
   const countdownElement = getElement("countdown");
   const progressBar = getElement("progressBar");
 
+  // Nếu không có dữ liệu từ
   if (!bookState?.words?.length) {
     if (wordDisplay) wordDisplay.textContent = "No words found.";
     if (noWordsMessage) noWordsMessage.style.display = "block";
@@ -27,29 +29,36 @@ export async function loadWord(bookKey) {
     return;
   }
 
+  // Lấy index hiện tại
   const currentIndex = bookState.shuffleMode
     ? bookState.shuffledIndices[bookState.currentIndex]
     : bookState.currentIndex;
-  const currentWordObj = bookState.words[currentIndex];
 
+  // Lấy từ hiện tại
+  const currentWordObj = bookState.words[currentIndex];
   if (!currentWordObj) {
-    wordDisplay.textContent = "Error: Word not found at current index.";
+    if (wordDisplay) wordDisplay.textContent = "Error: Word not found.";
     stopCountdown();
     return;
   }
 
+  // Cập nhật giao diện từ vựng
   updateWordDisplay(currentWordObj);
 
-  if (currentWordObj.word) {
-    speak(currentWordObj.word);
-  }
+  // Cập nhật thanh tiến trình
   updateProgressBar(progressBar, bookState);
-  updateStarIcon(starIcon, currentWordObj.word, await getStarredWords());
 
+  // Cập nhật nút star (nếu có)
+  if (starIcon) {
+    updateStarIcon(starIcon, currentWordObj.word, await getStarredWords());
+  }
+
+  // Cập nhật nút phát âm
   if (pronounceBtn) {
     pronounceBtn.onclick = () => speak(currentWordObj.word);
   }
 
+  // Khởi động countdown nếu đang bật
   if (bookState.countdownActive) {
     startCountdown(bookKey);
   }

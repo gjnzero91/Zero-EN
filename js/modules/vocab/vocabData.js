@@ -1,5 +1,5 @@
 // Zero-EN/js/modules/vocab/vocabData.js
-// Quản lý dữ liệu từ vựng trong ứng dụng Zero-EN (lấy từ GitHub JSON cho a1-b1, b2-c2)
+// Quản lý dữ liệu từ vựng trong ứng dụng Zero-EN
 
 import { fetchWordsFromJson, getStarredWordsData } from "../data/dataService.js";
 import { getCurrentUser } from "../auth/authService.js";
@@ -7,23 +7,28 @@ import { getBookState, setBookStateProperty } from "../core/appState.js";
 
 // Link GitHub JSON
 const GITHUB_DATA = {
-  "a1-b1": "https://raw.githubusercontent.com/gjnzero91/Zero-EN/refs/heads/main/data/3000.json",
-  "b2-c2": "https://raw.githubusercontent.com/gjnzero91/Zero-EN/refs/heads/main/data/5000.json"
+  "a1-b1": "https://raw.githubusercontent.com/gjnzero91/Zero-EN/main/data/3000.json",
+  "b2-c2": "https://raw.githubusercontent.com/gjnzero91/Zero-EN/main/data/5000.json"
 };
 
-
 export async function getWordsData(bookKey) {
-  if (bookKey === "a1-b1") {
-    return await fetchWordsFromJson(GITHUB_DATA["a1-b1"]);
+  if (bookKey === "a1-b1" || bookKey === "b2-c2") {
+    let data = await fetchWordsFromJson(GITHUB_DATA[bookKey]);
+
+    // Nếu dữ liệu có dạng { packages: [...] } thì lấy ra packages
+    if (data && typeof data === "object" && !Array.isArray(data) && data.packages) {
+      data = data.packages.flat(); // gộp tất cả package thành 1 mảng
+    }
+
+    return Array.isArray(data) ? data : [];
   }
-  if (bookKey === "b2-c2") {
-    return await fetchWordsFromJson(GITHUB_DATA["b2-c2"]);
-  }
+
   if (bookKey === "star") {
     const user = getCurrentUser();
     if (!user) return [];
     return await getStarredWordsData();
   }
+
   return [];
 }
 
@@ -57,5 +62,6 @@ export async function loadBook(bookKey) {
     console.warn("No words loaded after initialization:", updatedBookState);
   }
 
-  await import("./vocabDisplay.js").then(module => module.loadWord(bookKey));
+  const { loadWord } = await import("./vocabDisplay.js");
+  loadWord(bookKey);
 }
