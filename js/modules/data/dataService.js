@@ -69,12 +69,21 @@ export const getStarredWordsData = async () => {
   }
 };
 
-// ==== Lưu trạng thái học của người dùng lên Firestore ====
+// Tải dữ liệu appState của user từ Firestore
+export const loadUserDataFromFirestore = async (uid) => {
+  if (!uid) return null;
+  const docRef = doc(db, `users/${uid}/userData/appState`);
+  const snapshot = await getDoc(docRef);
+  return snapshot.exists() ? snapshot.data() : null;
+};
+
+// Lưu dữ liệu appState của user lên Firestore
 export const saveUserDataToFirestore = async (uid, appState) => {
   if (!uid) throw new Error("User not authenticated.");
   const docRef = doc(db, `users/${uid}/userData/appState`);
   await setDoc(docRef, appState);
 };
+
 
 // ==== Custom Packages vẫn có thể lưu Firestore (nếu muốn) ====
 export const saveCustomPackagesToFirestore = async (packages) => {
@@ -113,3 +122,4 @@ export const loadCustomPackagesFromFirestore = async () => {
     return [];
   }
 };
+

@@ -7,6 +7,7 @@ import {getStarredWords,starWord,unstarWord,saveUserDataToFirestore } from "../d
 import { getCurrentUser } from "../auth/authService.js";
 import { initializeBookData } from "../vocab/vocabData.js";
 import { loadWord } from "../vocab/vocabDisplay.js";
+import { syncProgress } from './syncProgress.js';
 
 export function attachStarEvent(bookKey) {
   const starIcon = getElement("starIcon");
@@ -42,6 +43,7 @@ export function attachStarEvent(bookKey) {
     const user = getCurrentUser();
     if (user) {
       await saveUserDataToFirestore(user.uid, appState);
+      await syncProgress();
     } else {
       console.warn("[StarEvents] Không thể lưu dữ liệu vì người dùng chưa đăng nhập.");
     }
