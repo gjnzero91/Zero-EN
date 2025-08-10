@@ -13,8 +13,12 @@ export const setupCustomPage = async () => {
   // Nếu chưa có thì tạo mới từ JSON và lưu lại
   if (!customPackages || customPackages.length === 0) {
     console.log("[Custom] Creating new packages...");
-    const a1Words = await fetchWordsFromJson("https://raw.githubusercontent.com/USERNAME/REPO_NAME/branch/data/3000.json");
-    const b2Words = await fetchWordsFromJson("https://raw.githubusercontent.com/USERNAME/REPO_NAME/branch/data/5000.json");
+const a1Words = await fetchWordsFromJson(
+    "https://raw.githubusercontent.com/gjnzero91/Zero-EN/main/data/3000.json"
+  );
+  const b2Words = await fetchWordsFromJson(
+    "https://raw.githubusercontent.com/gjnzero91/Zero-EN/main/data/5000.json"
+  );
 
     const allWords = [...a1Words, ...b2Words];
     const shuffled = allWords.sort(() => 0.5 - Math.random());
