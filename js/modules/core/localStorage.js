@@ -2,7 +2,9 @@
 // Quản lý lưu trữ trạng thái ứng dụng vào localStorage.
 
 import { appState } from "./appState.js";
+import { saveUserAppStateToSupabase, loadUserAppStateFromSupabase } from "../data/dataService.js";
 
+// Load từ localStorage trước
 export function loadLocalState() {
   const raw = localStorage.getItem("appState");
   if (raw) {
@@ -14,13 +16,25 @@ export function loadLocalState() {
           appState[bookKey].countdownActive = false;
         }
       }
-
     } catch (e) {
       console.error("Lỗi khi parse appState từ localStorage:", e);
     }
   }
 }
 
-export function saveLocalState() {
+// Lưu cả localStorage và Supabase
+export async function saveLocalState(userId = null) {
   localStorage.setItem("appState", JSON.stringify(appState));
+  if (userId) {
+    await saveUserAppStateToSupabase(userId, appState);
+  }
+}
+
+// Load từ Supabase và cập nhật localStorage
+export async function syncFromSupabase(userId) {
+  const remoteState = await loadUserAppStateFromSupabase(userId);
+  if (remoteState) {
+    Object.assign(appState, remoteState);
+    saveLocalState(); // cập nhật lại localStorage
+  }
 }

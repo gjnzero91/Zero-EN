@@ -1,8 +1,8 @@
 // Zero-EN/js/modules/vocab/customPage.js
-// Trang tùy chỉnh cho việc học từ vựng
+// Trang tùy chỉnh cho việc học từ vựng với Supabase
 
 import { getElement } from "../core/domHelpers.js";
-import { fetchWordsFromJson, saveCustomPackagesToFirestore, loadCustomPackagesFromFirestore } from "../data/dataService.js";
+import { fetchWordsFromJson, saveCustomPackagesToSupabase, loadCustomPackagesFromSupabase } from "../data/dataService.js";
 import { speak } from "../ui/wordUI.js";
 
 const PACKAGE_SIZE = 10;
@@ -10,8 +10,8 @@ let currentLessonIndex = 0;
 let customPackages = [];
 
 export const setupCustomPage = async () => {
-  // Thử tải các gói từ Firestore
-  customPackages = await loadCustomPackagesFromFirestore();
+  // Thử tải các gói từ Supabase
+  customPackages = await loadCustomPackagesFromSupabase();
 
   // Nếu chưa có thì tạo mới từ JSON và lưu lại
   if (!customPackages || customPackages.length === 0) {
@@ -34,7 +34,7 @@ export const setupCustomPage = async () => {
       customPackages.push(shuffled.slice(i, i + PACKAGE_SIZE));
     }
 
-    await saveCustomPackagesToFirestore(customPackages);
+    await saveCustomPackagesToSupabase(customPackages);
   }
 
   if (!customPackages || customPackages.length === 0) {
@@ -67,13 +67,11 @@ function showLesson(index) {
     return;
   }
 
-  // Hiển thị từ đầu tiên của lesson
   const firstWord = lessonWords[0];
   getElement("wordDisplay").textContent = firstWord.word || "";
   getElement("posDisplay").textContent = firstWord.wordType || "";
   getElement("ipaText").textContent = firstWord.ipa || "";
 
-  // Tự động đọc từ
   if (firstWord.word) {
     speak(firstWord.word);
   }

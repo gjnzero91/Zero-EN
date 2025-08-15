@@ -1,18 +1,27 @@
-//  Zero-EN/js/modules/auth/authUI.js
+// Zero-EN/js/modules/auth/authUI.js
 // Giao diện người dùng cho xác thực trong ứng dụng Zero-EN
 
-import { getElement, redirectTo } from "../core/domHelpers.js";
+import { getElement } from "../core/domHelpers.js";
 
 export const setAuthMessage = (message) => {
   const authMessageElement = getElement("authMessage");
   if (authMessageElement) authMessageElement.textContent = message;
 };
 
-export const setGreeting = (name) => {
+export const setGreeting = (userIdentifier) => {
   const greetingElement = getElement("userName");
 
-  // 👇 Nếu name là email → cắt phần trước @
-  const shortName = name.includes("@") ? name.split("@")[0] : name;
+  let shortName = "User";
+
+  if (typeof userIdentifier === "string") {
+    // Nếu là email -> cắt phần trước @
+    shortName = userIdentifier.includes("@")
+      ? userIdentifier.split("@")[0]
+      : userIdentifier;
+  } else if (userIdentifier?.email) {
+    // Nếu là object user -> lấy email
+    shortName = userIdentifier.email.split("@")[0];
+  }
 
   if (greetingElement) {
     greetingElement.textContent = `Hi, ${shortName}!`;

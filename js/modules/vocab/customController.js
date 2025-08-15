@@ -1,53 +1,40 @@
 // Zero-EN/js/modules/vocab/customController.js
-// Quản lý từ vựng trong trang tùy chỉnh
+// Quản lý từ vựng trong trang tùy chỉnh với Supabase
 
 import { 
-  loadCustomPackagesFromFirestore, 
-  saveCustomPackagesToFirestore, 
-  fetchWordsFromJson 
+  loadCustomDataFromSupabase, 
+  saveCustomDataToSupabase, 
+  fetchWordsFromJson, 
+  splitWordsIntoPackages 
 } from "../data/dataService.js";
-import { getElement } from "../core/domHelpers.js";
-import { updateWordDisplay } from "../ui/wordUI.js";
-import { updateProgressBar } from "../ui/progressUI.js";
 
+const PACKAGE_SIZE = 10; // có thể thay đổi
 let currentLessonIndex = 0;
+let allWords = [];
 let customPackages = [];
 
 export async function setupCustomVocabPage() {
-  // 1. Thử tải từ Firestore trước
-  customPackages = await loadCustomPackagesFromFirestore();
+  const { allWords: storedWords, lastLessonIndex } = await loadCustomDataFromSupabase();
 
-  if (!customPackages || customPackages.length === 0) {
-    console.warn("[Custom] No data in Firestore → Creating new packages...");
-
-    // 2. Tải từ JSON GitHub
-    const a1Words = await fetchWordsFromJson("https://raw.githubusercontent.com/gjnzero91/Zero-EN/main/data/3000.json");
-    const b2Words = await fetchWordsFromJson("https://raw.githubusercontent.com/gjnzero91/Zero-EN/main/data/5000.json");
-
-    console.log("[Custom] a1Words length:", a1Words.length);
-    console.log("[Custom] b2Words length:", b2Words.length);
-
-    if (!Array.isArray(a1Words) || !Array.isArray(b2Words)) {
-      console.error("[Custom] Lỗi: Dữ liệu tải về không phải mảng hợp lệ.");
-      alert("Không thể tải dữ liệu từ vựng.");
-      return;
-    }
-
-    // 3. Gộp thành packages (mỗi level 1 package)
-    customPackages = [a1Words, b2Words];
-
-    // 4. Lưu vào Firestore để lần sau dùng
-    await saveCustomPackagesToFirestore(customPackages);
+  if (storedWords.length > 0) {
+    allWords = storedWords;
+    currentLessonIndex = lastLessonIndex;
+  } else {
+    const a1Words = await fetchWordsFromJson(
+      "https://raw.githubusercontent.com/gjnzero91/Zero-EN/main/data/3000.json"
+    );
+    const b2Words = await fetchWordsFromJson(
+      "https://raw.githubusercontent.com/gjnzero91/Zero-EN/main/data/5000.json"
+    );
+    allWords = [...a1Words, ...b2Words];
+    await saveCustomDataToSupabase(allWords, 0);
   }
 
-  // 5. Hiển thị lesson đầu tiên
-  currentLessonIndex = 0;
+  customPackages = splitWordsIntoPackages(allWords, PACKAGE_SIZE);
   loadCustomLesson();
 }
 
 export function loadCustomLesson(direction = null) {
-  if (!customPackages || customPackages.length === 0) return;
-
   if (direction === "next") {
     currentLessonIndex = (currentLessonIndex + 1) % customPackages.length;
   } else if (direction === "prev") {
@@ -55,13 +42,11 @@ export function loadCustomLesson(direction = null) {
   }
 
   const lessonWords = customPackages[currentLessonIndex];
+  console.log(`[Custom] Đang ở bài ${currentLessonIndex + 1}/${customPackages.length}`, lessonWords);
 
-  const firstWord = lessonWords[0];
-  if (firstWord) {
-    updateWordDisplay(firstWord);
-    updateProgressBar(getElement("progressBar"), {
-      currentIndex: 0,
-      words: lessonWords
-    });
+  if (lessonWords?.length > 0) {
+    // updateWordDisplay(lessonWords[0]); // Hàm UI hiện tại của bạn
   }
+
+  saveCustomDataToSupabase(allWords, currentLessonIndex);
 }

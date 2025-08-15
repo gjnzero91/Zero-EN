@@ -1,32 +1,29 @@
 // Zero-EN/js/modules/data/dataService.js
-// Quản lý dữ liệu từ Firestore và GitHub JSON
+// Quản lý dữ liệu từ Supabase Postgres + GitHub JSON
 
-import { collection, getDocs, doc, setDoc, deleteDoc, getDoc } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js";
-
-import { db } from "../core/firebaseConfig.js";
+import { supabase } from "../core/supabaseConfig.js";
 import { getCurrentUser } from "../auth/authService.js";
 
-// ==== Lấy dữ liệu JSON từ GitHub Raw ====
+/* ==== Lấy dữ liệu JSON từ GitHub Raw ==== */
 export const fetchWordsFromJson = async (url) => {
   try {
     const response = await fetch(url);
     console.log("[JSON] Fetching:", url, "Status:", response.status);
-    if (!response.ok) throw new Error("Lỗi HTTP: " + response.status);
+    if (!response.ok) throw new Error("HTTP " + response.status);
 
     const data = await response.json();
     let result = [];
 
     if (Array.isArray(data)) {
-      // Trường hợp file là mảng thuần
       result = data;
     } else if (Array.isArray(data.packages)) {
-      // Trường hợp file có { packages: [...] }
+      // { packages: [...] }
       result = data.packages;
     } else if (Array.isArray(data.words)) {
-      // Trường hợp { words: [...] }
+      // { words: [...] }
       result = data.words;
     } else if (data && typeof data === "object") {
-      // Lấy mảng đầu tiên tìm thấy trong object
+      // Lấy mảng đầu tiên trong object
       const firstArray = Object.values(data).find(v => Array.isArray(v));
       if (firstArray) result = firstArray;
     }
@@ -39,96 +36,143 @@ export const fetchWordsFromJson = async (url) => {
   }
 };
 
-
-/* ==== Xử lý từ được đánh dấu Star ==== */
+/* ==== Starred words ==== */
 export const starWord = async (wordObj) => {
   const user = getCurrentUser();
   if (!user) throw new Error("User not authenticated.");
-  const docRef = doc(db, "users", user.uid, "starredWords", wordObj.word);
-  await setDoc(docRef, wordObj);
+  const payload = {
+    user_id: user.id,
+    word: wordObj.word,
+    word_type: wordObj.wordType ?? null,
+    ipa: wordObj.ipa ?? null
+  };
+  const { error } = await supabase
+    .from('starred_words')
+    .upsert(payload, { onConflict: 'user_id,word' });
+  if (error) throw error;
 };
 
 export const unstarWord = async (word) => {
   const user = getCurrentUser();
   if (!user) throw new Error("User not authenticated.");
-  const docRef = doc(db, "users", user.uid, "starredWords", word);
-  await deleteDoc(docRef);
+  const { error } = await supabase
+    .from('starred_words')
+    .delete()
+    .eq('user_id', user.id)
+    .eq('word', word);
+  if (error) throw error;
 };
 
 export const getStarredWords = async () => {
   const user = getCurrentUser();
   if (!user) return new Set();
-  const colRef = collection(db, "users", user.uid, "starredWords");
-  const snapshot = await getDocs(colRef);
-  const words = new Set();
-  snapshot.forEach(doc => words.add(doc.id));
-  return words;
+  const { data, error } = await supabase
+    .from('starred_words')
+    .select('word')
+    .eq('user_id', user.id);
+  if (error) {
+    console.error("getStarredWords error:", error);
+    return new Set();
+  }
+  return new Set((data || []).map(r => r.word));
 };
 
 export const getStarredWordsData = async () => {
   const user = getCurrentUser();
-  if (!user) {
-    console.warn("getStarredWordsData: User not authenticated, returning empty array.");
+  if (!user) return [];
+  const { data, error } = await supabase
+    .from('starred_words')
+    .select('word, word_type, ipa')
+    .eq('user_id', user.id)
+    .order('created_at', { ascending: false });
+  if (error) {
+    console.error("getStarredWordsData error:", error);
     return [];
   }
-  const colRef = collection(db, "users", user.uid, "starredWords");
-  try {
-    const snapshot = await getDocs(colRef);
-    const words = [];
-    snapshot.forEach(doc => words.push(doc.data()));
-    return words;
-  } catch (error) {
-    console.error("getStarredWordsData: Error fetching documents:", error);
-    return [];
+  return (data || []).map(r => ({
+    word: r.word,
+    wordType: r.word_type || "",
+    ipa: r.ipa || ""
+  }));
+};
+
+/* ==== User appState (tiến trình học) ==== */
+export const loadUserDataFromFirestore = async (_uid) => {
+  const user = getCurrentUser();
+  if (!user) return null;
+  const { data, error } = await supabase
+    .from('user_app_state')
+    .select('app_state')
+    .eq('user_id', user.id)
+    .single();
+  if (error && error.code !== 'PGRST116') { // not found
+    console.error("loadUserData error:", error);
+    return null;
   }
+  return data?.app_state ?? null;
 };
 
-/* ==== Dữ liệu appState của user ==== */
-export const loadUserDataFromFirestore = async (uid) => {
-  if (!uid) return null;
-  const docRef = doc(db, `users/${uid}/userData/appState`);
-  const snapshot = await getDoc(docRef);
-  return snapshot.exists() ? snapshot.data() : null;
+export const saveUserDataToFirestore = async (_uid, appState) => {
+  const user = getCurrentUser();
+  if (!user) throw new Error("User not authenticated.");
+  const payload = {
+    user_id: user.id,
+    app_state: appState,
+    updated_at: new Date().toISOString()
+  };
+  const { error } = await supabase
+    .from('user_app_state')
+    .upsert(payload);
+  if (error) throw error;
 };
 
-export const saveUserDataToFirestore = async (uid, appState) => {
-  if (!uid) throw new Error("User not authenticated.");
-  const docRef = doc(db, `users/${uid}/userData/appState`);
-  await setDoc(docRef, appState);
-};
-
-/* ==== Custom Packages ==== */
-export const saveCustomPackagesToFirestore = async (packages) => {
+/* ==== Custom data: allWords + lastLessonIndex ==== */
+export const saveCustomDataToFirestore = async (allWords, lastLessonIndex = 0) => {
   const user = getCurrentUser();
   if (!user) {
-    console.warn("saveCustomPackagesToFirestore: Chưa đăng nhập.");
+    console.warn("saveCustomDataToFirestore: Chưa đăng nhập.");
     return;
   }
-  try {
-    const ref = doc(db, `users/${user.uid}/customPackages/main`);
-    await setDoc(ref, { data: packages });
-    console.log("[Custom] Đã lưu custom packages cho user:", user.uid);
-  } catch (err) {
-    console.error("[Custom] Lỗi khi lưu custom packages:", err);
+  const payload = {
+    user_id: user.id,
+    all_words: allWords,              // mảng JSONB lớn
+    last_lesson_index: lastLessonIndex,
+    updated_at: new Date().toISOString()
+  };
+  const { error } = await supabase
+    .from('user_custom_data')
+    .upsert(payload);
+  if (error) {
+    console.error("[Custom] Lỗi khi lưu custom data:", error);
   }
 };
 
-export const loadCustomPackagesFromFirestore = async () => {
+export const loadCustomDataFromFirestore = async () => {
   const user = getCurrentUser();
   if (!user) {
-    console.warn("loadCustomPackagesFromFirestore: Chưa đăng nhập.");
-    return [];
+    console.warn("loadCustomDataFromFirestore: Chưa đăng nhập.");
+    return { allWords: [], lastLessonIndex: 0 };
   }
-  try {
-    const ref = doc(db, `users/${user.uid}/customPackages/main`);
-    const snapshot = await getDoc(ref);
-    if (snapshot.exists()) {
-      console.log("[Custom] Đã tải custom packages từ Firestore.");
-      return snapshot.data().data || [];
-    }
-    return [];
-  } catch (err) {
-    console.error("[Custom] Lỗi khi tải custom packages:", err);
-    return [];
+  const { data, error } = await supabase
+    .from('user_custom_data')
+    .select('all_words, last_lesson_index')
+    .eq('user_id', user.id)
+    .single();
+  if (error && error.code !== 'PGRST116') {
+    console.error("[Custom] Lỗi khi tải custom data:", error);
+    return { allWords: [], lastLessonIndex: 0 };
   }
+  return {
+    allWords: Array.isArray(data?.all_words) ? data.all_words : [],
+    lastLessonIndex: data?.last_lesson_index ?? 0
+  };
+};
+
+/* ==== Chia mảng thành các gói nhỏ ==== */
+export const splitWordsIntoPackages = (allWords, packageSize) => {
+  const packages = [];
+  for (let i = 0; i < allWords.length; i += packageSize) {
+    packages.push(allWords.slice(i, i + packageSize));
+  }
+  return packages;
 };

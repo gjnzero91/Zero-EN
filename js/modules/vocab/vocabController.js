@@ -11,18 +11,18 @@ import { setGreeting } from "../auth/authUI.js";
 export function setupVocabPage(bookKey) {
   loadLocalState();
 
-observeAuthState(async (user) => {
-  if (bookKey === "star" && !user) {
-    redirectTo("login.html");
-    return;
-  }
+  observeAuthState(async (user) => {
+    if (bookKey === "star" && !user) {
+      redirectTo("login.html");
+      return;
+    }
 
-  if (user) {
-    setGreeting(user.displayName || user.email || "User");
-  }
+    if (user) {
+      // Với Supabase, user.email là bắt buộc có
+      setGreeting(user.email || "User");
+    }
 
-  await loadBook(bookKey);
-  setupVocabEvents(bookKey);
-});
-
+    await loadBook(bookKey);
+    setupVocabEvents(bookKey);
+  });
 }

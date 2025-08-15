@@ -2,7 +2,7 @@
 // Đồng bộ tiến trình học của người dùng lên Firestore
 
 import { doc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js";
-import { db } from "../core/firebaseConfig.js";
+import { db } from "../core/supabaseConfig.js";
 import { getCurrentUser } from "../auth/authService.js";
 import { appState } from "../core/appState.js";
 

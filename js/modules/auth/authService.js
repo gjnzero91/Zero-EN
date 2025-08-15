@@ -1,38 +1,57 @@
 // Zero-EN/js/modules/auth/authService.js
-// Dịch vụ xác thực người dùng trong ứng dụng Zero-EN
+// Dịch vụ xác thực (Supabase)
 
-import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js";
-import { app } from "../core/firebaseConfig.js";
+import { supabase } from "../core/supabaseConfig.js";
 
-const auth = getAuth(app);
+let cachedUser = null;
 
 export function setAuthMessage(message) {
-    const authMessage = document.getElementById("authMessage");
-    if (authMessage) {
-        authMessage.textContent = message;
-    }
+  const el = document.getElementById("authMessage");
+  if (el) el.textContent = message;
 }
-export const loginUser = (email, password) => {
-    return signInWithEmailAndPassword(auth, email, password);
+
+export const loginUser = async (email, password) => {
+  const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+  if (error) throw error;
+  cachedUser = data.user;
+  return data.user;
 };
 
-export const registerUser = (email, password) => {
-    return createUserWithEmailAndPassword(auth, email, password);
+export const registerUser = async (email, password) => {
+  const { data, error } = await supabase.auth.signUp({ email, password });
+  if (error) throw error;
+  // Có thể cần xác minh email tùy config
+  return data.user;
 };
 
-export const loginWithGoogle = () => {
-    const provider = new GoogleAuthProvider();
-    return signInWithPopup(auth, provider);
+export const loginWithGoogle = async () => {
+  const redirectTo = `${location.origin}/home.html`;
+  const { data, error } = await supabase.auth.signInWithOAuth({
+    provider: 'google',
+    options: { redirectTo }
+  });
+  if (error) throw error;
+  // Trình duyệt sẽ chuyển hướng theo redirectTo
+  return data;
 };
 
-export const signOutUser = () => {
-    return signOut(auth);
+export const signOutUser = async () => {
+  await supabase.auth.signOut();
+  cachedUser = null;
 };
 
 export const observeAuthState = (callback) => {
-    onAuthStateChanged(auth, callback);
+  // Gọi ngay trạng thái hiện tại
+  supabase.auth.getUser().then(({ data }) => {
+    cachedUser = data?.user ?? null;
+    callback(cachedUser);
+  });
+  // Lắng nghe thay đổi
+  const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
+    cachedUser = session?.user ?? null;
+    callback(cachedUser);
+  });
+  return sub; // nếu cần unsubscribe: sub.subscription.unsubscribe()
 };
 
-export const getCurrentUser = () => {
-    return auth.currentUser;
-};
+export const getCurrentUser = () => cachedUser;
