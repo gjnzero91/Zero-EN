@@ -3,21 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/index.css" />
+  <title>Zero-EN App</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/index.css" />
 </head>
 <body>
-  <div id="container" class="app-container">
-    <h1 class="page-title">Zero EN</h1>
-    <p style="text-align: center; margin: 20px 0;">Your journey to mastering English vocabulary starts here.
-      Explore thousands of words, track your progress, and learn efficiently.</p>
-    <div style="text-align: center;">
-      <button id="getStartedBtn" class="home-btn">Get Started</button>
-    </div>
-  </div>
-  <script type="module">
-    import { setupIndexEventListeners } from './js/modules/page/indexEvents.js';
-    setupIndexEventListeners();
-  </script>
+  <!-- SPA chỉ render vào đây -->
+  <div id="app"></div>
+
   <script type="module" src="js/main.js"></script>
 </body>
 </html>

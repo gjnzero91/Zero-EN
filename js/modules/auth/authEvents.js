@@ -1,51 +1,41 @@
-// Zero-EN/js/modules/auth/authEvents.js
-// Xử lý các sự kiện liên quan đến xác thực người dùng.
+// js/modules/auth/authEvents.js
+// Thiết lập các event listener cho login, register, Google OAuth
 
-import { loginUser, registerUser, loginWithGoogle } from "./authService.js";
-import { getElement, redirectTo } from "../core/domHelpers.js";
-import { setAuthMessage } from "../auth/authService.js";
+import { login, checkExistingLogin } from "./login.js";
+import { register } from "./register.js";
+import { loginWithGoogle, handleGoogleRedirect } from "./googleAuth.js";
 
-export const setupLoginEventListeners = () => {
-  const emailInput = getElement("emailInput");
-  const passwordInput = getElement("passwordInput");
-  const loginBtn = getElement("loginBtn");
-  const registerBtn = getElement("registerBtn");
-  const googleLoginBtn = getElement("googleLoginBtn");
+export function setupLoginEventListeners() {
+  const emailInput = document.getElementById("emailInput");
+  const passwordInput = document.getElementById("passwordInput");
+  const msg = document.getElementById("authMessage");
 
-  if (registerBtn) {
-    registerBtn.addEventListener("click", async () => {
-      const email = emailInput.value;
-      const password = passwordInput.value;
-      try {
-        await registerUser(email, password);
-        setAuthMessage("Registered successfully! Please log in.");
-      } catch (error) {
-        setAuthMessage(error.message);
-      }
-    });
-  }
-  if (loginBtn) {
-    loginBtn.addEventListener("click", async () => {
-      const email = emailInput.value;
-      const password = passwordInput.value;
-      try {
-        await loginUser(email, password);
-        setAuthMessage("Logged in successfully! Redirecting...");
-        redirectTo("home.html");
-      } catch (error) {
-        setAuthMessage(error.message);
-      }
-    });
-  }
-  if (googleLoginBtn) {
-    googleLoginBtn.addEventListener("click", async () => {
-      try {
-        await loginWithGoogle();
-        setAuthMessage("Logged in with Google! Redirecting...");
-        redirectTo("home.html");
-      } catch (error) {
-        setAuthMessage(error.message);
-      }
-    });
-  }
-};
+  document.getElementById("loginBtn")?.addEventListener("click", async () => {
+    try {
+      await login(emailInput.value, passwordInput.value);
+    } catch (err) {
+      msg.textContent = "❌ Login failed: " + err.message;
+    }
+  });
+
+  document.getElementById("registerBtn")?.addEventListener("click", async () => {
+    try {
+      await register(emailInput.value, passwordInput.value);
+    } catch (err) {
+      msg.textContent = "❌ Register failed: " + err.message;
+    }
+  });
+
+  document.getElementById("googleLoginBtn")?.addEventListener("click", async () => {
+    try {
+      await loginWithGoogle();
+    } catch (err) {
+      msg.textContent = "❌ Google login failed: " + err.message;
+    }
+  });
+}
+
+export async function checkExistingLoginOnLoad() {
+  await handleGoogleRedirect();
+  await checkExistingLogin();
+}

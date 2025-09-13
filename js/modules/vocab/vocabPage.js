@@ -1,7 +1,7 @@
 // Zero-EN/js/modules/vocab/vocabPage.js
-// Quản lý trang từ vựng trong ứng dụng Zero-EN
 
 import { getElement } from "../core/domHelpers.js";
+import { loadCustomDataFromFirestore as loadCustomDataFromSupabase } from "../data/vocabManager.js";
 
 export const updateWordDisplay = (wordObj) => {
   const wordDisplay = getElement("wordDisplay");
@@ -11,7 +11,7 @@ export const updateWordDisplay = (wordObj) => {
   if (wordObj && wordDisplay && posDisplay && ipaText) {
     wordDisplay.textContent = wordObj.word;
     const wordTypes = typeof wordObj.wordType === "string"
-      ? wordObj.wordType.split(',').map(type => type.trim()).filter(type => type !== '')
+      ? wordObj.wordType.split(',').map(type => type.trim()).filter(Boolean)
       : [];
     posDisplay.textContent = wordTypes.join(', ');
     ipaText.textContent = wordObj.ipa || "";
@@ -29,8 +29,24 @@ export const speak = (text) => {
   }
 };
 
-export function setupVocabPage(pageType) {
-  const words = JSON.parse(localStorage.getItem(pageType)) || [];
+export async function setupVocabPage(pageType) {
+  let words = [];
+
+  // Thử lấy từ Supabase (nếu đăng nhập)
+  try {
+    const { allWords } = await loadCustomDataFromSupabase();
+    if (allWords.length > 0) {
+      words = allWords;
+    }
+  } catch (err) {
+    console.warn("[VocabPage] Lỗi khi tải từ Supabase, fallback localStorage:", err);
+  }
+
+  // Nếu không có thì lấy từ localStorage
+  if (!words.length) {
+    words = JSON.parse(localStorage.getItem(pageType)) || [];
+  }
+
   if (words.length === 0) {
     const wordDisplay = getElement("wordDisplay");
     if (wordDisplay) wordDisplay.textContent = "No data";

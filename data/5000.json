@@ -1,5 +1,5 @@
 {
-  "words": [
+  "packages": [
     {
       "word": "abolish",
       "wordType": "verb",
@@ -93,7 +93,7 @@
     {
       "word": "accusation",
       "wordType": "noun",
-      "ipa": "Loading..."
+      "ipa": "/ˌæk.jəˈzeɪ.ʃən/"
     },
     {
       "word": "accused",

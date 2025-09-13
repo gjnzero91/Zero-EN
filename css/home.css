@@ -104,7 +104,6 @@ body {
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.1s ease;
   box-shadow: 0 4px 10px rgba(255, 159, 34, 0.4);
-  visibility: hidden;
 }
 
 .home-btn:hover {
@@ -114,6 +113,11 @@ body {
 
 .home-btn:active {
   transform: scale(0.98);
+}
+
+.hidden {
+  visibility: hidden;
+  pointer-events: none;
 }
 
 /* ==========================================================================
