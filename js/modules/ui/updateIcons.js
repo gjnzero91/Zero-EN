@@ -56,7 +56,7 @@ export function updateIcons() {
   if (cdWrapper && cdBar) {
     if (appState.timerActive && appState.timerSec != null && appState.timerTotal) {
       cdWrapper.classList.add("active");
-      const percent = (appState.timerSec / appState.timerTotal) * 100;
+      const percent = Math.max(0, Math.min(1, appState.timerSec / appState.timerTotal)) * 100;
       cdBar.style.width = percent + "%";
     } else {
       cdWrapper.classList.remove("active");

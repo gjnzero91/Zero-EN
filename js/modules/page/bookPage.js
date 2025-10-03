@@ -15,6 +15,7 @@ import { refreshProgress } from "../events/progressWrapper.js";
 import { logout } from "../auth/logout.js";
 import { loadStarredForUser } from "../core/loadStarred.js";
 import { loadProgress } from "../core/progress.js";
+import { setupPronounceButton } from "../events/pronounce.js";
 
 export async function renderBookPage(root, type) {
   // Load data
@@ -115,16 +116,12 @@ export async function renderBookPage(root, type) {
   document.getElementById("shuffleToggle").addEventListener("click", shuffleToggle);
   document.getElementById("searchToggle").addEventListener("click", searchToggle);
 
-  // Setup clock
   setupClockButton();
   setupClockDialog();
-
-  // Setup flashcard
   setupFlashcardButton();
   setupFlashcardDialog();
-
-  // Setup search
   setupSearchDialog();
+  setupPronounceButton();
 
   document.getElementById("homeBtn").addEventListener("click", () => {
     window.location.hash = "#/home";
@@ -134,7 +131,6 @@ export async function renderBookPage(root, type) {
     window.location.hash = "#/login";
   });
 
-  // First word (hoặc từ đã lưu)
   renderWord();
   refreshProgress();
 }

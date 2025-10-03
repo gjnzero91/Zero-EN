@@ -106,7 +106,8 @@ export async function renderStarPage(root) {
   setupFlashcardButton();
   setupFlashcardDialog();
   setupSearchDialog();
-
+  setupPronounceButton();
+  
   renderWord();
   refreshProgress();
 }

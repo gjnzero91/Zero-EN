@@ -122,6 +122,7 @@ export async function renderCustomPage(root) {
   setupFlashcardButton();
   setupFlashcardDialog();
   setupSearchDialog();
+  setupPronounceButton();
 
   document.getElementById("homeBtn").addEventListener("click", () => { window.location.hash = "#/home"; });
   document.getElementById("logoutBtn").addEventListener("click", () => { logout(); window.location.hash = "#/login"; });
