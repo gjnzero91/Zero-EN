@@ -178,8 +178,18 @@ body {
 /* ==========================================================================
    5. Countdown, Flashcard & Search Dialogs
    ========================================================================== */
-.emptybox {
-  flex: 1;
+.countdown-dialog input[type="number"]::-webkit-inner-spin-button,
+.countdown-dialog input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.countdown-dialog input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.countdown-dialog input[type="number"] {
+  text-align: center;
 }
 
 .countdown-text {
@@ -190,7 +200,6 @@ body {
   min-height: 1em;
 }
 
-/* Common dialog style (applied to countdownDialog & flashcardDialog) */
 .countdown-dialog,
 .flashcard-dialog,
 .search-dialog {
